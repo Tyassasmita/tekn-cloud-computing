@@ -25,4 +25,8 @@
   remote: Compressing objects: 100% (54/54), done.
   remote: Total 57 (delta 18), reused 5 (delta 0), pack-reused 0
   Unpacking objects: 100% (57/57), done.```
+
 2. Mengelola repo di organisasi
+
+### Mengelola Repo Sendiri di Organisasi
+(https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/playground.png)
