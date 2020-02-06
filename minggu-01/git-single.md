@@ -7,7 +7,6 @@
  <dd> C:\TCC>git config --global user.name "Tyassasmita" </dd>
  <dd> C:\TCC>git config --global user.email "tyassasmita12@gmail.com" </dd>
 
-
 ### Untuk menjalankan, dari Start menu, ketikkan "Git", akan muncul beberapa pilihan. Pilih "Git Bash"
   
   [Git Bash] 
@@ -28,4 +27,4 @@
 
 2. Mengelola repo di organisasi
 
-[mengelola repo sendiri](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/playground.png "mengelola repo sendiri")
+  [mengelola repo](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/playground.png "mengelola repo sendiri")
