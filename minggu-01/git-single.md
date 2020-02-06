@@ -27,4 +27,4 @@
 
 2. Mengelola repo di organisasi
 
-  [mengelola repo](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/playground.png "mengelola repo sendiri")
+  ![mengelola repo](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/playground.png "mengelola repo sendiri")
