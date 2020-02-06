@@ -29,4 +29,4 @@
 2. Mengelola repo di organisasi
 
 ### Mengelola Repo Sendiri di Organisasi
-(https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/playground.png)
+[mengelola repo sendiri](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/playground.png)
