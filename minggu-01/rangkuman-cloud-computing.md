@@ -1,9 +1,9 @@
 # LATIHAN 2
 #### Rangkuman 
 [artikel Wikipedia tentang Cloud Computing](https://en.wikipedia.org/wiki/Cloud_computing)
-#### Cloud computing adalah ketersediaan sumber daya sistem komputer sesuai permintaan, terutama penyimpanan data dan daya komputasi, tanpa manajemen aktif langsung oleh pengguna. Istilah ini umumnya digunakan untuk menggambarkan pusat data yang tersedia bagi banyak pengguna melalui Internet. 
-#### Pendukung cloud publik dan hybrid mencatat bahwa cloud computing memungkinkan perusahaan untuk menghindari atau meminimalkan biaya infrastruktur IT di muka. Para pendukung juga mengklaim bahwa cloud computing memungkinkan perusahaan untuk menjalankan aplikasi mereka lebih cepat, dengan pengelolaan yang lebih baik dan lebih sedikit pemeliharaan, dan memungkinkan tim IT untuk lebih cepat menyesuaikan sumber daya untuk memenuhi permintaan yang berfluktuasi dan tak terduga, memberikan kapabilitas komputasi yang luar biasa: daya komputasi yang tinggi pada periode permintaan puncak tertentu.
-### Ketersediaan jaringan berkapasitas tinggi, komputer murah dan perangkat penyimpanan serta adopsi luas virtualisasi perangkat keras, arsitektur berorientasi layanan, dan komputasi otonom dan utilitas telah menyebabkan pertumbuhan dalam komputasi awan. 
+###### Cloud computing adalah ketersediaan sumber daya sistem komputer sesuai permintaan, terutama penyimpanan data dan daya komputasi, tanpa manajemen aktif langsung oleh pengguna. Istilah ini umumnya digunakan untuk menggambarkan pusat data yang tersedia bagi banyak pengguna melalui Internet. 
+###### Pendukung cloud publik dan hybrid mencatat bahwa cloud computing memungkinkan perusahaan untuk menghindari atau meminimalkan biaya infrastruktur IT di muka. Para pendukung juga mengklaim bahwa cloud computing memungkinkan perusahaan untuk menjalankan aplikasi mereka lebih cepat, dengan pengelolaan yang lebih baik dan lebih sedikit pemeliharaan, dan memungkinkan tim IT untuk lebih cepat menyesuaikan sumber daya untuk memenuhi permintaan yang berfluktuasi dan tak terduga, memberikan kapabilitas komputasi yang luar biasa: daya komputasi yang tinggi pada periode permintaan puncak tertentu.
+###### Ketersediaan jaringan berkapasitas tinggi, komputer murah dan perangkat penyimpanan serta adopsi luas virtualisasi perangkat keras, arsitektur berorientasi layanan, dan komputasi otonom dan utilitas telah menyebabkan pertumbuhan dalam komputasi awan. 
 
 ### Karakteristik
 #### Komputasi awan menunjukkan karakteristik utama berikut:
