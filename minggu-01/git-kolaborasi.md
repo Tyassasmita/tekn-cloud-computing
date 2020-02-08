@@ -20,19 +20,22 @@
     ```
 #### konfigurasikan repo lokal kontributor. Pada kondisi saat ini, di komputer lokal sudah terdapat repo 175610028-sqa yang berada pada direktori dengan nama yang sama. 
 ##### Repo ```origin``` sudah dituliskan konfigurasinya pada saat melakukan proses clone dari repo kontributor. Konfigurasi repo upstream harus dibuat.
-    ```C:\tekn-cloud-computing\minggu-01\175610028-sqa>git remote -v
-    origin  https://github.com/Tyassasmita/175610028-sqa (fetch)
-    origin  https://github.com/Tyassasmita/175610028-sqa (push)
-    ```
+```
+C:\tekn-cloud-computing\minggu-01\175610028-sqa>git remote -v
+origin  https://github.com/Tyassasmita/175610028-sqa (fetch)
+origin  https://github.com/Tyassasmita/175610028-sqa (push)
+```
 ##### Tambahkan remote upstream:
-    ``` C:\tekn-cloud-computing\minggu-01\175610028-sqa>git remote add upstream https://github.com/Tyassasmita/175610028-sqa.git
-    ```
+``` 
+C:\tekn-cloud-computing\minggu-01\175610028-sqa>git remote add upstream https://github.com/Tyassasmita/175610028-sqa.git
+```
 #### Hasil 
-    ``` C:\tekn-cloud-computing\minggu-01\175610028-sqa>git remote -v
-    origin  https://github.com/Tyassasmita/175610028-sqa (fetch)
-    origin  https://github.com/Tyassasmita/175610028-sqa (push)
-    upstream        https://github.com/Tyassasmita/175610028-sqa.git (fetch)
-    upstream        https://github.com/Tyassasmita/175610028-sqa.git (push)
-    ```
+``` 
+C:\tekn-cloud-computing\minggu-01\175610028-sqa>git remote -v
+origin  https://github.com/Tyassasmita/175610028-sqa (fetch)
+origin  https://github.com/Tyassasmita/175610028-sqa (push)
+upstream        https://github.com/Tyassasmita/175610028-sqa.git (fetch)
+upstream        https://github.com/Tyassasmita/175610028-sqa.git (push)    
+```
 ### Membuat Perubahan di Repo Lokal
 
