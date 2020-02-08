@@ -37,4 +37,27 @@ upstream        https://github.com/Tyassasmita/playground-1.git (push)
  
 ```
 ### Membuat Perubahan di Repo Lokal
-
+#### melakukan sinkronisasi
+```
+C:\tekn-cloud-computing\minggu-01\playground-1>git fetch upstream
+From https://github.com/Tyassasmita/playground-1
+ * [new branch]      add-contributor -> upstream/add-contributor
+ * [new branch]      master          -> upstream/master
+ ```
+#### Lakukan perubahan-perubahan, setelah itu push ke origin (milik kontributor)
+```
+C:\tekn-cloud-computing\minggu-01\playground-1>git checkout -b add-contributor
+Switched to a new branch 'add-contributor'
+M       README.md
+C:\tekn-cloud-computing\minggu-01\playground-1>git branch
+* add-contributor
+  master
+C:\tekn-cloud-computing\minggu-01\playground-1>type README.md
+# Playground
+It's just an example repo so that people can use it to learn Git.
+## Contributor
+1. [bpdp](https://github.com/bpdp)
+C:\tekn-cloud-computing\minggu-01\playground-1>git status
+On branch add-contributor
+nothing to commit, working tree clean
+```
