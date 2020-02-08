@@ -31,7 +31,7 @@ remote:
 To https://github.com/Tyassasmita/playground-1
  * [new branch]      new -> new
 ```
-### clone di komputer lokal
+### Clone di komputer lokal
 ```
 C:\tekn-cloud-computing\minggu-01>git clone https://github.com/Tyassasmita/playground-1
 Cloning into 'playground-1'...
