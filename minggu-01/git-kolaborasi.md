@@ -8,7 +8,29 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/forkplaylok.jpg)
 + Setelah proses, repo dari upstream author sudah berada di account GitHub kita (kontributor)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/forkplayd.jpg)
-
+### Mengirimkan Pull Request
+1. Buatlah branch fitur baru 
+```
+C:\tekn-cloud-computing\minggu-01\playground-1>git checkout -b new
+Switched to a new branch 'new'
+```
+2. Commit perubahannya
+``` 
+C:\tekn-cloud-computing\minggu-01\playground-1>git commit -am "new"
+On branch new
+nothing to commit, working tree clean
+```
+3. Push ke branch di remote
+``` 
+C:\tekn-cloud-computing\minggu-01\playground-1>git push origin new
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'new' on GitHub by visiting:
+remote:      https://github.com/Tyassasmita/playground-1/pull/new/new
+remote:
+To https://github.com/Tyassasmita/playground-1
+ * [new branch]      new -> new
+```
 ### clone di komputer lokal
 ```
 C:\tekn-cloud-computing\minggu-01>git clone https://github.com/Tyassasmita/playground-1
