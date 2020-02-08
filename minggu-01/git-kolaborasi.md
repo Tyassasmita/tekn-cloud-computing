@@ -5,9 +5,9 @@
 + klik Fork
 ![](hhttps://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/forkplay.jpg)
 + Pilih nama account
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/lokasifork.png)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/forkplaylok.jpg)
 + Setelah proses, repo dari upstream author sudah berada di account GitHub kita (kontributor)
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/forkkita.png)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/forkplayd.jpg)
 
 ### clone di komputer lokal
     ```C:\tekn-cloud-computing\minggu-01>git clone https://github.com/Tyassasmita/playground-1
