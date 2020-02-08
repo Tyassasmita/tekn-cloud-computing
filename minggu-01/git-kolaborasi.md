@@ -1,4 +1,4 @@
-# LATIHAN 2
+# TUGAS 1
 ### Git untuk Kolaborasi
 #### Fork
 + Akses repo yang akan di-fork (https://github.com/novendrasatria/175610028-sqa)
