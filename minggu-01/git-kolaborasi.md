@@ -10,12 +10,13 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/forkplayd.jpg)
 
 ### clone di komputer lokal
-    ```C:\tekn-cloud-computing\minggu-01>git clone https://github.com/Tyassasmita/playground-1
-    Cloning into 'playground-1'...
-    remote: Enumerating objects: 7, done.
-    remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 7
-    Unpacking objects: 100% (7/7), done.
-    ```
+```
+C:\tekn-cloud-computing\minggu-01>git clone https://github.com/Tyassasmita/playground-1
+Cloning into 'playground-1'...
+remote: Enumerating objects: 7, done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 7
+Unpacking objects: 100% (7/7), done.
+```
 #### konfigurasikan repo lokal kontributor. Pada kondisi saat ini, di komputer lokal sudah terdapat repo 175610028-sqa yang berada pada direktori dengan nama yang sama. 
 ##### Repo ```origin``` sudah dituliskan konfigurasinya pada saat melakukan proses clone dari repo kontributor. Konfigurasi repo upstream harus dibuat.
 ```
