@@ -9,7 +9,7 @@
 + Setelah proses, repo dari upstream author sudah berada di account GitHub kita (kontributor)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/forkkita.png)
 
-### clone di komputer lokal
+### Clone di komputer lokal
     ```C:\tekn-cloud-computing\minggu-01>git clone https://github.com/Tyassasmita/175610028-sqa
     Cloning into '175610028-sqa'...
     remote: Enumerating objects: 3, done.
