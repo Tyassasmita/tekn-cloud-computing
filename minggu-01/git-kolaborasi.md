@@ -17,7 +17,7 @@ remote: Enumerating objects: 7, done.
 remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 7
 Unpacking objects: 100% (7/7), done.
 ```
-#### konfigurasikan repo lokal kontributor. Pada kondisi saat ini, di komputer lokal sudah terdapat repo 175610028-sqa yang berada pada direktori dengan nama yang sama. 
+#### konfigurasikan repo lokal kontributor. Pada kondisi saat ini, di komputer lokal sudah terdapat repo playground-1 yang berada pada direktori dengan nama yang sama. 
 ##### Repo ```origin``` sudah dituliskan konfigurasinya pada saat melakukan proses clone dari repo kontributor. Konfigurasi repo upstream harus dibuat.
 ```
 C:\tekn-cloud-computing\minggu-01\playground-1>git remote -v
