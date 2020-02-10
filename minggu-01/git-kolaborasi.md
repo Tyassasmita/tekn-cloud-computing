@@ -115,3 +115,5 @@ To https://github.com/Tyassasmita/playground-1
 
 #### Pilih Compare and pull request, kemudian isikan deskripsi PR dan klik pada Create pull request
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/tambahkontributor.jpg)
+##### Pada repo upstream author, muncul angka 1 (artinya jumlahnya 1) pada Pull requests di bagian atas.
+##### Upstream author bisa menyetujui setelah melakukan review: klik pada Pull requests, akan muncul PR dengan message seperti yang ditulis oleh kontributor (Add: contributor). Klik pada PR tersebut, review kemudian klik Merge pull request diikuti dengan Confirm merge. Setelah itu, status akan berubah menjadi Merged.
