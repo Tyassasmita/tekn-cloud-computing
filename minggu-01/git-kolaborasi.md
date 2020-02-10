@@ -64,7 +64,7 @@ From https://github.com/bpdp/playground-1
  * [new branch]      add-contributor -> upstream/add-contributor
  * [new branch]      master          -> upstream/master
  ```
-#### Lakukan perubahan-perubahan, setelah itu push ke origin (milik kontributor)
+4. Lakukan perubahan-perubahan, setelah itu push ke origin (milik kontributor)
 ```
 C:\tekn-cloud-computing\minggu-01\playground-1>git checkout -b add-contributor
 Switched to a new branch 'add-contributor'
@@ -110,10 +110,10 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/Tyassasmita/playground-1
    b7183be..2825a65  add-contributor -> add-contributor
 ```
-#### Setelah itu, buka halaman Web dari repo kontributor https://github.com/bpdp/playground-1. Pada halaman tersebut akan ditampilkan isi yang kita push.
+5. Setelah itu, buka halaman Web dari repo kontributor https://github.com/bpdp/playground-1. Pada halaman tersebut akan ditampilkan isi yang kita push.
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/repokontributor.jpg)
 
-#### Pilih Compare and pull request, kemudian isikan deskripsi PR dan klik pada Create pull request
+6. Pilih Compare and pull request, kemudian isikan deskripsi PR dan klik pada Create pull request
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/tambahkontributor.jpg)
 + Pada repo upstream author, muncul angka 1 (artinya jumlahnya 1) pada Pull requests di bagian atas.
 + Upstream author bisa menyetujui setelah melakukan review: klik pada Pull requests, akan muncul PR dengan message seperti yang ditulis oleh kontributor (Add: contributor). Klik pada PR tersebut, review kemudian klik Merge pull request diikuti dengan Confirm merge. Setelah itu, status akan berubah menjadi Merged.
