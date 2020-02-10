@@ -11,10 +11,10 @@
 
 ### clone di komputer lokal
 ```
-C:\tekn-cloud-computing\minggu-01>git clone https://github.com/bpdp/playground-1
-fatal: destination path 'playground-1' already exists and is not an empty directory.
+C:\tekn-cloud-computing\minggu-01>cd clone https://github.com/Tyassasmita/playground-1
+The filename, directory name, or volume label syntax is incorrect.
 
-C:\tekn-cloud-computing\minggu-01>git clone https://github.com/bpdp/playground-1
+C:\tekn-cloud-computing\minggu-01>git clone https://github.com/Tyassasmita/playground-1
 Cloning into 'playground-1'...
 remote: Enumerating objects: 7, done.
 remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 7
@@ -25,20 +25,20 @@ Unpacking objects: 100% (7/7), done.
 ##### Repo ```origin``` sudah dituliskan konfigurasinya pada saat melakukan proses clone dari repo kontributor. Konfigurasi repo upstream harus dibuat.
 ```
 C:\tekn-cloud-computing\minggu-01\playground-1>git remote -v
-origin  https://github.com/bpdp/playground-1 (fetch)
-origin  https://github.com/bpdp/playground-1 (push)
+origin  https://github.com/Tyassasmita/playground-1 (fetch)
+origin  https://github.com/Tyassasmita/playground-1 (push)
 ```
 ##### Tambahkan remote upstream:
 ``` 
-C:\tekn-cloud-computing\minggu-01\playground-1>git remote add upstream https://github.com/Tyassasmita/playground-1.git
+C:\tekn-cloud-computing\minggu-01\playground-1>git remote add upstream https://github.com/bpdp/playground-1.git
 ```
 #### Hasil 
 ``` 
 C:\tekn-cloud-computing\minggu-01\playground-1>git remote -v
-origin  https://github.com/bpdp/playground-1 (fetch)
-origin  https://github.com/bpdp/playground-1 (push)
-upstream        https://github.com/Tyassasmita/playground-1.git (fetch)
-upstream        https://github.com/Tyassasmita/playground-1.git (push)
+origin  https://github.com/Tyassasmita/playground-1 (fetch)
+origin  https://github.com/Tyassasmita/playground-1 (push)
+upstream        https://github.com/bpdp/playground-1 (fetch)
+upstream        https://github.com/bpdp/playground-1 (push)
  
 ```
 ### Mengirimkan Pull Request
