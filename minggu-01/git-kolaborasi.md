@@ -40,25 +40,25 @@ upstream        https://github.com/Tyassasmita/playground-1.git (push)
 ### Mengirimkan Pull Request
 1. Buatlah branch fitur baru 
 ```
-C:\tekn-cloud-computing\minggu-01\playground-1>git checkout -b new
-Switched to a new branch 'new'
+C:\tekn-cloud-computing\minggu-01\playground-1>git checkout -b new-branch
+Switched to a new branch 'new-branch'
 ```
 2. Commit perubahannya
 ``` 
-C:\tekn-cloud-computing\minggu-01\playground-1>git commit -am "new"
-On branch new
+C:\tekn-cloud-computing\minggu-01\playground-1>git commit -am "new-branch"
+On branch new-branch
 nothing to commit, working tree clean
 ```
 3. Push ke branch di remote
 ``` 
-C:\tekn-cloud-computing\minggu-01\playground-1>git push origin new
+C:\tekn-cloud-computing\minggu-01\playground-1>git push origin new-branch
 Total 0 (delta 0), reused 0 (delta 0)
 remote:
-remote: Create a pull request for 'new' on GitHub by visiting:
-remote:      https://github.com/Tyassasmita/playground-1/pull/new/new
+remote: Create a pull request for 'new-branch' on GitHub by visiting:
+remote:      https://github.com/Tyassasmita/playground-1/pull/new/new-branch
 remote:
 To https://github.com/Tyassasmita/playground-1
- * [new branch]      new -> new
+ * [new branch]      new-branch -> new-branch
 ```
 ### Membuat Perubahan di Repo Lokal
 #### melakukan sinkronisasi
