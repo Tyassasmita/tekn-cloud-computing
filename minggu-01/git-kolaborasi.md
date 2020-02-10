@@ -11,18 +11,22 @@
 
 ### clone di komputer lokal
 ```
-C:\tekn-cloud-computing\minggu-01>git clone https://github.com/Tyassasmita/playground-1
+C:\tekn-cloud-computing\minggu-01>git clone https://github.com/bpdp/playground-1
+fatal: destination path 'playground-1' already exists and is not an empty directory.
+
+C:\tekn-cloud-computing\minggu-01>git clone https://github.com/bpdp/playground-1
 Cloning into 'playground-1'...
 remote: Enumerating objects: 7, done.
 remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 7
 Unpacking objects: 100% (7/7), done.
+
 ```
 ##### konfigurasikan repo lokal kontributor. Pada kondisi saat ini, di komputer lokal sudah terdapat repo playground-1 yang berada pada direktori dengan nama yang sama. 
 ##### Repo ```origin``` sudah dituliskan konfigurasinya pada saat melakukan proses clone dari repo kontributor. Konfigurasi repo upstream harus dibuat.
 ```
 C:\tekn-cloud-computing\minggu-01\playground-1>git remote -v
-origin  https://github.com/Tyassasmita/playground-1 (fetch)
-origin  https://github.com/Tyassasmita/playground-1 (push)
+origin  https://github.com/bpdp/playground-1 (fetch)
+origin  https://github.com/bpdp/playground-1 (push)
 ```
 ##### Tambahkan remote upstream:
 ``` 
@@ -31,8 +35,8 @@ C:\tekn-cloud-computing\minggu-01\playground-1>git remote add upstream https://g
 #### Hasil 
 ``` 
 C:\tekn-cloud-computing\minggu-01\playground-1>git remote -v
-origin  https://github.com/Tyassasmita/playground-1 (fetch)
-origin  https://github.com/Tyassasmita/playground-1 (push)
+origin  https://github.com/bpdp/playground-1 (fetch)
+origin  https://github.com/bpdp/playground-1 (push)
 upstream        https://github.com/Tyassasmita/playground-1.git (fetch)
 upstream        https://github.com/Tyassasmita/playground-1.git (push)
  
@@ -49,16 +53,11 @@ C:\tekn-cloud-computing\minggu-01\playground-1>git commit -am "new-branch"
 On branch new-branch
 nothing to commit, working tree clean
 ```
-3. Push ke branch di remote
+3. Upstream author me-review dan kemudian menyetujui (merge) ke master atau menolak PR.(Jika disetujui dan di-merge ke repo master dari upstream author, sinkronkan repo di komputer lokal dan repo GitHub kontributor.)
 ``` 
 C:\tekn-cloud-computing\minggu-01\playground-1>git push origin new-branch
-Total 0 (delta 0), reused 0 (delta 0)
-remote:
-remote: Create a pull request for 'new-branch' on GitHub by visiting:
-remote:      https://github.com/Tyassasmita/playground-1/pull/new/new-branch
-remote:
-To https://github.com/Tyassasmita/playground-1
- * [new branch]      new-branch -> new-branch
+remote: Permission to bpdp/playground-1.git denied to Tyassasmita.
+fatal: unable to access 'https://github.com/bpdp/playground-1/': The requested URL returned error: 403
 ```
 ### Membuat Perubahan di Repo Lokal
 #### melakukan sinkronisasi
