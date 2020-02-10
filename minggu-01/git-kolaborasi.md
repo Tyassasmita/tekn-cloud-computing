@@ -11,9 +11,6 @@
 
 ### clone di komputer lokal
 ```
-C:\tekn-cloud-computing\minggu-01>cd clone https://github.com/Tyassasmita/playground-1
-The filename, directory name, or volume label syntax is incorrect.
-
 C:\tekn-cloud-computing\minggu-01>git clone https://github.com/Tyassasmita/playground-1
 Cloning into 'playground-1'...
 remote: Enumerating objects: 7, done.
@@ -63,7 +60,7 @@ fatal: unable to access 'https://github.com/bpdp/playground-1/': The requested U
 #### melakukan sinkronisasi
 ```
 C:\tekn-cloud-computing\minggu-01\playground-1>git fetch upstream
-From https://github.com/Tyassasmita/playground-1
+From https://github.com/bpdp/playground-1
  * [new branch]      add-contributor -> upstream/add-contributor
  * [new branch]      master          -> upstream/master
  ```
@@ -75,12 +72,46 @@ M       README.md
 C:\tekn-cloud-computing\minggu-01\playground-1>git branch
 * add-contributor
   master
-C:\tekn-cloud-computing\minggu-01\playground-1>type README.md
+  new-branch
+
 # Playground
 It's just an example repo so that people can use it to learn Git.
-## Contributor
+### Contributor
 1. [bpdp](https://github.com/bpdp)
 C:\tekn-cloud-computing\minggu-01\playground-1>git status
-On branch add-contributor
-nothing to commit, working tree clean
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+C:\tekn-cloud-computing\minggu-01\playground-1>git add -A
+
+C:\tekn-cloud-computing\minggu-01\playground-1>git commit -m "Add: contributor"
+[add-contributor 2825a65] Add: contributor
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\tekn-cloud-computing\minggu-01\playground-1>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\tekn-cloud-computing\minggu-01\playground-1>git push origin add-contributor
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 335 bytes | 167.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Tyassasmita/playground-1
+   b7183be..2825a65  add-contributor -> add-contributor
 ```
+#### Setelah itu, buka halaman Web dari repo kontributor https://github.com/bpdp/playground-1. Pada halaman tersebut akan ditampilkan isi yang kita push.
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/repokontributor.jpg)
+
+#### Pilih Compare and pull request, kemudian isikan deskripsi PR dan klik pada Create pull request
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-01/tambahkontributor.jpg)
