@@ -74,7 +74,7 @@
 + Platform sebagai Layanan
 + Pembelajaran Mesin sebagai Layanan
 ### Mengapa Menggunakan Arsitektur SaaS?
-
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-02/A3.jpg)
 ##### Seperti yang disebutkan dalam pendahuluan, perangkat lunak telah didistribusikan kepada pelanggan dalam berbagai saluran selama beberapa dekade terakhir. Jadi mengapa Anda mungkin ingin menggunakan produk yang telah dikirim "sebagai layanan"?
 
 #### Konsumen
