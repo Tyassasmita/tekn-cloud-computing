@@ -152,3 +152,6 @@
 
 + Multi-tenancy
     Agar perangkat lunak Anda dikirimkan sebagai produk SaaS, itu harus mendukung multi-tenancy. Produk Anda harus dapat mengakomodasi banyak pengguna sementara pada saat yang sama, memastikan bahwa data pengguna, privasi dan semuanya masih diperhatikan. Luangkan waktu untuk memasukkan faktor ini ke dalam desain arsitektur SaaS Anda dan memastikan bahwa apa pun yang Anda terapkan, memiliki model yang dapat diskalakan.
+
+## Cara membangun aplikasi SaaS berbasis cloud
+[Artikel 4 Cara membangun aplikasi SaaS berbasis cloud](https://usersnap.com/blog/cloud-based-saas-architecture-fundamentals/)
