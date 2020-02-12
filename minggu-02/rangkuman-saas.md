@@ -135,6 +135,7 @@
     Saat memilih produk SaaS, dan misalnya, dengan munculnya GDPR, bisnis harus memberikan perhatian khusus dalam hal di mana implementasi SaaS menyimpan data di cloud. Setiap yurisdiksi memiliki kebijakan legislatif sendiri dan bertindak ketika data sensitif diproses atau disimpan.
 ### Komponen Kunci dari Platform SaaS
 ##### Fitur akan didorong oleh permintaan pasar dan komunitas pengguna tetapi ada beberapa komponen utama yang diharapkan pengguna.
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-02/A32.jpg)
 + Keamanan
     Melindungi data pelanggan di platform SaaS Anda adalah yang paling penting, karena itu, produk SaaS Anda kemungkinan besar akan melayani ratusan, jika tidak ribuan pengguna. Pastikan arsitektur SaaS Anda memperhitungkannya.
 + Pribadi
@@ -143,6 +144,7 @@
     Sementara Anda mungkin dapat memberikan solusi SaaS di luar kotak bagi sebagian besar konsumen yang menyertakan serangkaian fitur dan fungsi standar, perusahaan sering mengharapkan kustomisasi tambahan untuk menangani kasus penggunaan khusus untuk domain masalah khusus mereka. Anjak dalam diperpanjang untuk arsitektur SaaS Anda adalah komponen penting lainnya untuk Anda pertimbangkan. Anda dapat melakukan ini dengan mengirimkan versi "label putih" dari produk SaaS Anda atau dengan menerapkan mekanisme plugin yang memungkinkan bisnis dan / atau pengembang untuk memperluas solusi SaaS label putih Anda.
 
 ### Pertimbangan Desain untuk Platform SaaS
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-02/A33.jpg)
 + Skalabilitas
     Anda dapat mencapai ini dengan menggunakan perangkat keras seperti Network Load Balancers untuk mendistribusikan lalu lintas masuk secara merata di beberapa server web. Dari perspektif arsitektur perangkat lunak, Anda dapat memperkenalkan pemisahan kekhawatiran dengan memiliki lapisan individual untuk menangani akses data, logika bisnis, dan lapisan presentasi aplikasi Anda yang akan membantu skala aplikasi Anda lebih mudah.
 
