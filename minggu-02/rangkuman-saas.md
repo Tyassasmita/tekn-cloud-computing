@@ -64,3 +64,25 @@
 ### Kesimpulan
 
 ##### Perusahaan sebaiknya mempertimbangkan fleksibilitas dan implikasi manajemen risiko dalam menambahkan SaaS ke portofolio layanan TI mereka. Integrasi dan komposisi adalah komponen penting dalam strategi arsitektur Anda untuk menggabungkan SaaS dengan sukses sebagai anggota yang berpartisipasi penuh dari infrastruktur TI Anda yang berfokus pada layanan. Kami percaya bahwa masa depan komputasi perusahaan tidak akan murni di tempat. Sebaliknya, mereka akan ada dalam harmoni simbiosis.
+
+## Arsitektur Platform SAAS (Perangkat Lunak sebagai Layanan)
+[Artikel 3](https://www.devteam.space/blog/saas-software-as-a-service-platform-architecture/)
+### Apa itu Platform SaaS?
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-02/A2.jpg)
+##### SaaS juga merupakan salah satu pilar utama komputasi awan. Sebuah ledakan dalam komputasi Cloud, didorong oleh penyedia cloud seperti Microsoft dengan Azure atau Amazon dengan AWS, telah melihat pertumbuhan produk dan layanan lain yang disampaikan melalui internet seperti:
++ Infrastruktur sebagai Layanan
++ Platform sebagai Layanan
++ Pembelajaran Mesin sebagai Layanan
+### Mengapa Menggunakan Arsitektur SaaS?
+
+##### Seperti yang disebutkan dalam pendahuluan, perangkat lunak telah didistribusikan kepada pelanggan dalam berbagai saluran selama beberapa dekade terakhir. Jadi mengapa Anda mungkin ingin menggunakan produk yang telah dikirim "sebagai layanan"?
+
+#### Konsumen
+##### Dari perspektif konsumen, produk SaaS adalah salah satu cara termudah untuk menggunakan layanan atau produk digital. Anda cukup mengaksesnya melalui web, membayar layanan dan menggunakannya! Dalam beberapa tahun terakhir kami telah melihat kemunculan ribuan produk SaaS yang ditargetkan untuk konsumen seperti:
++ Netflix
++ Microsoft Office 365
++ Amazon Prime
++ Indonesia
++ Facebook
++ Google Documents
+##### Mampu mengaktifkan atau menonaktifkan produk SaaS sesuai permintaan adalah faktor lain yang menarik bagi konsumen, Anda tidak perlu lagi menjatuhkan ratusan dolar pada lisensi perangkat lunak. Sebagian besar produk SaaS memungkinkan Anda membayar langganan bulanan dengan opsi dan membatalkan kapan pun Anda mau.
