@@ -120,3 +120,35 @@
 + Kecerdasan buatan
 + Layanan Lokasi
 + Streaming data dan layanan pencarian
+### Kerugian dari Platform SaaS
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-02/A31.jpg)
++ Kurang kontrol
+    Karena aplikasi SaaS di-host di server web vendor, Anda memiliki sedikit atau tidak ada kontrol atas perangkat lunak yang Anda gunakan. Aplikasi internal atau internal akan memberikan bisnis Anda kontrol lebih besar atas perilakunya, misalnya, aplikasi berbasis Windows mungkin memiliki lebih banyak opsi konfigurasi daripada aplikasi web biasa yang dikirim sebagai aplikasi SaaS.
+
++ Ekosistem terbatas
+    Tidak dapat dipungkiri bahwa SaaS adalah tren yang berkembang sebagai saluran distribusi perangkat lunak. Karena itu, masih banyak aplikasi yang tidak menawarkan versi yang diinangi.
+
++ Performa
+    Aplikasi internal, klien kental, atau lokal akan selalu berjalan lebih cepat daripada produk yang dikirim melalui internet.
+
++ Kekhawatiran Data
+    Saat memilih produk SaaS, dan misalnya, dengan munculnya GDPR, bisnis harus memberikan perhatian khusus dalam hal di mana implementasi SaaS menyimpan data di cloud. Setiap yurisdiksi memiliki kebijakan legislatif sendiri dan bertindak ketika data sensitif diproses atau disimpan.
+### Komponen Kunci dari Platform SaaS
+##### Fitur akan didorong oleh permintaan pasar dan komunitas pengguna tetapi ada beberapa komponen utama yang diharapkan pengguna.
++ Keamanan
+    Melindungi data pelanggan di platform SaaS Anda adalah yang paling penting, karena itu, produk SaaS Anda kemungkinan besar akan melayani ratusan, jika tidak ribuan pengguna. Pastikan arsitektur SaaS Anda memperhitungkannya.
++ Pribadi
+    Sementara keamanan terkait dengan penguncian pengguna dan data sensitif, privasi data adalah komponen penting lainnya yang harus dipertimbangkan platform SaaS Anda. Dengan peraturan baru, seperti GDPR, bisnis lebih akuntabel daripada sebelumnya untuk memastikan privasi pengguna dan data tetap terjaga dan dengan temuan dari KPMG menyatakan bahwa Privasi Data adalah atribut terpenting kedua yang mereka cari dalam penyedia cloud, privasi merupakan komponen penting untuk pertimbangkan saat membuat produk SaaS Anda sendiri.
++ Kustomisasi dan Konfigurasi
+    Sementara Anda mungkin dapat memberikan solusi SaaS di luar kotak bagi sebagian besar konsumen yang menyertakan serangkaian fitur dan fungsi standar, perusahaan sering mengharapkan kustomisasi tambahan untuk menangani kasus penggunaan khusus untuk domain masalah khusus mereka. Anjak dalam diperpanjang untuk arsitektur SaaS Anda adalah komponen penting lainnya untuk Anda pertimbangkan. Anda dapat melakukan ini dengan mengirimkan versi "label putih" dari produk SaaS Anda atau dengan menerapkan mekanisme plugin yang memungkinkan bisnis dan / atau pengembang untuk memperluas solusi SaaS label putih Anda.
+
+### Pertimbangan Desain untuk Platform SaaS
++ Skalabilitas
+    Anda dapat mencapai ini dengan menggunakan perangkat keras seperti Network Load Balancers untuk mendistribusikan lalu lintas masuk secara merata di beberapa server web. Dari perspektif arsitektur perangkat lunak, Anda dapat memperkenalkan pemisahan kekhawatiran dengan memiliki lapisan individual untuk menangani akses data, logika bisnis, dan lapisan presentasi aplikasi Anda yang akan membantu skala aplikasi Anda lebih mudah.
+
++ Nol downtime dan Perjanjian Tingkat Layanan
+    Dengan aplikasi perangkat lunak internal atau on-premise, pengguna lebih memaafkan jika perangkat lunak harus offline untuk jangka waktu tertentu sementara IT internal menginstal kit baru atau merilis pembaruan versi.
+    Luangkan waktu untuk mempertimbangkan bagaimana Anda akan meningkatkan faktor, menambal atau debugging dan memecahkan masalah produksi ke dalam arsitektur aplikasi SaaS Anda.
+
++ Multi-tenancy
+    Agar perangkat lunak Anda dikirimkan sebagai produk SaaS, itu harus mendukung multi-tenancy. Produk Anda harus dapat mengakomodasi banyak pengguna sementara pada saat yang sama, memastikan bahwa data pengguna, privasi dan semuanya masih diperhatikan. Luangkan waktu untuk memasukkan faktor ini ke dalam desain arsitektur SaaS Anda dan memastikan bahwa apa pun yang Anda terapkan, memiliki model yang dapat diskalakan.
