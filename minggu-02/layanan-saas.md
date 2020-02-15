@@ -1,10 +1,16 @@
-# LATIHAN 2
-### 2 layanan SaaS
-+ Creately
-    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-02/creately.jpg)
-    Creately adalah flowchart berbasis web, pembuatan diagram, dan platform kolaborasi real-time untuk para desainer profesional dan pembuat rencana.Ada ribuan templat dan contoh siap pakai yang ada untuk dapat memulai hanya dari siapa pun yang tidak memiliki latar belakang teknis desain. Keuntungan menggunakan Creately adalah kesederhanaan dan kemudahan yang diberikan kepada penggunanya dalam bentuk yang mudah untuk menggambar, bentuk & konektor yang cerdas, berkolaborasi dengan siapa pun, ketersediaan ribuan template, ketersediaan dalam lingkungan online, tidak ada persyaratan untuk menginstal plugin apa pun, dan aksesibilitas desktop atau server. 
-    Beberapa fitur Creately yang layak disebutkan adalah sistem satu klik buat, bentuk drag drop, konektor preset, penyelarasan terbaik untuk ukuran & dikelompokkan, ketersediaan tema dan palet warna, teks untuk dibentuk saat menulis gambar truf, kolaborasi real-time dengan anggota tim jika bekerja pada proyek umum, komentar inline dan sistem utas diskusi dan banyak lagi. 
-+ CaCoo
-    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-02/cacoo.jpg)
-     Alat desain dan gambar berbasis web ini akan membuat Anda dapat membuat diagram alur, peta pikiran, maket, model UML, peta situs, gambar rangka, dan bekerja pada berbagai tugas perencanaan dan perancangan lainnya. Pertama, fitur utama Cacoo adalah tidak memerlukan instalasi sama sekali dan tidak menginstal paket instalasi pihak ketiga. Semuanya akan menjadi lingkungan online semua dengan fleksibilitas dan kenyamanan pada saat yang sama. Untuk proyek tim, Cacoo memiliki sistem kolaborasi yang tepat sehingga semua anggota tim dapat menikmati bekerja bersama, kapan pun dan di mana pun secara online. Lihat apa yang dapat Anda lakukan dengan menggunakan presentasi Cacoo, diagram alur, gambar rangka & maket, peta pikiran, templat, peta situs, diagram jaringan, diagram UML, diagram database, dan tata letak ruangan. Selain paket gratis, dua paket berbayar Cacoo adalah Cacoo Plus dan Cacoo Business. Harga keduanya 4,95 dan $ 18 per bulan. Versi gratis Cacoo menyediakan hampir dua puluh lima lembar, berbagi terbatas, dan ekspor dalam format PNG saja. Versi berbayar dari dukungan Cacoo menyediakan puluhan ribu lembar, berbagi tanpa batas, semua format ekspor, riwayat revisi dan kontrol keamanan.
 # TUGAS
+### Overview Microsoft Visio
+##### Microsoft Visio (atau sering disebut Visio) adalah sebuah program aplikasi komputer yang sering digunakan untuk membuat diagram, diagram alir (flowchart), brainstorm, dan skema jaringan yang dirilis oleh Microsoft Corporation. Aplikasi ini menggunakan grafik vektor untuk membuat diagram-diagramnya.
+##### Adapun untuk mengaktifkan Microsoft visio adalah sebagai berikut :
++ Klik menu start di windows
++ Sorot kursor mouse di program dan klik Microsoft Office
++ Pilihlah shortcut menu Microsoft Visio dan klik
+##### Fungsi Menu Pada Microsoft Visio terdapat beberapa menu pilihan mulai dari menu file, Home, Insert, Design, Review, View.
+##### Menu-menu ini memiliki kemiripan dengan aplikasi lain yang dibuat oleh Microsoft, dengan beberapa diantaranya merupakan menu khusus yang didesain untuk Visio itu sendiri.Menu file hampir sama dengan format menu pada program-program rancangan Microsoft lain, yang terdiri dari sub menu Save, Save As, Open, Close, Info, Recent, Print, Save & Send, Help, Option, Exit.
+#####  Bentuk-Bentuk Diagram pada Visio
+1. Diagram Jaringan (Network Diagram)
+2. Flowchart dasar (Basic Flowchart)
+3. Rencana denah (Floor Plan)
+4. Diagram Basis Data (Data Base Model Diagram)
+5. Peta Petunjuk (Directional Maps)
+6. Diagram Software (Software Diagram)
