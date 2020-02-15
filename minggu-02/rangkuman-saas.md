@@ -162,3 +162,5 @@
     Contohnya penggunaan bahasa Python merupakan bahasa pemrograman yang banyak digunakan, dirancang untuk menekankan keterbacaan kode-nya.
 + Penggunaan Database
     Kami merekomendasikan penggunaan basis data berorientasi dokumen. Database dokumen sangat berbeda dengan konsep tradisional database relasional. Penggunaan database MongoDB, karena MongoDB adalah database berorientasi dokumen yang memberikan kinerja tinggi, ketersediaan tinggi, dan skalabilitas mudah. 
++ Queuing system
+    Sistem antrian pesan adalah protokol komunikasi yang tidak sinkron, memungkinkan pengirim dan penerima pesan tidak berinteraksi secara bersamaan.Aplikasi web untuk berjalan pada waktu yang berbeda dan untuk berkomunikasi dengan berbagai integrasi pihak ketiga / API / dan layanan lainnya secara tidak sinkron. Salah satunya yaitu penggunaan Rabbit MQ, yang merupajkan sistem antrian sumber terbuka yang berjalan pada semua sistem operasi utama.Kami menjalankan aplikasi web kami di AWS EC2 di mana RabbitMQ dapat dijalankan diinstal dan dijalankan dengan sangat lancar.
