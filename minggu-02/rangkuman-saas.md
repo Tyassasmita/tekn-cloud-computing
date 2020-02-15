@@ -156,4 +156,9 @@
     Agar perangkat lunak Anda dikirimkan sebagai produk SaaS, itu harus mendukung multi-tenancy. Produk Anda harus dapat mengakomodasi banyak pengguna sementara pada saat yang sama, memastikan bahwa data pengguna, privasi dan semuanya masih diperhatikan. Luangkan waktu untuk memasukkan faktor ini ke dalam desain arsitektur SaaS Anda dan memastikan bahwa apa pun yang Anda terapkan, memiliki model yang dapat diskalakan.
 
 ## Cara membangun aplikasi SaaS berbasis cloud
-[Artikel 4 Cara membangun aplikasi SaaS berbasis cloud](https://usersnap.com/blog/cloud-based-saas-architecture-fundamentals/)
+[Artikel 4 : Cara membangun aplikasi SaaS berbasis cloud](https://usersnap.com/blog/cloud-based-saas-architecture-fundamentals/)
+### Cara membangun aplikasi SaaS berbasis cloud
++ Memilih Bahasa Pemrograman Yang Dikuasai 
+    Contohnya penggunaan bahasa Python merupakan bahasa pemrograman yang banyak digunakan, dirancang untuk menekankan keterbacaan kode-nya.
++ Penggunaan Database
+    Kami merekomendasikan penggunaan basis data berorientasi dokumen. Database dokumen sangat berbeda dengan konsep tradisional database relasional. Penggunaan database MongoDB, karena MongoDB adalah database berorientasi dokumen yang memberikan kinerja tinggi, ketersediaan tinggi, dan skalabilitas mudah. 
