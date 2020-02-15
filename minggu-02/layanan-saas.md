@@ -14,3 +14,12 @@
 4. Diagram Basis Data (Data Base Model Diagram)
 5. Peta Petunjuk (Directional Maps)
 6. Diagram Software (Software Diagram)
+
+##### Kelebihan Microsoft Visio yaitu:
+1. Tools nya yang mudah di pahami
+2. Banyak pilihan gambar
+3. Gambar 3d yang menarik
+
+##### Kekurangannya yaitu:
+1. Menginstalnya rumit
+2. Sedikitnya sumber pembelajaran tentang visio
