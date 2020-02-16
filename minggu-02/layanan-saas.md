@@ -1,5 +1,6 @@
 # TUGAS 
 ### Overview Microsoft Visio
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-02/visio.jpg)
 ##### Microsoft Visio (atau sering disebut Visio) adalah sebuah program aplikasi komputer yang sering digunakan untuk membuat diagram, diagram alir (flowchart), brainstorm, dan skema jaringan yang dirilis oleh Microsoft Corporation. Aplikasi ini menggunakan grafik vektor untuk membuat diagram-diagramnya.
 ##### Adapun untuk mengaktifkan Microsoft visio adalah sebagai berikut :
 + Klik menu start di windows
@@ -23,3 +24,16 @@
 ##### Kekurangannya yaitu:
 1. Menginstalnya rumit
 2. Sedikitnya sumber pembelajaran tentang visio
+
+### Overview Dia (Diagram Editor)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-02/Dia.jpg)
+##### Cara menggunakan Dia sangatlah mudah, dengan hanya enarik objek diagram yang diinginkan dari kotak sebelah kiri ke kanvas diagram di sebelah kanan.  Bisa menghubungkan antar objek dengan konektor yang terletak disebelah kiri atas, cukup tekan asal simbol dan arahkan ke simbol diagram tujuan dan akan langsung terhubung.
+##### Kelebihan aplikasi Dia yaitu aplikasi berisi bermacam objek khusus yang digunakan untuk membantu pembuatan bermacam jenis gambar diagram.
+##### Software atau aplikasi ini dapat berjalan di berbagai platform atau disebut juga multiplatform seperti Windows, Linux, dan Mac OS. Selain itu aplikasi DIA pun berukuran kecil dan ringan. Sangat mirip dengan Microsoft Visio, dapat melakukan desain UML, diagram entitas, bahkan diagram networking Cisco
+##### Fitur yang ada pada DIA 
++ Process/Auxiliary Operation : Menampung sebuah pemrosesan data dari sebuah alur diagram, shape ini berbentuk segi empat.
++ Input/Output : Menerima sebuah inputan dari user atau menampilkan hasil dari sebuah pemrosesan.
++ Decision : Gambaran sebuah statement untuk menentukan kondisi tertentu.
++ Display : Menampilkan output ke layar.
++ Connector : Menghubungkan dari sebuah ke simbol ke simbol tertentu.
++ Class : Digunakan untuk menampilkan kelas-kelas atau paket-paket didalam sistem dan relasi antar mereka.
