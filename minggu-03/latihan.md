@@ -8,8 +8,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/4.jpg)
 
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/
-5.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/5.jpg)
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/6.jpg)
 
