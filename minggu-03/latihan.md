@@ -31,4 +31,15 @@
 ##### Declare app dependencies
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/14.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/15.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/16.jpg)
 ##### Run the app locally
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/17.jpg)
+##### Push local changes
+```import requests
+def index(request):
+    r = requests.get('http://httpbin.org/status/418')
+    print(r.text)
+    return HttpResponse('<pre>' + r.text + '</pre>')
+```
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/18.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/19.jpg)
