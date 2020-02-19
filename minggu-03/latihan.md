@@ -21,3 +21,14 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/8.jpg)
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/9.jpg)
+
+##### View logs
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/10.jpg)
+##### Scale the app
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/11.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/12.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/13.jpg)
+##### Declare app dependencies
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/14.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/15.jpg)
+##### Run the app locally
