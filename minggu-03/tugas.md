@@ -2,6 +2,7 @@
 ##### Membuat App di Heroku
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/t1.jpg)
 ##### Login Heroku melalui CMD
+###### Login Heroku melalui CMD
 ```
 C:\tekn-cloud-tugas>heroku login
 heroku: Press any key to open up the browser to login or q to exit:
@@ -9,23 +10,28 @@ Opening browser to https://cli-auth.heroku.com/auth/cli/browser/1116ccbf-23af-47
 Logging in... done
 Logged in as tyassasmita12@gmail.com
 ```
+###### Initialize project
 ```
 C:\tekn-cloud-tugas>git init
 Initialized empty Git repository in C:/tekn-cloud-tugas/.git/
 ```
+###### Melakukan remote project, nama project sesuaikan dengan nama yang dibuat
 ```
 C:\tekn-cloud-tugas>heroku git:remote -a mybiodata
 set git remote heroku to https://git.heroku.com/mybiodata.git
 ```
+###### Menambahkan  file index.php. File tersebut merupakan skrip yang akan di deploy ke Heroku
 ```
 C:\tekn-cloud-tugas>git add index.php
 ```
+###### Melakukan commit
 ```
 C:\tekn-cloud-tugas>git commit -m "updt"
 [master (root-commit) a6c4dd3] updt
  1 file changed, 5 insertions(+)
  create mode 100644 index.php
  ```
+ ###### Melakukan deploy ke Heroku
  ```
  C:\tekn-cloud-tugas>git push heroku master
 Enumerating objects: 3, done.
