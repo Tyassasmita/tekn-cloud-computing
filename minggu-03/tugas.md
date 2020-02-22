@@ -1,7 +1,7 @@
 ### TUGAS
 ##### Membuat App di Heroku
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-03/t1.jpg)
-##### Login Heroku melalui CMD
+
 ###### Login Heroku melalui CMD
 ```
 C:\tekn-cloud-tugas>heroku login
