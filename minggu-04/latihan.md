@@ -9,7 +9,9 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/Screenshot_3.png)
 
 ```sudo useradd -s /bin/bash -d /opt/stack -m stack ```
+
 ```echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/stack```
+
 ```sudo su - stack```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/1.jpg)
@@ -23,5 +25,8 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/Screenshot_6.png)
 ##### Start the Install
 ###### ./stack.sh
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/Screenshot_7.png)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/4.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/5.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/Screenshot_8.png)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/Screenshot_9.png)
