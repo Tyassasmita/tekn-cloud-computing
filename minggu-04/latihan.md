@@ -6,11 +6,15 @@
 ```echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/stack```
 
 ```sudo su - stack```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/1.jpg)
 ###### git clone https://opendev.org/openstack/devstack
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/2.jpg)
 ######  cd devstack
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/3.jpg)
+##### Selanjutnya buat Devstack answer file, pada direktori devstack buat file bernama local.conf. Pada file tersebut kita akan diisi dengan password service-service dan admin Devstack.
+``` sudo nano local.conf ```
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/Screenshot_6.png)
 ##### Start the Install
 ###### ./stack.sh
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/4.jpg)
