@@ -7,6 +7,7 @@
 ##### Service yang akan diinstall dan dijalankan oleh Devstack memerlukan user account, untuk itu kita akan membuat user yang memiliki akses ke sudo, Selanjutnya untuk instalasi Devstack kita perlu melakukan cloning GIT repo.
 ``` sudo su -l stack ```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/Screenshot_3.png)
+
 ```sudo useradd -s /bin/bash -d /opt/stack -m stack ```
 ```echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/stack```
 ```sudo su - stack```
