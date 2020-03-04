@@ -8,9 +8,9 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/T2.png)
 #### git checkout -b 2.2.2
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/T3.png)
-cd ..
 
+#### cd ..
 #### mininet/util/install.sh [options]
-
 #### mininet/util/install.sh -nfv
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-04/T4.png)
 
