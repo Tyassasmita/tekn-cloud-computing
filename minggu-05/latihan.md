@@ -24,6 +24,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-05/Screenshot_9.png)
 ###### Selanjutnya, ubah menjadi direktori OFBiz dan jalankan perintah di bawah ini untuk memuat data default-nya 
 ``` cd /usr/local/apache-ofbiz```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-05/Screenshot_10.png)
 
 ``` ./gradlew cleanAll loadDefault```
