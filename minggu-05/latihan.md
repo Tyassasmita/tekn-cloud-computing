@@ -1,6 +1,7 @@
 ### LATIHAN
 ##### Install OpenJDK 8
 ``` sudo apt update ```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-05/Screenshot_1.png)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-05/Screenshot_2.png)
 ###### java -version
