@@ -17,3 +17,11 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/Mysql1.png)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/Mysql2.png)
 #### Buat 2 contoh program Go masing-masing untuk koneksi dan membaca data dari MySQL dan MongoDB.
+#####Program 1
+``` package main ```
+
+``` import "fmt"```
+
+```func main() { ```
+```    fmt.Println("Dwi Sasmita Ayuningtyas")```
+```} ```
