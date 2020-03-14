@@ -13,9 +13,11 @@
 ##### Install Mysql Community Edition
 [Link Mysql](https://www.mysql.com/products/community/)
 
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/Mysql.png)
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/Mysql1.png)
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/Mysql2.png)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/my1.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/my2.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/my3.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/my4.jpg)
+##### 
 #### Buat 2 contoh program Go masing-masing untuk koneksi dan membaca data dari MySQL dan MongoDB.
 ##### Program 1
 
