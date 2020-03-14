@@ -118,7 +118,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/latihan3-gin2.jpg)
 ##### go get -u "github.com/go-sql-driver/mysql"
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/latihan3-gin4.jpg)
-##### go get -u "github.com/go-sql-driver/mysql"
+##### go run base.go
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/latihan3-gin5.jpg)
 ##### go build base.go && ./base
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/latihan3-gin6.jpg)
