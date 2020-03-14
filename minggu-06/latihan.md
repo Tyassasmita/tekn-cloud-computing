@@ -103,6 +103,8 @@
 ```    fmt.Println("Connected to MongoDB!")```
 
 ```}```
+##### $ docker network create container-net
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/Mo3.png)
+##### $ docker run -itd --name mongodb --network container-net -p 27017:27017 ruanbekker/mongodb
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/Mo4.png)
 #### Dengan menggunakan Gin, buatlah RESTful API untuk membaca dara dari MySQL dan MongoDB tersebut
