@@ -19,12 +19,30 @@
 #### Buat 2 contoh program Go masing-masing untuk koneksi dan membaca data dari MySQL dan MongoDB.
 ##### Program 1
 
-``` package main ```
+```package main```
 
-``` import "fmt"```
+```import (```
+```  "fmt"```
+ ```   "database/sql"```
+ ```   _ "github.com/go-sql-driver/mysql"```
+```)```
 
-```func main() { ```
-```    fmt.Println("Dwi Sasmita Ayuningtyas")```
-```} ```
+```func main() {```
+```fmt.Println("Go MySQL Tutorial")```
+
+```  // Open up our database connection.```
+```// I've set up a database on my local machine using phpmyadmin.```
+  ```  // The database is called testDb```
+  ```  db, err := sql.Open("mysql", "root:@tcp(127.0.0.1:3306)/minggu-06")```
+
+   ``` // if there is an error opening the connection, handle it```
+  ```  if err != nil {```
+ ```       panic(err.Error())```
+ ``` }```
+
+   ``` // defer the close till after the main function has finished```
+  ```  // executing```
+  ```  defer db.Close()```
+```}```
 
 ##### Program 2
