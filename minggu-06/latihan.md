@@ -110,9 +110,15 @@
 ##### $ docker run -itd --name mongodb --network container-net -p 27017:27017 ruanbekker/mongodb
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/Mo4.png)
 #### Dengan menggunakan Gin, buatlah RESTful API untuk membaca dara dari MySQL dan MongoDB tersebut
+##### go get -u github.com/gin-gonic/gin
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/latihan3-gin.jpg)
+##### go get -u "github.com/jinzhu/gorm"
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/latihan3-gin1.jpg)
+##### go get -u "github.com/jinzhu/gorm/dialects/mysql"
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/latihan3-gin2.jpg)
+##### go get -u "github.com/go-sql-driver/mysql"
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/latihan3-gin4.jpg)
+##### go get -u "github.com/go-sql-driver/mysql"
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/latihan3-gin.5jpg)
+##### go run base.go
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/latihan3-gin6.jpg)
