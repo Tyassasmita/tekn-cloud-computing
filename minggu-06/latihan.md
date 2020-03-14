@@ -103,3 +103,6 @@
 ```    fmt.Println("Connected to MongoDB!")```
 
 ```}```
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/Mo3.png)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-06/Mo4.png)
+#### Dengan menggunakan Gin, buatlah RESTful API untuk membaca dara dari MySQL dan MongoDB tersebut
