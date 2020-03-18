@@ -21,10 +21,12 @@
 #### Part 1 Orientasi dan pengaturan
 ##### Test Docker version
 ``` docker --version```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/G1.jpg)
 ##### Test Docker installation
 ###### Uji instalasi dengan menjalankan gambar Docker hello-world
 ``` docker run hello-world```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/G2.jpg)
 ###### Menjalankan ``` docker image ls```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/G3.jpg)
