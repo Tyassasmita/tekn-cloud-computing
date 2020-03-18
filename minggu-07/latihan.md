@@ -20,8 +20,15 @@
 [link Docker get started](https://docs.docker.com/get-started/)
 #### Part 1 Orientasi dan pengaturan
 ##### Test Docker version
+``` docker --version```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/G1.jpg)
 ##### Test Docker installation
+###### Uji instalasi dengan menjalankan gambar Docker hello-world
+``` docker run hello-world```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/G2.jpg)
+###### Menjalankan ``` docker image ls```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/G3.jpg)
+``` docker container ls --all ```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/G4.jpg)
+#### Part 2 Build and run your image
+#### Part 3 Share images on Docker Hub
