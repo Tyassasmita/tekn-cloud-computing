@@ -30,6 +30,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/G2.jpg)
 ###### Menjalankan ``` docker image ls```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/G3.jpg)
+
 ``` docker container ls --all ```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/G4.jpg)
 #### Part 2 Build and run your image
