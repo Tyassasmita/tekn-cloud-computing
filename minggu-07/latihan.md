@@ -42,5 +42,20 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/P22.jpg)
 #### Build and test your image
-
+``` docker image build -t bulletinboard:1.0 .```
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/P23.jpg)
+#### Run your image as a container
+``` docker run --publish 8000:8080 --detach --name bb bulletinboard:1.0```
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/P24.jpg)
+#### Visit your application in a browser at localhost:8000
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/P25.jpg)
 #### Part 3 Share images on Docker Hub
+##### Create a Docker Hub repository and push your image
+1. Klik ikon Docker di bilah menu Anda, dan navigasikan ke Repositories > Create. Anda akan dibawa ke halaman Docker Hub untuk membuat repositori baru.
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/P31.jpg)
+2. Isi nama repositori dengan bulletinboard. 
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/P32.jpg)
+3. Sekarang Anda siap untuk membagikan gambar Anda di Docker Hub.
+``` docker tag bulletinboard:1.0 tyassasmita/bulletinboard:1.0```
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/P33.jpg)
+4. Terakhir, push gambar Anda ke Docker Hub:
