@@ -48,7 +48,7 @@
 ``` docker run --publish 8000:8080 --detach --name bb bulletinboard:1.0```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/P24.jpg)
 #### Visit your application in a browser at localhost:8000
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/P25.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/P26.jpg)
 #### Part 3 Share images on Docker Hub
 ##### Create a Docker Hub repository and push your image
 1. Klik ikon Docker di bilah menu Anda, dan navigasikan ke Repositories > Create. Anda akan dibawa ke halaman Docker Hub untuk membuat repositori baru.
