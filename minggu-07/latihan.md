@@ -39,6 +39,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/P21.jpg)
 
 ``` cd node-bulletin-board/bulletin-board-app``` 
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/P22.jpg)
 #### Build and test your image
 
