@@ -59,3 +59,4 @@
 ``` docker tag bulletinboard:1.0 tyassasmita/bulletinboard:1.0```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/P33.jpg)
 4. Terakhir, push gambar Anda ke Docker Hub:
+``` docker push tyassasmita/bulletinboard:1.0 ```
