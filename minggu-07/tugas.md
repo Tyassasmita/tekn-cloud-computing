@@ -22,4 +22,5 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/T7.jpg)
 
 ``` docker run -d -p 8080:80 --name mynginx nginx```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/T8.jpg)
