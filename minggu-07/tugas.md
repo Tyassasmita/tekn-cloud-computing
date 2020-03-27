@@ -9,6 +9,7 @@
 ``` docker container run -idt alpine uptime```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/T3.jpg)
+
 ``` docker rename stoic_chatterjee workfromhome```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/T4.jpg)
@@ -16,7 +17,9 @@
 ``` docker logs 9fd186ea25e3```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/T6.jpg)
-``` docker pull nginx```
 
+``` docker pull nginx```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/T7.jpg)
-``` docker run -it nginx /bin/bash```
+
+``` docker run -d -p 8080:80 --name mynginx nginx```
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/T8.jpg)
