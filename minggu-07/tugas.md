@@ -24,10 +24,12 @@
 ``` docker run -d -p 8080:80 --name mynginx nginx```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/T8.jpg)
+
 ``` localhost:8080```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/T9.jpg)
 
 ``` docker exec -it mynginx /bin/bash```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/T10.jpg)
 
 ```  docker ps -l```
