@@ -37,3 +37,4 @@
 
 ``` docker run -d --name ghost -p 3001:2368 ghost:alpine```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/T12.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-07/T13.jpg)
