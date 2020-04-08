@@ -2,10 +2,13 @@
 1. Membuat direktori projek
 	``` $ mkdir composetest```
 	``` $ cd composetest```
-	![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/l1.jpg)
+	
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/l1.jpg)
 2. Membuat file ```app.py```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/l2.jpg)
 3. Membuat file ```requirements.txt```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/l3.jpg)
 #### Step 2: Create a Dockerfile
 #### Step 3: Define services in a Compose file
