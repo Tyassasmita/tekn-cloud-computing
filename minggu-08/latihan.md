@@ -71,3 +71,21 @@
 ``` docker-compose down --volumes```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/83.jpg)
+
+### Where to go next
+[LINK](https://docs.docker.com/compose/wordpress/)
+1. Membuat direktori projek ```my_wordpress```
+2. Membuat file ```docker-compose.yml```
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/84.jpg)
+
+#### Build the project
+##### run ```docker-compose up -d```
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/85.jpg)
+
+#### Bring up WordPress in a web browser
+``` http://localhost:8000```
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/86.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/87.jpg)
+#### Shutdown
+``` docker-compose down```
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/88.jpg)
