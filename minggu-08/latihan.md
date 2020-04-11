@@ -17,11 +17,13 @@
 ##### Membuat file DockerFile
 ###### Menggunakan perintah ```vim dockerfile```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/21.jpg)
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/22.jpg)
 #### Step 3: Define services in a Compose file
 ##### Membuat File docker-compose.yml
 ###### Menggunakan perintah ``` vim docker-compose.yml```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/31.jpg)
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/3.jpg)
 #### Step 4: Build and run your app with Compose
 1. Start up your application by running ```docker-compose up```
