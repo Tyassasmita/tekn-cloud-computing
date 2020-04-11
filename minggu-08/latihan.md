@@ -76,6 +76,7 @@
 [LINK](https://docs.docker.com/compose/wordpress/)
 1. Membuat direktori projek ```my_wordpress```
 2. Membuat file ```docker-compose.yml```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/84.jpg)
 
 #### Build the project
