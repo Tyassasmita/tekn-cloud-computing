@@ -24,7 +24,7 @@
 ###### Menggunakan perintah ``` vim docker-compose.yml```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/31.jpg)
 
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/3.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/32.jpg)
 #### Step 4: Build and run your app with Compose
 1. Start up your application by running ```docker-compose up```
 2. Enter http://localhost:5000/ in a browser
@@ -33,3 +33,4 @@
 #### Step 5: Edit the Compose file to add a bind mount
 #### Step 6: Re-build and run the app with Compose
 #### Step 7: Update the application
+#### Step 8: Experiment with some other commands
