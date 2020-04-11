@@ -53,5 +53,9 @@
 1. Ubah pesan pada file app.py
 ``` Hello from Docker!```
 2. Refresh the app in your browser
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/72.jpg)
 #### Step 8: Experiment with some other commands
+``` docker-compose up -d```
+``` docker-compose ps ```
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/8.jpg)
