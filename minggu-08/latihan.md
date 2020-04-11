@@ -44,6 +44,14 @@
 4. Type ```docker image ls```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/44.jpg)
 #### Step 5: Edit the Compose file to add a bind mount
+###### Edit file ``` docker-compose.yml```
+
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/5.jpg)
 #### Step 6: Re-build and run the app with Compose
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/6.jpg)
 #### Step 7: Update the application
+1. Ubah pesan pada file app.py
+``` Hello from Docker!```
+2. Refresh the app in your browser
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/72.jpg)
 #### Step 8: Experiment with some other commands
