@@ -28,6 +28,7 @@
 #### Step 4: Build and run your app with Compose
 1. Start up your application by running ```docker-compose up```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/41.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/411.jpg)
 2. Enter http://localhost:5000/ in a browser
 
 ``` Hello World! I have been seen 1 times.```
