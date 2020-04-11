@@ -88,4 +88,5 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/87.jpg)
 #### Shutdown
 ``` docker-compose down```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/88.jpg)
