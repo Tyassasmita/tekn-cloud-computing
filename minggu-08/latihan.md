@@ -14,7 +14,9 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/l3.jpg)
 
 #### Step 2: Create a Dockerfile
+##### Membuat file DockerFile
 #### Step 3: Define services in a Compose file
+##### Membuat File docker-compose.yml
 #### Step 4: Build and run your app with Compose
 1. Start up your application by running ```docker-compose up```
 2. Enter http://localhost:5000/ in a browser
