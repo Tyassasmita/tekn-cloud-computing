@@ -29,15 +29,19 @@
 1. Start up your application by running ```docker-compose up```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/41.jpg)
 2. Enter http://localhost:5000/ in a browser
+
 ``` Hello World! I have been seen 1 times.```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/42.jpg)
 
 3. Refresh the page.
+
 ``` Hello World! I have been seen 2 times.```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/43.jpg)
 
 4. Type ```docker image ls```
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/44.jpg)
 #### Step 5: Edit the Compose file to add a bind mount
 #### Step 6: Re-build and run the app with Compose
 #### Step 7: Update the application
