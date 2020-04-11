@@ -59,12 +59,15 @@
 ``` docker-compose up -d```
 ``` docker-compose ps ```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/8.jpg)
+
 ``` docker-compose run web env```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/81.jpg)
+
 ``` docker-compose stop```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/82.jpg)
+
 ``` docker-compose down --volumes```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/83.jpg)
