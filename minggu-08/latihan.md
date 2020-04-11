@@ -32,9 +32,11 @@
 ``` Hello World! I have been seen 1 times.```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/42.jpg)
+
 3. Refresh the page.
 ``` Hello World! I have been seen 2 times.```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/43.jpg)
+
 4. Type ```docker image ls```
 #### Step 5: Edit the Compose file to add a bind mount
 #### Step 6: Re-build and run the app with Compose
