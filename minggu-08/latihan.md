@@ -1,6 +1,6 @@
 #### Step 1: Setup
 1. Membuat direktori projek
-	##### membiat direktori dengan perintah ``` $ mkdir composetest```. Lalu masuk direktori dengan perintah ``` $ cd composetest```.
+##### membuat direktori dengan perintah ``` $ mkdir composetest```. Lalu masuk direktori dengan perintah ``` $ cd composetest```.
 	
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/l1.jpg)
 
@@ -65,7 +65,7 @@
 4. Type ```docker image ls```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/44.jpg)
 #### Step 5: Edit the Compose file to add a bind mount
-###### Edit file ``` docker-compose.yml```
+###### Edit file ``` docker-compose.yml``` seperti gambar dibawah ini.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/5.jpg)
 #### Step 6: Re-build and run the app with Compose
