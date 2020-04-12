@@ -1,5 +1,5 @@
 #### DIAGRAM
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/T.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/T.jpeg)
 ##### Pada diagram tersebut, Docker menggunakan arsitektur berbasis client-server. Dalam hal ini, Docker client mengirimkan permintaan berupa sebuah perintah kepada Docker daemon (Dockerd) untuk membangun, mendistribusikan, dan menjalankan container Docker. Terlihat pada gambar, Dockerd berjalan pada host, sehingga pengguna tidak dapat berinteraksi langsung. Untuk mengaksesnya, menggunakan Docker client yang merupakan tampilan utama untuk pengguna, sehingga pengguna dapat berkomunikasi dengan Dockerd.
 ##### Docker image merupakan template dasar untuk docker container. Image ini berisi sistem oeprasi ataupun aplikasi yang sudah selesai. Docker image ini berfungsi untuk menjalankan container.
 ##### Docker container merupakan sebuah image yang bersifat read-write. Pada setiap perubahan yang disimpan pada container akan menyebabkan terbentuknya layer baru di atas image. Developer dapat melakukan instalasi aplikasi didalamnya dan melakukan penyimpanan.
