@@ -61,7 +61,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/43.jpg)
 
-4. Type ```docker image ls```
+4. Untuk melihat image yang telah dibuat dengan menggunakan perintah ```docker image ls```.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/44.jpg)
 #### Step 5: Edit the Compose file to add a bind mount
