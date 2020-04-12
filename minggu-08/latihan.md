@@ -14,8 +14,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/l3.jpg)
 
 #### Step 2: Create a Dockerfile
-##### Membuat file DockerFile
-###### Menggunakan perintah ```vim dockerfile```
+##### Membuat file DockerFile menggunakan perintah ```vim dockerfile```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/21.jpg)
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/22.jpg)
@@ -26,6 +25,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/32.jpg)
 #### Step 4: Build and run your app with Compose
 1. Start up your application by running ```docker-compose up```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/41.jpg)
 ##### pada file dockerfile isikan seperti gambar dibawah ini.
 
@@ -62,6 +62,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/43.jpg)
 
 4. Type ```docker image ls```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/44.jpg)
 #### Step 5: Edit the Compose file to add a bind mount
 ###### Edit file ``` docker-compose.yml``` seperti gambar dibawah ini.
@@ -70,14 +71,12 @@
 #### Step 6: Re-build and run the app with Compose
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/6.jpg)
 #### Step 7: Update the application
-1. Ubah pesan pada file app.py
-``` Hello from Docker!```
+1. Ubah pesan pada file app.py dari ``` Hello World``` menjadi ``` Hello from Docker!```
 2. Refresh the app in your browser
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/72.jpg)
 #### Step 8: Experiment with some other commands
-``` docker-compose up -d```
-``` docker-compose ps ```
+``` docker-compose up -d``` digunakan untuk Restart docker-compose. dan perintah ``` docker-compose ps ``` digunakan untuk melihat informasi service yang berjalan.
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/8.jpg)
 
 ``` docker-compose run web env```
