@@ -6,6 +6,8 @@
 
 2. Membuat file ```app.py```
 ##### Membuat file app.py dengan isi projek seperti pada gambar dibawah ini.
+##### Pada file app.py tersebut, melakukan import time dan redis dari library pada framework flask. Redis nanti digunakan sebagai container pada image yang akan dibuild. Pada variabel app digunakan untuk inisiasi nama app. Sedangkan pada cache digunakan untuk inisiasi host dan port yang akan berjalan di container redis, yaitu host dengan nama “redis” dan port 6379.
+##### Pada fungsi get_hit_count() yang mengembalikan nilai waktu, saat kondisi true, kmaka akan mengembalikan cache dan melakukan eksepsi error jika terjadi error.  Pada route terdapat fungsi hello yang akan memanggil nilai waktu dari proses yang dilakukan di fungsi get_hit_count() dan mengembalikan output 'Hello World! I have been seen {} times.\n'.format(count) diikuti nilai waktu.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/l2.jpg)
 
@@ -54,8 +56,6 @@
 ``` Hello World! I have been seen 1 times.```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/42.jpg)
-##### Pada file app.py tersebut, melakukan import time dan redis dari library pada framework flask. Redis nanti digunakan sebagai container pada image yang akan dibuild. Pada variabel app digunakan untuk inisiasi nama app. Sedangkan pada cache digunakan untuk inisiasi host dan port yang akan berjalan di container redis, yaitu host dengan nama “redis” dan port 6379.
-##### Pada fungsi get_hit_count() yang mengembalikan nilai waktu, saat kondisi true, kmaka akan mengembalikan cache dan melakukan eksepsi error jika terjadi error.  Pada route terdapat fungsi hello yang akan memanggil nilai waktu dari proses yang dilakukan di fungsi get_hit_count() dan mengembalikan output 'Hello World! I have been seen {} times.\n'.format(count) diikuti nilai waktu.
 
 3. Refresh the page.
 
