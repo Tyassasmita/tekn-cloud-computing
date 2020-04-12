@@ -12,7 +12,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/l2.jpg)
 
 3. Membuat file ```requirements.txt```
-##### Membuat file requirement.txt dengan isi projek seperti pada gambar dibawah ini.
+##### Membuat file requirement.txt. Pada file requirement.txt tersebut berisi komponen yang dibutuhkan dalam proses build, yaitu framework flask dan redis
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/l3.jpg)
 
 #### Step 2: Create a Dockerfile
@@ -25,6 +25,8 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/31.jpg)
 ##### ketikkan isi file tersebut, seperti pada gambar dibawah ini.
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/32.jpg)
+##### Pada konfigurasi di atas, terdapat sebuah service yang akan mewakili sebuah container Docker. Dengan demikian, konfigurasi di atas akan menjalankan instance dari container web. Pada Docker, setiap container dibuat berdasarkan image. Untuk web, image akan dibuat berdasarkan isi Dockerfile di redis:alpine.
+
 #### Step 4: Build and run your app with Compose
 1. Start up your application by running ```docker-compose up```
 
