@@ -29,10 +29,9 @@
 
 #### Step 4: Build and run your app with Compose
 1. Start up your application by running ```docker-compose up```
+##### Bila ini adalah pertama kalinya saya menjalankan perintah, Docker akan men-download beberapa image seperti MySQL dan Node.js dari Docker Hub sehingga saya harus sabar menunggu.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/41.jpg)
-##### pada file dockerfile isikan seperti gambar dibawah ini.
-
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/411.jpg)
 ##### Penjelasan 
 ##### Step 1/9, dari image python:3.7-alpine , akan melakukan pull dari library python
