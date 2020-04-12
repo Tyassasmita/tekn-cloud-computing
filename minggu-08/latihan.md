@@ -29,6 +29,25 @@
 1. Start up your application by running ```docker-compose up```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/41.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/411.jpg)
+##### Penjelasan 
+##### Step 1/9, dari image python:3.7-alpine , akan melakukan pull dari library python
+
+##### Step 2/9, akan Menghapus container  perantara e96193fb6702
+
+##### Step 3/9, akan menjalankan enfironment flask framework pada app.py
+
+##### Step 4/9, pada environment flask menjalankan host 0.0.0.0
+
+##### Step 5/9, akan menjalankan apk dengan melakukan instalasi beberapa komponen dari alpine
+
+##### Step 6/9, akan mencopy apa yang dibutuhkan pada proses build container pada requirements.txt, yaitu flask dan redis
+
+##### Step 7/9, akan melakukan instalasi yang dibutuhkan pada proses build container pada requirements.txt, yaitu flask dan redis dengan menggunakan pip, dengan melakukan download flask framework dan redis dan beberapa package pendukungnya. Setelah didwonload, maka dilakukan build MarkupSafe dan dilakukan proses install
+
+##### Step 8/9, melakukan copy
+
+##### Step 9/9, menjalankan build image alpine yang menggunakan flask framework
+##### Setelah itu dijalankan pada url ip machine dan port 5000: http://192.168.99.100:5000
 2. Enter http://localhost:5000/ in a browser
 
 ``` Hello World! I have been seen 1 times.```
