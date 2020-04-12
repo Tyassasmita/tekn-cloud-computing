@@ -72,7 +72,8 @@
 ###### Edit file ``` docker-compose.yml``` seperti gambar dibawah ini.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/5.jpg)
-#### Step 6: Re-build and run the app with Compose
+##### Pada konfigurasi di atas, terdapat dua buah service yang masing-masing akan mewakili sebuah container Docker. Dengan demikian, konfigurasi di atas akan menjalankan dua instance dari container yang berbeda: web dan redis.Pada Docker, setiap container dibuat berdasarkan image. Untuk redis, image akan dibuat berdasarkan isi Dockerfile di folder redis.
+#### Step 6: Re-build and run the app with Compose. 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/6.jpg)
 #### Step 7: Update the application
 1. Ubah pesan pada file app.py dari ``` Hello World``` menjadi ``` Hello from Docker!```
