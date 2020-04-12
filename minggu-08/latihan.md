@@ -1,6 +1,6 @@
 #### Step 1: Setup
 1. Membuat direktori projek
-##### membuat direktori dengan perintah ``` $ mkdir composetest```. Lalu masuk direktori dengan perintah ``` $ cd composetest```.
+##### membuat direktori dengan perintah ``` $ mkdir composetest```. Lalu masuk direktori dengan perintah ``` $ cd composetest```. Direktori ini nantinya digunakan untuk melakukan build image docker dengan compose.
 	
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/l1.jpg)
 
