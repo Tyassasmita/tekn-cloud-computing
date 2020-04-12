@@ -58,7 +58,7 @@
 ``` Hello World! I have been seen 1 times.```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/42.jpg)
-
+##### Pada percobaan diatas dilakukan dengan memanggil lewat ip machine 192.168.99.100 dengan diikuti port 5000, hasilya menghasilkan output 'Hello World! I have been seen 1 times.’. angka 1 menunjukan berapa kali halaman tersebut dikunjungi. Seperti ditampilan percobaan yang kedua, ketika direfresh maka angkanya menjadi 2 times, yang menandakan halaman tersebut dikunjungi sebanyak 2 kali.
 3. Refresh the page.
 
 ``` Hello World! I have been seen 2 times.```
