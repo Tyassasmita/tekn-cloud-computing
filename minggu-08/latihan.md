@@ -66,7 +66,8 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/43.jpg)
 
 4. Untuk melihat image yang telah dibuat dengan menggunakan perintah ```docker image ls```.
-
+##### Docker image adalah blueprint Docker container yang berisi aplikasi dan semua yang Anda butuhkan untuk menjalankan aplikasi.Docker image terdiri dari serangkaian filesystem yang mewakili instruksi dalam Dockerfile image dan membentuk aplikasi perangkat lunak yang dapat dieksekusi.
+##### Saat proses build selesai, image baru akan terdaftar dalam daftar image seperti repository redis dengan tag alpine.
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/44.jpg)
 #### Step 5: Edit the Compose file to add a bind mount
 ###### Edit file ``` docker-compose.yml``` seperti gambar dibawah ini.
