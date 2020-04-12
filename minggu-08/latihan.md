@@ -18,9 +18,9 @@
 #### Step 2: Create a Dockerfile
 ##### Membuat file DockerFile menggunakan perintah ```vim dockerfile```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/21.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/22.jpg)
 ##### Dockerfile di atas merupakan script yang yang berisi dari serangkaian perintah yang akan dieksekusi secara otomatis dan berurutan untuk membuat sebuah image.Dengan Docker, proses akan sangat ringan dan cepat dibandingkan dengan virtual mesin yang berbasis hypervisor. 
 ##### Pada isi Dockerfile tersebut, akan melakukan build image dengan Python 3.7 image alpine. Dockerfile akan melakukan set direktory aktivitasnya di direktori /code. Lalu Dockerfile tersebut akan melakukan set variabel environment yang digunakan oleh framework flask. Selanjutnya melakukan install gcc sehingga package phyton seperti MarkupSafe dan SQLAlchemy dapat melakukan compile secara cepat. Lalu melakukan copy file requirements.txt dan menginstall dependensi Python. Lalu selanjutnya melakukan copy direktori yang digunakan. Ke dalam workdir dalam image. Lalu yang terakhir mengatur perintah default untuk container ke flask run.
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/22.jpg)
 #### Step 3: Define services in a Compose file
 ##### Membuat File docker-compose.yml menggunakan perintah ``` vim docker-compose.yml```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/31.jpg)
