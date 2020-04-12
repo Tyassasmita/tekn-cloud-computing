@@ -30,7 +30,7 @@
 
 #### Step 4: Build and run your app with Compose
 1. Start up your application by running ```docker-compose up```
-##### Bila ini adalah pertama kalinya saya menjalankan perintah, Docker akan men-download beberapa image seperti MySQL dan Node.js dari Docker Hub sehingga saya harus sabar menunggu.
+##### Bila ini adalah pertama kalinya saya menjalankan perintah, Docker akan men-download beberapa image seperti MySQL dan Node.js dari Docker Hub sehingga harus sabar menunggu.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/41.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/411.jpg)
@@ -74,6 +74,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/5.jpg)
 ##### Pada konfigurasi di atas, terdapat dua buah service yang masing-masing akan mewakili sebuah container Docker. Dengan demikian, konfigurasi di atas akan menjalankan dua instance dari container yang berbeda: web dan redis.Pada Docker, setiap container dibuat berdasarkan image. Untuk redis, image akan dibuat berdasarkan isi Dockerfile di folder redis.
 #### Step 6: Re-build and run the app with Compose. 
+##### Docker akan men-download beberapa image seperti MySQL dan Node.js dari Docker Hub sehingga harus sabar menunggu.
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-08/6.jpg)
 #### Step 7: Update the application
 1. Ubah pesan pada file app.py dari ``` Hello World``` menjadi ``` Hello from Docker!```
