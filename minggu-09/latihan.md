@@ -6,6 +6,7 @@
 1. Run the following command in your Linux console.
 
     ``` docker container run alpine hostname```
+    
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L1.jpg)
 2. Docker keeps a container running as long as the process it started inside the container is still running. 
 ```  docker container ls --all```
