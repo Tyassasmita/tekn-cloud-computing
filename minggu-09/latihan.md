@@ -9,13 +9,18 @@
     
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L1.jpg)
 2. Docker keeps a container running as long as the process it started inside the container is still running. 
+
 ```  docker container ls --all```
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L2.jpg)
+    
+    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L2.jpg)
 #### Run an interactive Ubuntu container
 1. Run a Docker container and access its shell.
-``` docker container run --interactive --tty --rm ubuntu bash```
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L3.jpg)
+
+    ``` docker container run --interactive --tty --rm ubuntu bash```
+
+    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L3.jpg)
 2. Run the following commands in the container.
+   
     ```  ls /```
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L4.jpg)
@@ -29,12 +34,14 @@
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L6.jpg)
 
 3. Let’s check the version of our host VM
+    
     ``` cat /etc/issue```
     
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L7.jpg)
 
 #### Run a background MySQL container
 1. Run a new MySQL container
+    
     ```  docker container run \```
 
     ```--detach \```
@@ -54,12 +61,12 @@
 3. You can check what’s happening in your containers by using a couple of built-in Docker commands: ```docker container logs``` and ```docker container top```.
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L10.jpg)
 4. List the MySQL version using docker container exec.
-
     ```  docker exec -it mydb \```
     ``` mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L11.jpg)
 
 5. You can also use docker container exec to connect to a new shell process inside an already-running container. 
+    
     ```  docker exec -it mydb sh```
 
     ```  mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version ```
@@ -90,15 +97,21 @@
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L17.jpg)
 
 5. Use the docker image build command to create a new Docker image
+   
     ``` docker image build --tag $DOCKERID/linux_tweet_app:1.0 .```
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L18.jpg)
 6. Use the ```docker container run``` command to start a new container from the image you created.
 
    ``` docker container run \```
+   
    ``` --detach \```
+   
    ``` --publish 80:80 \```
+   
    ``` --name linux_tweet_app \```
+   
    ``` $DOCKERID/linux_tweet_app:1.0```
+   
    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L19.jpg)
 
 7. Check in the Browser with ip ``` http://192.168.99.100/```
@@ -112,6 +125,7 @@
 ### Task 3: Modify a running website
 #### Start our web app with a bind mount
 1. Let’s start the web app and mount the current directory into the container.
+    
     ```docker container run \```
 
     ``` --detach \```
@@ -163,7 +177,7 @@
 1.Build a new image and tag it as 2.0
     ```  docker image build --tag $DOCKERID/linux_tweet_app:2.0 .```
 
-    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L27.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L27.jpg)
 2. Let’s look at the images on the system.
 
     ```docker image ls```
