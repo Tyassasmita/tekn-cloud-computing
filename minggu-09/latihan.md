@@ -4,8 +4,9 @@
 ### Task 1: Run some simple Docker containers
 #### Run a single task in an Alpine Linux container
 1. Run the following command in your Linux console.
-``` docker container run alpine hostname```
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L1.jpg)
+
+    ``` docker container run alpine hostname```
+    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L1.jpg)
 2. Docker keeps a container running as long as the process it started inside the container is still running. 
 ```  docker container ls --all```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L2.jpg)
