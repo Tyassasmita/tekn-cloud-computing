@@ -10,9 +10,9 @@
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L1.jpg)
 2. Docker keeps a container running as long as the process it started inside the container is still running. 
 
-```  docker container ls --all```
+    ```  docker container ls --all```
     
-    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L2.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L2.jpg)
 #### Run an interactive Ubuntu container
 1. Run a Docker container and access its shell.
 
@@ -61,7 +61,9 @@
 3. You can check what’s happening in your containers by using a couple of built-in Docker commands: ```docker container logs``` and ```docker container top```.
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L10.jpg)
 4. List the MySQL version using docker container exec.
+    
     ```  docker exec -it mydb \```
+    
     ``` mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L11.jpg)
 
@@ -120,6 +122,7 @@
 8. Once you’ve accessed your website, shut it down and remove it
 
     ```  docker container rm --force linux_tweet_app```
+    
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L21.jpg)
 
 ### Task 3: Modify a running website
@@ -151,6 +154,7 @@
 1. Stop and remove the currently running container.
 
     ``` docker rm --force linux_tweet_app```
+
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L25.jpg)
 2. Rerun the current version without a bind mount.
 
@@ -182,7 +186,7 @@
 
     ```docker image ls```
 
-    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L28.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L28.jpg)
 
 #### Test the new version
 1. Run a new container from the new version of the image
@@ -207,14 +211,16 @@
     ``` docker image ls -f reference="$DOCKERID/*"```
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L30.jpg)
-2.Before you can push your images, you will need to log into Docker Hub.
+
+2. Before you can push your images, you will need to log into Docker Hub.
+
     ``` docker login```
 3. Push version 1.0 of your web app using ```docker image push```.
 
     ``` docker image push $DOCKERID/linux_tweet_app:1.0```
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L31.jpg)
-3. Now push version 2.0.
+4. Now push version 2.0.
     ``` docker image push $DOCKERID/linux_tweet_app:2.0```
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L32.jpg)
