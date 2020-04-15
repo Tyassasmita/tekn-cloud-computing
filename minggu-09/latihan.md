@@ -14,14 +14,18 @@
 ``` docker container run --interactive --tty --rm ubuntu bash```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L3.jpg)
 2. Run the following commands in the container.
+
 ```  ls /```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L4.jpg)
+
 ``` ps aux```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L5.jpg)
+
 ``` cat /etc/issue```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L6.jpg)
 3. Let’s check the version of our host VM
 ``` cat /etc/issue```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L7.jpg)
 
 #### Run a background MySQL container
@@ -31,6 +35,7 @@
  ```--name mydb \```
  ```-e MYSQL_ROOT_PASSWORD=my-secret-pw \```
  ```mysql:latest```
+
  ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L8.jpg)
  2.List the running containers.
  ```docker container ls```
@@ -49,11 +54,15 @@
 ### Task 2: Package and run a custom app using Docker
 #### Build a simple website image
 1. Make sure you’re in the linux_tweet_app directory.
+
 ```cd linux_tweet_app```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L13.jpg)
 2. Display the contents of the Dockerfile.
+
 ``` cat Dockerfile```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L14.jpg)
 3. Echo the value of the variable back to the terminal to ensure it was stored correctly.
+
 ```  echo $DOCKERID```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L15.jpg)
