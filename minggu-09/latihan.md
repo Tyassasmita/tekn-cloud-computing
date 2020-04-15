@@ -79,6 +79,7 @@
 3. You will have to manually type this command as it requires your unique DockerID.
 
     ``` export DOCKERID=<your docker id>```
+
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L16.jpg)
 4. Echo the value of the variable back to the terminal to ensure it was stored correctly.
 
@@ -102,6 +103,7 @@
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L20.jpg)
 
 8. Once you’ve accessed your website, shut it down and remove it
+
     ```  docker container rm --force linux_tweet_app```
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L21.jpg)
 
@@ -109,58 +111,94 @@
 #### Start our web app with a bind mount
 1. Let’s start the web app and mount the current directory into the container.
     ```docker container run \```
+
     ``` --detach \```
+    
     ``` --publish 80:80 \```
+    
     ``` --name linux_tweet_app \```
+    
     ``` --mount type=bind,source="$(pwd)",target=/usr/share/nginx/html \  ```
+    
     ``` $DOCKERID/linux_tweet_app:1.0```
+    
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L22.jpg)
 
 #### Modify the running website
 1. Copy a new ```index.html``` into the container.
+
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L23.jpg)
 2. Go to the running website and refresh the page.
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L24.jpg)
 
 ##### To show this, stop the current container and re-run the 1.0 image without a bind mount.
 1. Stop and remove the currently running container.
+
     ``` docker rm --force linux_tweet_app```
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L25.jpg)
 2. Rerun the current version without a bind mount.
+
     ```docker container run \```
+
     ``` --detach \```
+
     ``` --publish 80:80 \```
+
     ``` --name linux_tweet_app \```
+
     ``` $DOCKERID/linux_tweet_app:1.0```
+
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L26.jpg)
 3. Notice the website is back to the original version
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L20.jpg)
 4. Stop and remove the current container
+
     ``` docker rm --force linux_tweet_app```
+    
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L25.jpg)
 
 #### Update the image
 1.Build a new image and tag it as 2.0
     ```  docker image build --tag $DOCKERID/linux_tweet_app:2.0 .```
+
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L27.jpg)
 2. Let’s look at the images on the system.
 
     ```docker image ls```
+
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L28.jpg)
 
 #### Test the new version
 1. Run a new container from the new version of the image
 
     ``` docker container run \```
+   
     ``` --detach \```
+   
     ``` --publish 80:80 \```
+   
     ``` --name linux_tweet_app \```
+   
     ```$DOCKERID/linux_tweet_app:2.0```
+   
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L29.jpg)
 2. Check the new version of the website 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L24.jpg)
 
 #### Push your images to Docker Hub
 1. List the images on your Docker host.
+
     ``` docker image ls -f reference="$DOCKERID/*"```
+
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L30.jpg)
+2.Before you can push your images, you will need to log into Docker Hub.
+    ``` docker login```
+3. Push version 1.0 of your web app using ```docker image push```.
+
+    ``` docker image push $DOCKERID/linux_tweet_app:1.0```
+
+    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L31.jpg)
+3. Now push version 2.0.
+    ``` docker image push $DOCKERID/linux_tweet_app:2.0```
+
+    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L32.jpg)
