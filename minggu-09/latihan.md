@@ -162,6 +162,7 @@
     ``` --mount type=bind,source="$(pwd)",target=/usr/share/nginx/html \  ```
     
     ``` $DOCKERID/linux_tweet_app:1.0```
+    ##### Container tersebut akan berjalan sebagai NGINX web server dengan menggunakan bind mount. Saat kita menggunakan bind mount, file dan direktory pada host machine akan dipasang di dalam container. Pada proses tersebut direktory dan file akan dipasang di dalam direktory /usr/share/nginx/html pada container., digunakan flag –publish untuk mempublikasikan port 80 yang berada pada container ke port 80 yang berada di dalam host. Proses tersebut akan memungkinkan lalu lintas masuk ke host Docker pada port 80 untuk diarahkan ke port 80 dalam container. Format flag --publish adalah host_port: container_port. Hasilnya di dalam user id docker kita akan menjalankan image dengan nama linux_tweet_app:1.0
     
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L22.jpg)
 
