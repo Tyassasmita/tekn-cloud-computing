@@ -90,14 +90,18 @@
     ``` cat Dockerfile```
     
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L14.jpg)
+    ##### FROM menentukan gambar dasar untuk digunakan sebagai titik awal untuk gambar baru yang di buat. Untuk contoh ini, mulai dari ```nginx:latest```.
+    ##### COPY menyalin file dari host Docker ke dalam image.COPY digunakan untuk menyalin dua file ke dalam image: index.html. dan grafik yang akan digunakan di halaman web.
+    ##### EXPOSE dokumen yang port aplikasi gunakan.
+    ##### CMD menentukan perintah apa yang harus dijalankan ketika sebuah kontainer dimulai dari image.
 3. You will have to manually type this command as it requires your unique DockerID.
 
-    ``` export DOCKERID=<your docker id>```
+    ##### ``` export DOCKERID=<your docker id>``` untuk ekspor dockerID dari DockerHub . Pastikan sudah memiliki DockerID.
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L16.jpg)
 4. Echo the value of the variable back to the terminal to ensure it was stored correctly.
 
-    ```  echo $DOCKERID```
+    ##### ```  echo $DOCKERID``` untuk memastikan nilai variabel kembali ke terminal disimpan dengan benar.
     
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L17.jpg)
 
@@ -105,6 +109,7 @@
    
     ``` docker image build --tag $DOCKERID/linux_tweet_app:1.0 .```
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L18.jpg)
+    ##### --tag memungkinkan kita memberi image nama khusus. Dalam hal ini terdiri dari DockerID, nama aplikasi, dan versi. Memiliki ID Docker yang terlampir pada nama akan memungkinkan untuk menyimpannya di Docker Hub di langkah selanjutnya.
 6. Use the ```docker container run``` command to start a new container from the image you created.
 
    ``` docker container run \```
