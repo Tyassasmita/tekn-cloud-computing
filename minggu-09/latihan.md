@@ -10,14 +10,14 @@
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L1.jpg)
 2. Docker keeps a container running as long as the process it started inside the container is still running. 
 
-    ##### Untuk mengecek aplikasi berjalan dengan baik dapat dilakukan dengan menggunakan perintah ```  docker container ls --all```. Dalam kontainer ini, proses nama host keluar segera setelah output ditulis. 
+    ##### Untuk mengecek aplikasi berjalan dengan baik dapat dilakukan dengan menggunakan perintah ```  docker container ls --all```. Dalam kontainer ini, proses nama host keluar segera setelah output ditulis. Untuk melakukan cek container yang sedang berjalan. Diikuti –all berarti akan mengecek semua container yang berjalan. Pada list container tersebut sudah terdapat image alpine, berarti contianer alpine tadi sudah berhasil dipull.
     
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L2.jpg)
 #### Run an interactive Ubuntu container
 1. Run a Docker container and access its shell.
 
     ``` docker container run --interactive --tty --rm ubuntu bash```
-    ##### untuk menjalankan akses shell, disini terdapat 3 parameter yaitu ```interactive``` untuk sesi interaktif, ```tty``` untuk mengalokasikan pseudo-tty, dan ```rm``` untuk memberi tahu Docker untuk terus maju dan mengeluarkan kontainer setelah selesai dieksekusi.
+    ##### untuk menjalankan akses shell, disini terdapat 3 parameter yaitu ```interactive``` untuk sesi interaktif, ```tty``` untuk mengalokasikan pseudo-tty, dan ```rm``` untuk memberi tahu Docker untuk terus maju dan mengeluarkan kontainer setelah selesai dieksekusi. Pada proses tersebut melakukan pull container ubuntu langsung dari docker hub. Nantinya linux container tersebut berada di atas alpine linux docker host dan berjalan secara interaktif.
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L3.jpg)
 2. Run the following commands in the container.
