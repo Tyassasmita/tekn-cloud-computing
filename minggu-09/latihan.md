@@ -76,7 +76,7 @@
 
     ##### ```  mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version ``` untuk memriksa nomor versi, hanya kali ini dari dalam sesi shell baru di dalam kontainer.
  
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L12.jpg)
+    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L12.jpg)
 
 ### Task 2: Package and run a custom app using Docker
 #### Build a simple website image
