@@ -5,7 +5,7 @@
 #### Run a single task in an Alpine Linux container
 1. Run the following command in your Linux console.
 
-    ##### Kegunaan perintah ``` docker container run alpine hostname``` untuk menampilkan nama host kontainer image:alpine yaitu 4a2bbb4a72fd.
+    ##### Kegunaan perintah ``` docker container run alpine hostname``` untuk menampilkan nama host kontainer image:alpine yaitu 4a2bbb4a72fd. Untuk menjalankan container alpine dengan melakukan pull container tersebut langsung dari docker hub. Pada perintah diikuti perintah hostname yang nantinya akan menampilkan hostname container tersebut, yaitu 4a2bbb4a72fd
     
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L1.jpg)
 2. Docker keeps a container running as long as the process it started inside the container is still running. 
