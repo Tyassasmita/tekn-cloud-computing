@@ -10,7 +10,7 @@
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L1.jpg)
 2. Docker keeps a container running as long as the process it started inside the container is still running. 
 
-    ##### Untuk mengecek aplikasi berjalan dengan baik dapat dilakuka dengan menggunakan perintah ```  docker container ls --all```. Dalam kontainer ini, proses nama host keluar segera setelah output ditulis. 
+    ##### Untuk mengecek aplikasi berjalan dengan baik dapat dilakukan dengan menggunakan perintah ```  docker container ls --all```. Dalam kontainer ini, proses nama host keluar segera setelah output ditulis. 
     
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L2.jpg)
 #### Run an interactive Ubuntu container
@@ -36,7 +36,7 @@
 
 3. Let’s check the version of our host VM
     
-    ``` cat /etc/issue```
+    #### ``` cat /etc/issue``` untuk mengecek versi host VM yang digunakan. Host VM menjalankan Alpine Linux, namun ini dapat menjalankan kontainer Ubuntu. Distribusi Linux di dalam kontainer tidak perlu cocok dengan distribusi Linux yang berjalan di host Docker. Namun, kontainer Linux mengharuskan host Docker menjalankan kernel Linux. 
     
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L7.jpg)
 
@@ -45,11 +45,12 @@
     
     ```  docker container run \```
 
-    ```--detach \```
+    ##### ```--detach \``` akan menjalankan kontainer di latar belakang.
     
-    ```--name mydb \```
+    ##### ```--name mydb \``` akan menamainya mydb.
     
     ```-e MYSQL_ROOT_PASSWORD=my-secret-pw \```
+    ##### -e akan menggunakan variabel lingkungan untuk menentukan kata sandi root. (CATATAN: Ini seharusnya tidak pernah dilakukan dalam produksi).
     
     ```mysql:latest```
 
@@ -57,22 +58,25 @@
     
  2.List the running containers.
  
- ```docker container ls```
+ ##### ```docker container ls``` Untuk mengecek aplikasi yang sedang berjalan. 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L9.jpg)
 3. You can check what’s happening in your containers by using a couple of built-in Docker commands: ```docker container logs``` and ```docker container top```.
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L10.jpg)
 4. List the MySQL version using docker container exec.
     
-    ```  docker exec -it mydb \```
+    ##### ```  docker exec -it mydb \``` memungkinkan untuk menjalankan perintah di dalam sebuah container
+
     
     ``` mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L11.jpg)
 
 5. You can also use docker container exec to connect to a new shell process inside an already-running container. 
     
-    ```  docker exec -it mydb sh```
+    ##### ```  docker exec -it mydb sh``` untuk terhubung ke proses shell baru di dalam kontainer yang sudah berjalan. Menjalankan perintah tersebut akan memberi shell interaktif (sh) di dalam kontainer MySQL.
 
-    ```  mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version ```
+ 6. Let’s check the version number by running the same command again, only this time from within the new shell session in the container.
+    
+    ##### ```  mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version ``` untuk memriksa nomor versi, hanya kali ini dari dalam sesi shell baru di dalam kontainer.
  
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L12.jpg)
 
