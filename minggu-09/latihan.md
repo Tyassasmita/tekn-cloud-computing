@@ -68,7 +68,7 @@
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L10.jpg)
 4. List the MySQL version using docker container exec.
 
-##### ```docker exec -it mydb \``` memungkinkan untuk menjalankan perintah di dalam sebuah container.
+##### ```docker exec -it mydb \``` memungkinkan untuk menjalankan perintah di dalam sebuah container. PID yang ditampilkan di sini adalah PID untuk proses pada docker host. Untuk melihat proses mysqld yang sama berjalan sebagai proses utama container (PID 1) maka dilakukan perintah docker exec -it mydb \. Meskipun MySQL sedang berjalan, MySQL tersebut terpisah di dalam container karena tidak ada port jaringan yang telah dipublikasikan ke host. Lalu lintas jaringan tidak dapat mencapai kontainer dari host kecuali port diterbitkan secara eksplisit.
 
     ``` mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L11.jpg)
