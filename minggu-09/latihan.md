@@ -22,7 +22,7 @@
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L3.jpg)
 2. Run the following commands in the container.
    
-    ##### ```  ls /``` untuk mencantumkan isi direktur root dalam kontainer.
+    ##### ```  ls /``` Untuk menampilkan isi direktori dari root yang terdapat dalam container ubuntu.
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L4.jpg)
 
