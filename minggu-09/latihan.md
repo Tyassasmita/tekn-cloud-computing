@@ -57,8 +57,8 @@
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L8.jpg)
     
  2.List the running containers.
- 
- ##### ```docker container ls``` Untuk mengecek aplikasi yang sedang berjalan. 
+    
+    ##### ```docker container ls``` Untuk mengecek aplikasi yang sedang berjalan.
     
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L9.jpg)
 3. You can check what’s happening in your containers by using a couple of built-in Docker commands: ```docker container logs``` and ```docker container top```.
