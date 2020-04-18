@@ -74,8 +74,6 @@
     
     ##### ```  docker exec -it mydb sh``` untuk terhubung ke proses shell baru di dalam kontainer yang sudah berjalan. Menjalankan perintah tersebut akan memberi shell interaktif (sh) di dalam kontainer MySQL.
 
- 6. Let’s check the version number by running the same command again, only this time from within the new shell session in the container.
-    
     ##### ```  mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version ``` untuk memriksa nomor versi, hanya kali ini dari dalam sesi shell baru di dalam kontainer.
  
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L12.jpg)
