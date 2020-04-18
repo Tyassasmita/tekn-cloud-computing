@@ -54,7 +54,7 @@
     
     ```mysql:latest```
     ##### Container tersebut merupakan container MySQL yang berjalan sebagai container background. Nantinya background container tersebut sebaga cara bagaimana kita akan menjalankan aplikasi. Image yang direquest tersebut tidak terdapat di local direktory, jadi Docker akan melakukan pull dari Docker hub. Selama proses MySQL berjalan, Docker akan menjaga kontainer tetap berjalan di latar belakang.
-    
+
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L8.jpg)
     
  2.List the running containers.
@@ -63,6 +63,8 @@
     
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L9.jpg)
 3. You can check what’s happening in your containers by using a couple of built-in Docker commands: ```docker container logs``` and ```docker container top```.
+##### Docker container logs akan menjalankan perintah untuk melihat catatan aktivitas yang terjadi pada contianer yang berjalan. Antara lain: melakukan entrypoint script untuk mysql server yang berjalan pada debian10, beralih ke user mysql, inisialisasi file database, lalu terdapat beberapa warning salah satunya memberitahu bahwa direktori localhost telah dibuat dengan tanpa password. Selanjutnya terdapat aktivitas inisialisasi file database dan menjalankan server sementara, dan rerakhir terdapat warning bahwa tidak bisa memuat file iso3166.tab dan leap_seconds.list pada diektori /usr/share/zoneinfo.
+
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L10.jpg)
 4. List the MySQL version using docker container exec.
 
