@@ -64,8 +64,8 @@
 3. You can check what’s happening in your containers by using a couple of built-in Docker commands: ```docker container logs``` and ```docker container top```.
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L10.jpg)
 4. List the MySQL version using docker container exec.
-    
-    ##### ```  docker exec -it mydb \``` memungkinkan untuk menjalankan perintah di dalam sebuah container
+
+    ##### ```  docker exec -it mydb \``` memungkinkan untuk menjalankan perintah di dalam sebuah container.
 
     ``` mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L11.jpg)
