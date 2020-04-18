@@ -133,6 +133,7 @@
    ``` --name linux_tweet_app \```
    
    ``` $DOCKERID/linux_tweet_app:1.0```
+   ##### Container tersebut akan berjalan sebagai NGINX web server, digunakan flag –publish untuk mempublikasikan port 80 yang berada pada container ke port 80 yang berada di dalam host. Proses tersebut akan memungkinkan lalu lintas masuk ke host Docker pada port 80 untuk diarahkan ke port 80 dalam container. Format flag --publish adalah host_port: container_port. Hasilnya di dalam user id docker kita akan menjalankan image dengan nama linux_tweet_app:1.0.
    
    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L19.jpg)
 
