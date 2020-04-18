@@ -100,7 +100,7 @@
     ##### CMD menentukan perintah apa yang harus dijalankan ketika sebuah kontainer dimulai dari image.
 3. You will have to manually type this command as it requires your unique DockerID.
 
-    ##### ``` export DOCKERID=<your docker id>``` untuk ekspor dockerID dari DockerHub . Pastikan sudah memiliki DockerID.
+    ##### ``` export DOCKERID=<your docker id>``` untuk menampilkan id docker yang digunakan untuk build image.
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L16.jpg)
 4. Echo the value of the variable back to the terminal to ensure it was stored correctly.
