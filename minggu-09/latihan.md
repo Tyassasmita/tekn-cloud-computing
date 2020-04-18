@@ -59,6 +59,7 @@
  2.List the running containers.
  
  ##### ```docker container ls``` Untuk mengecek aplikasi yang sedang berjalan. 
+    
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L9.jpg)
 3. You can check what’s happening in your containers by using a couple of built-in Docker commands: ```docker container logs``` and ```docker container top```.
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L10.jpg)
@@ -110,6 +111,7 @@
     ``` docker image build --tag $DOCKERID/linux_tweet_app:1.0 .```
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L18.jpg)
     ##### --tag memungkinkan kita memberi image nama khusus. Dalam hal ini terdiri dari DockerID, nama aplikasi, dan versi. Memiliki ID Docker yang terlampir pada nama akan memungkinkan untuk menyimpannya di Docker Hub di langkah selanjutnya.
+
 6. Use the ```docker container run``` command to start a new container from the image you created.
 
    ``` docker container run \```
