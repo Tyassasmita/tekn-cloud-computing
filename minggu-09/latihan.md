@@ -50,10 +50,11 @@
     ##### ```--name mydb \``` akan menamainya mydb.
     
     ```-e MYSQL_ROOT_PASSWORD=my-secret-pw \```
-    ##### -e akan menggunakan variabel lingkungan untuk menentukan kata sandi root. (CATATAN: Ini seharusnya tidak pernah dilakukan dalam produksi).
+    ##### -e merupakan variabel environment yang akan melakukan pengaturan password pada root user, yaitu my-secret-pw
     
     ```mysql:latest```
-
+    ##### Container tersebut merupakan container MySQL yang berjalan sebagai container background. Nantinya background container tersebut sebaga cara bagaimana kita akan menjalankan aplikasi. Image yang direquest tersebut tidak terdapat di local direktory, jadi Docker akan melakukan pull dari Docker hub. Selama proses MySQL berjalan, Docker akan menjaga kontainer tetap berjalan di latar belakang.
+    
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L8.jpg)
     
  2.List the running containers.
