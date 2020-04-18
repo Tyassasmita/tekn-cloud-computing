@@ -143,7 +143,7 @@
 8. Once you’ve accessed your website, shut it down and remove it
 
     ```  docker container rm --force linux_tweet_app```
-    ##### Ini yang docker container rm --force linux_tweet_app proses tesebut akan melakukan shut down image fengan menggunakan parameter –force untuk menghapus container yang berjalan tanpa harus melakukan shu down container tersebut. Proses tersebut tidak akan men shut down container dan menghapus secara permanen dari docker host.
+    ##### Proses tesebut akan melakukan shut down image fengan menggunakan parameter –force untuk menghapus container yang berjalan tanpa harus melakukan shu down container tersebut. Proses tersebut tidak akan men shut down container dan menghapus secara permanen dari docker host.
     
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L21.jpg)
 
