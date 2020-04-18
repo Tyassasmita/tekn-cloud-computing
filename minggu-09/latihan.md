@@ -6,11 +6,12 @@
 1. Run the following command in your Linux console.
 
     ``` docker container run alpine hostname```
+    ##### Kegunaan perintah ``` docker container run alpine hostname``` untuk menjalankan alpine hostaname pada container docker.
     
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L1.jpg)
 2. Docker keeps a container running as long as the process it started inside the container is still running. 
 
-    ```  docker container ls --all```
+    ##### Untuk mengecek aplikasi berjalan dengan baik dapat dilakuka dengan menggunakan perintah ```  docker container ls --all```
     
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L2.jpg)
 #### Run an interactive Ubuntu container
