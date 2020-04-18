@@ -17,19 +17,20 @@
 1. Run a Docker container and access its shell.
 
     ``` docker container run --interactive --tty --rm ubuntu bash```
+    ##### untuk menjalankan akses shell, disini terdapat 3 parameter yaitu ```interactive``` untuk sesi interaktif, ```tty``` untuk mengalokasikan pseudo-tty, dan ```rm``` untuk memberi tahu Docker untuk terus maju dan mengeluarkan kontainer setelah selesai dieksekusi.
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L3.jpg)
 2. Run the following commands in the container.
    
-    ```  ls /```
+    ```  ls /``` ##### untuk mencantumkan isi direktur root dalam kontainer.
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L4.jpg)
 
-    ``` ps aux```
+    ``` ps aux``` ##### untuk menunjukkan proses yang berjalan dalam kontainer.
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L5.jpg)
 
-    ``` cat /etc/issue```
+    ``` cat /etc/issue``` ##### untuk menunjukkan distro Linux mana yang dijalankan kontainer, dalam hal ini Ubuntu 18.04.3 LTS.
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L6.jpg)
 
