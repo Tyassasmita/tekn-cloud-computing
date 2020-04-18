@@ -67,7 +67,6 @@
     
     ##### ```  docker exec -it mydb \``` memungkinkan untuk menjalankan perintah di dalam sebuah container
 
-    
     ``` mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version```
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L11.jpg)
 
@@ -91,6 +90,7 @@
     ``` cat Dockerfile```
     
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L14.jpg)
+    ##### PENJELASAN 
     ##### FROM menentukan gambar dasar untuk digunakan sebagai titik awal untuk gambar baru yang di buat. Untuk contoh ini, mulai dari ```nginx:latest```.
     ##### COPY menyalin file dari host Docker ke dalam image.COPY digunakan untuk menyalin dua file ke dalam image: index.html. dan grafik yang akan digunakan di halaman web.
     ##### EXPOSE dokumen yang port aplikasi gunakan.
@@ -110,6 +110,7 @@
    
     ``` docker image build --tag $DOCKERID/linux_tweet_app:1.0 .```
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L18.jpg)
+    ##### PENJELASAN
     ##### --tag memungkinkan kita memberi image nama khusus. Dalam hal ini terdiri dari DockerID, nama aplikasi, dan versi. Memiliki ID Docker yang terlampir pada nama akan memungkinkan untuk menyimpannya di Docker Hub di langkah selanjutnya.
 
 6. Use the ```docker container run``` command to start a new container from the image you created.
