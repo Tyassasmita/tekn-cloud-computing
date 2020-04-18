@@ -22,15 +22,15 @@
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L3.jpg)
 2. Run the following commands in the container.
    
-    ```  ls /``` ##### untuk mencantumkan isi direktur root dalam kontainer.
+    ##### ```  ls /``` untuk mencantumkan isi direktur root dalam kontainer.
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L4.jpg)
 
-    ``` ps aux``` ##### untuk menunjukkan proses yang berjalan dalam kontainer.
+    ##### ``` ps aux``` untuk menunjukkan proses yang berjalan dalam kontainer.
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L5.jpg)
 
-    ``` cat /etc/issue``` ##### untuk menunjukkan distro Linux mana yang dijalankan kontainer, dalam hal ini Ubuntu 18.04.3 LTS.
+    ##### ``` cat /etc/issue``` untuk menunjukkan distro Linux mana yang dijalankan kontainer, dalam hal ini Ubuntu 18.04.3 LTS.
 
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L6.jpg)
 
