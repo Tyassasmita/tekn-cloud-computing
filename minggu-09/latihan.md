@@ -65,7 +65,7 @@
 3. You can check what’s happening in your containers by using a couple of built-in Docker commands: ```docker container logs``` and ```docker container top```.
 ##### Docker container logs akan menjalankan perintah untuk melihat catatan aktivitas yang terjadi pada contianer yang berjalan. Antara lain: melakukan entrypoint script untuk mysql server yang berjalan pada debian10, beralih ke user mysql, inisialisasi file database, lalu terdapat beberapa warning salah satunya memberitahu bahwa direktori localhost telah dibuat dengan tanpa password. Selanjutnya terdapat aktivitas inisialisasi file database dan menjalankan server sementara, dan rerakhir terdapat warning bahwa tidak bisa memuat file iso3166.tab dan leap_seconds.list pada diektori /usr/share/zoneinfo.
 
-    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L10.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L10.jpg)
 4. List the MySQL version using docker container exec.
 
 ##### ```docker exec -it mydb \``` memungkinkan untuk menjalankan perintah di dalam sebuah container. PID yang ditampilkan di sini adalah PID untuk proses pada docker host. Untuk melihat proses mysqld yang sama berjalan sebagai proses utama container (PID 1) maka dilakukan perintah docker exec -it mydb \. Meskipun MySQL sedang berjalan, MySQL tersebut terpisah di dalam container karena tidak ada port jaringan yang telah dipublikasikan ke host. Lalu lintas jaringan tidak dapat mencapai kontainer dari host kecuali port diterbitkan secara eksplisit.
