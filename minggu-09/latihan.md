@@ -134,7 +134,7 @@
    
    ``` $DOCKERID/linux_tweet_app:1.0```
    ##### Container tersebut akan berjalan sebagai NGINX web server, digunakan flag –publish untuk mempublikasikan port 80 yang berada pada container ke port 80 yang berada di dalam host. Proses tersebut akan memungkinkan lalu lintas masuk ke host Docker pada port 80 untuk diarahkan ke port 80 dalam container. Format flag --publish adalah host_port: container_port. Hasilnya di dalam user id docker kita akan menjalankan image dengan nama linux_tweet_app:1.0.
-   
+
    ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L19.jpg)
 
 7. Check in the Browser with ip ``` http://192.168.99.100/```
@@ -143,6 +143,7 @@
 8. Once you’ve accessed your website, shut it down and remove it
 
     ```  docker container rm --force linux_tweet_app```
+    ##### Ini yang docker container rm --force linux_tweet_app proses tesebut akan melakukan shut down image fengan menggunakan parameter –force untuk menghapus container yang berjalan tanpa harus melakukan shu down container tersebut. Proses tersebut tidak akan men shut down container dan menghapus secara permanen dari docker host.
     
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L21.jpg)
 
