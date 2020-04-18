@@ -115,6 +115,12 @@
     ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-09/L18.jpg)
     ##### PENJELASAN
     ##### --tag memungkinkan kita memberi image nama khusus. Dalam hal ini terdiri dari DockerID, nama aplikasi, dan versi. Memiliki ID Docker yang terlampir pada nama akan memungkinkan untuk menyimpannya di Docker Hub di langkah selanjutnya.
+    ##### Step 1/5, dari nginx , akan melakukan pull dari docker hub
+    ##### Step 2/5, akan mencopy yang dibutuhkan pada proses build container yaitu index.html dari direktori /usr/share/nginx/html
+    ##### Step 3/5, akan mencopy yang dibutuhkan pada proses build container yaitu linux.png dari direktori /usr/share/nginx/html
+    ##### Step 4/5, Perintah EXPOSE digunakan untuk menghubungkan port tertentu untuk mengaktifkan network antara proses yang berjalan di dalam container dan mesin host.
+    ##### Step 5/5, Perintah CMD hampir sama dengan perintah RUN, CMD digunakan untuk mengeksekusi perintah yang lebih spesifik, seperti pada saat proses pembuatan container pada image.
+    ##### Dockerfile di atas merupakan script yang yang berisi dari serangkaian perintah yang akan dieksekusi secara otomatis dan berurutan untuk membuat sebuah image.
 
 6. Use the ```docker container run``` command to start a new container from the image you created.
 
