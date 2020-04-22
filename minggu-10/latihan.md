@@ -14,8 +14,6 @@
 ### Step 3: Inspect a network
 ```docker network inspect bridge```
 
-``` docker network ls```
-
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/3.jpg)
 
 ### Step 4: List network driver plugins
@@ -72,6 +70,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/14.jpg)
 
 ``` docker exec -it fcdbadcccbf6 /bin/bash```
+
 ``` apt-get update && apt-get install -y iputils-ping```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/28.jpg)
@@ -185,6 +184,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/43.jpg)
 
 ``` docker exec -it fcdbadcccbf6 /bin/bash```
+
 ``` apt-get update && apt-get install -y iputils-ping```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/28.jpg)
@@ -206,26 +206,26 @@
 
 ``` ping -c5 myservice```
 
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/54.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/54.jpeg)
 
 ``` docker service inspect myservice```
 
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/55.jpg)
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/56.jpg)
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/57.jpg)
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/58.jpg)
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/59.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/55.jpeg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/56.jpeg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/57.jpeg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/58.jpeg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/59.jpeg)
 
 ## Cleaning Up
 
 ``` docker service rm myservice```
 
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/60.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/60.jpeg)
 
 ``` docker ps```
 
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/61.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/61.jpeg)
 
 ```docker swarm leave --force```
 
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/62.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/62.jpeg)
