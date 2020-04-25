@@ -7,7 +7,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/1.jpg)
 
 ### Step 2: List networks
-``` docker network ls```
+#### ``` docker network ls``` digunakan untuk melihat daftar jaringan kontainer yang telah dibuat. Setiap jaringan mendapatkan ID dan NAME yang unik. Setiap jaringan juga dikaitkan dengan satu driver.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/2.jpg)
 
