@@ -19,7 +19,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/3.jpg)
 
 ### Step 4: List network driver plugins
-``` docker info```
+#### ```docker info``` digunakan untuk menunjukkan banyak informasi menarik tentang instalasi Docker.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/4.jpg)
 
