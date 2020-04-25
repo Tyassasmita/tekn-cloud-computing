@@ -65,7 +65,7 @@
 ### Step 3: Test network connectivity
 ``` ping -c5 172.17.0.2```
 #### Pada proses ping diatas akan melakukan ping IP address dari container interface bridge docker0 dengan perintah ping -c5 172.17.0.2. 
-#### Pada output hasil ping nya menandakab bahwa host pada docker dapat melakukan ping pada container dalam interface bridge yang telah dibuat
+#### Pada output hasil ping nya menandakab bahwa host pada docker dapat melakukan ping pada container dalam interface bridge yang telah dibuat.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/13.jpg)
 
@@ -73,9 +73,9 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/14.jpg)
 
-``` docker exec -it fcdbadcccbf6 /bin/bash```
+#### ```docker exec -it fcdbadcccbf6 /bin/bash``` akan menjalankan shell di dalam container ubuntu
 
-``` apt-get update && apt-get install -y iputils-ping```
+#### ```apt-get update && apt-get install -y iputils-ping``` akan melakukan install iputils-ping yang merupakan perintah ping pada Linux. Cara kerja ping sendiri dengan mengirim rangkaian pesan Internet Control Message Protocol ke target host dan menunggu pesan Echo dari dan ke host dan Perangkat. Pesan tersebut memberitahukan User mengenai eksekusi jaringan.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/28.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/29.jpg)
