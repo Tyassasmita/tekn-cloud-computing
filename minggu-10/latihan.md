@@ -120,16 +120,19 @@
 
 ### Step 2: Create an overlay network
 ``` docker network create -d overlay overnet```
+#### Pada perintah docker network create -d overlay overnet. Jaringan overlay mengelola komunikasi di antara Docker daemon yang berjalan dalam swarm. Jaringan overlay dibuat dengan cara yang sama seperti jaringan yang ditentukan User untuk container. Pada perintah tersebut, User akan melampirkan service ke satu atau lebih jaringan overlay yang ada  untuk mengaktifkan komunikasi service ke service. Jaringan overlay tersebut merupakan jaringan Docker yang menggunakan driver jaringan overlay.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/22.jpg)
 
 ```docker network ls```
+#### Pada tampilan tersebut driver jaringan overlay dengan nama jaringan overnet sudah berhasil terpasang.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/23.jpg)
 
 #### Run the same docker network ls command from the second terminal. 
 
-``` docker network ls```
+```docker network ls```
+#### Pada tampilan tersebut jaringan "overnet" tidak muncul dalam daftar jaringan. Ini karena Docker hanya memperluas jaringan overlay ke host ketika hanya diperlukan saja ketika host menjalankan perintah dari layanan yang dibuat di jaringan.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/24.jpg)   
 
