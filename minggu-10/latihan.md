@@ -84,12 +84,12 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/32.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/33.jpg)
 
-``` ping -c5 www.github.com```
+#### ```ping -c5 www.github.com``` menandakan bahwa jaringan host docker sudah dapat terkoneksi dengan jaringan luar (web github)
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/15.jpg)
 
 ### Step 4: Configure NAT for external connectivity
-``` docker run --name web1 -d -p 8080:80 nginx```
+#### Perintah ```docker run --name web1 -d -p 8080:80 nginx``` menjalankan container baru dengan nama container nginx langsung dari docker hub dengan port 8080:80 pada Daemon mode.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/16.jpg)
 
