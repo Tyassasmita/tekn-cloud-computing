@@ -40,7 +40,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/7.jpg)
 
-#### Perintah ```ip a``` untuk menampilkan  detail info bridge dengan nama docker0.
+#### Perintah ```ip a``` untuk menampilkan  detail informasi ip bridge 172.17.0.1/16 dengan nama docker0. 
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/8.jpg)
 
