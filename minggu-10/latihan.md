@@ -46,6 +46,7 @@
 
 ### Step 2: Connect a container
 ``` docker run -dt ubuntu sleep infinity```
+#### Perintah ini akan membuat container baru berdasarkan image ubuntu terbaru dan akan menjalankan perintah sleep untuk menjaga container tetap berjalan di latar belakang. Perlu diingat bahwa perintah yang diberikan pada perintah docker run akan diberikan PID 1 dalam container, dan setelah proses ini keluar, container akan berhenti running. Penggunaan –d akan menjalankan container pada Daemon mode.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/9.jpg)
 
