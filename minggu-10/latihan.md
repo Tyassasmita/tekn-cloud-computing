@@ -114,6 +114,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/46.jpg)
 
 ``` docker node ls```
+#### docker node ls akan menampilkan node / host / server apa saja yang telah terdaftar, pada tampilan sudah terdapat 2 node yang telah terdaftar, yaitu node1 dan node2 yang dimana kedua node tersebut saling berhubungan, node 1 menyebarkan informasi ke node 2 yang kemudian terhubung ke sana
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/21.jpg)
 
