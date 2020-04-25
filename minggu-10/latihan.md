@@ -3,6 +3,8 @@
 ### Step 1: The Docker Network Command
 
 ``` docker network```
+#### Perintah Docker network merupakan perintah yang memungkinkan kita untuk melakukan segala hal yang berhubungan dengan manajemen administrasi jaringan, seperti membuat jaringan, menghubungkan, melihat informasi jaringan hingga mendetail sekali dan menerapkannya di kontainer yang akan kita jalankan. Pada hasil  perintah tersebut terdapat Commands: Connect yang digunakan untuk melakukan koneksi container ke jaringan yang akan dibangun, Create yang digunakan untuk membuat jaringan, Disconnect yang digunakan untuk memutus koneksi container dengan jaringan yang akan dibangun, Inspect yang digunakan untuk menampilkan detail informasi pada jaringan, ls yang digunakan untuk menampilkan daftar jaringan yang dibangun, prune yang digunakan untuk menghapus semua jaringan yang tidak lagi digunakan, dan rm yang digunakan untuk menghapus jaringan.
+
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/1.jpg)
 
