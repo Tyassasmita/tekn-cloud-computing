@@ -129,7 +129,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/23.jpg)
 
-#### Run the same docker network ls command from the second terminal. 
+### Run the same docker network ls command from the second terminal. 
 
 ```docker network ls```
 #### Pada tampilan tersebut jaringan "overnet" tidak muncul dalam daftar jaringan. Ini karena Docker hanya memperluas jaringan overlay ke host ketika hanya diperlukan saja ketika host menjalankan perintah dari layanan yang dibuat di jaringan.
