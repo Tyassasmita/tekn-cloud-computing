@@ -18,7 +18,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/3.jpg)
 
 ### Step 4: List network driver plugins
-#### ```docker info``` digunakan untuk menunjukkan banyak informasi menarik tentang instalasi Docker.
+#### Perintah```docker info``` akan menampilkan informasi seluruh sistem mengenai instalasi pada Docker. Informasi yang ditampilkan termasuk versi kernel, jumlah container dan image. Jumlah image yang ditampilkan adalah jumlah unique image. Uuntuk image yang sama ditandai dengan nama yang berbeda hanya dihitung satu kali. Docker info tersebut memuat informasi driver penyimpanan yang digunakan, informasi tambahan  seperti pool name, file data, file metadata, penyimpanan data yang digunakan, total memori, memori metadata yang digunakan, dan total memori metadata.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/4.jpg)
 
