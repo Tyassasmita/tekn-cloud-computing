@@ -97,13 +97,14 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/17.jpg)
 
-``` curl 127.0.0.1:8080```
+#### Perintah ```curl 127.0.0.1:8080``` akan membuat host menjadi terhubung dengan container nginx. Hasilnya akan menampilkan struktur kode interface image nginx.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/18.jpg)
 
 ## Section #3 - Overlay Networking
 ### Step 1: The Basics
 ``` docker swarm init --advertise-addr $(hostname -i)```
+#### docker swarm init --advertise-addr $(hostname -i) akan melakukan inisialisasi docker swarm. Penggunaan --advertise-addr digunakan jika alamat node lain mencapai node manager pertama bukanlah alamat yang sama dengan yang dibaca oleh node manajer. Misalnya, dalam pengaturan cloud yang mencakup wilayah yang berbeda, host memiliki alamat internal untuk akses di dalam wilayah dan alamat eksternal yang digunakan untuk akses dari luar wilayah itu. Dalam hal ini, kita harus menentukan alamat eksternal dengan --advertise-addr sehingga node dapat menyebarkan informasi itu ke node lain yang kemudian terhubung ke sana.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/19.jpg)
 
