@@ -50,7 +50,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/9.jpg)
 
-#### Jika sudah terdapat image ubuntu dengan nama sleep infinity. selanjutnya perintah ```docker ps``` untuk melakukan pengecekan container .
+#### Perintah ```docker ps``` untuk melakukan pengecekan container. Hasil perintah tersebut menandakan jika sudah terdapat image ubuntu dengan nama sleep infinity.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/10.jpg)
 
