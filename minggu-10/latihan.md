@@ -2,19 +2,20 @@
 ## Section #1 - Networking Basics
 ### Step 1: The Docker Network Command
 
-``` docker network```
+```docker network```
 #### Perintah Docker network merupakan perintah yang memungkinkan kita untuk melakukan segala hal yang berhubungan dengan manajemen administrasi jaringan, seperti membuat jaringan, menghubungkan, melihat informasi jaringan hingga mendetail sekali dan menerapkannya di kontainer yang akan kita jalankan. Pada hasil  perintah tersebut terdapat Commands: Connect yang digunakan untuk melakukan koneksi container ke jaringan yang akan dibangun, Create yang digunakan untuk membuat jaringan, Disconnect yang digunakan untuk memutus koneksi container dengan jaringan yang akan dibangun, Inspect yang digunakan untuk menampilkan detail informasi pada jaringan, ls yang digunakan untuk menampilkan daftar jaringan yang dibangun, prune yang digunakan untuk menghapus semua jaringan yang tidak lagi digunakan, dan rm yang digunakan untuk menghapus jaringan.
 
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/1.jpg)
 
 ### Step 2: List networks
-#### ``` docker network ls``` digunakan untuk melihat daftar jaringan kontainer yang telah dibuat. Setiap jaringan mendapatkan ID dan NAME yang unik. Setiap jaringan juga dikaitkan dengan satu driver.
+#### ```docker network ls``` digunakan untuk melihat daftar jaringan kontainer yang telah dibuat. Setiap jaringan mendapatkan ID dan NAME yang unik. Setiap jaringan juga dikaitkan dengan satu driver.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/2.jpg)
 
 ### Step 3: Inspect a network
 ```docker network inspect bridge```
+#### Perintah Docker network inspect merupakan perintah yang digunakan untuk menampilkan detail informasi pada jaringan bridge.  Bridge sendiri merupakan jenis network (default) yg digunakan Docker, apabila jika akan membuat container network defaultnya secara otomatis menggunakan Bridge sebagai networknya, network jenis ini memungkinkan Docker container saling terhubung pada lingkungan network private, agar host Docker dapat mengakses port container pada network ini harus di expose portnya atau di open lewat firewall. Terdapat beberapa informasi seperti nama, id, waktu dibuat, scope, driver, support atau tidaknya terhadap Ipv6, IPAM yang digunakan untuk konfigurasi tempat IP address (IP Address Management), support atau tidaknya penyimpanan internal, support atau tidaknya  attachable, support atau tidaknya  ingress, configFrom,jaringan, dan beberapa part pendukung lainnya.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/3.jpg)
 
@@ -25,7 +26,7 @@
 
 ## Section #2 - Bridge Networking
 ### Step 1: The Basics
-``` docker network ls```
+```docker network ls```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/2.jpg)
 
