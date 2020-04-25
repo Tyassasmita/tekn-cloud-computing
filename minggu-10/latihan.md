@@ -28,7 +28,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/2.jpg)
 
-``` apk update```
+#### Perintah ```apk update``` dieksekusi, system akan mencari daftar program yang terinstall, kemudian mencari versi terkini yang terdapat di repositori. 
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/5.jpg)
 
@@ -36,7 +36,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/6.jpg)
 
-``` brctl show```
+#### ```brctl show``` digunakan untuk menampilkan daftar brigde pada docker host.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/7.jpg)
 
