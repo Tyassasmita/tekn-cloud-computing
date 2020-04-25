@@ -54,7 +54,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/10.jpg)
 
-``` brctl show```
+#### Perintah ```brctl show``` akan menampilkan interface bridge yang telah dibuat, yaitu docker0.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/11.jpg)
 
@@ -64,6 +64,8 @@
 
 ### Step 3: Test network connectivity
 ``` ping -c5 172.17.0.2```
+#### Pada proses ping diatas akan melakukan ping IP address dari container interface bridge docker0 dengan perintah ping -c5 172.17.0.2. 
+#### Pada output hasil ping nya menandakab bahwa host pada docker dapat melakukan ping pada container dalam interface bridge yang telah dibuat
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/13.jpg)
 
