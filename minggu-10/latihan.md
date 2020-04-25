@@ -28,11 +28,11 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/2.jpg)
 
-#### Perintah ```apk update``` dieksekusi, system akan mencari daftar program yang terinstall, kemudian mencari versi terkini yang terdapat di repositori. 
+#### Perintah ```apk update```  digunakan untuk menginstall aplikasi bridge-utils pada linux, system akan mencari daftar program yang terinstall, kemudian mencari versi terkini yang terdapat di repositori. 
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/5.jpg)
 
-``` apk add bridge```
+#### Perintah ```apk add bridge``` merupakan perintah untuk membuat iterface Bridge, Interface Bridge sendiri adalah Interface yang biasa digunakan untuk menjembatan suatu jaringan, Interface Bridge biasa atau sering digunakan pada Komputer Server yang difungsikan untuk Virtualisasi supaya VM yang ada pada Server tersebut dapat berhubungan dengan Jaringan Luar melalui Interface Bridge yang dibuat.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/6.jpg)
 
