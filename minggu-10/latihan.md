@@ -108,6 +108,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/19.jpg)
 
+#### Perintah docker swarm join berfungsi untuk mendaftarkan server/host worker pada docker swarm master.
 ``` docker swarm join --token SWMTKN-1-1t59fxncbeths7ykym6vomvqeg7jlxqb4wi1b08dd96c1g8jbx-280hzwqz7kr41ncm50ad8ytxn 192.168.0.48:2377```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/46.jpg)
