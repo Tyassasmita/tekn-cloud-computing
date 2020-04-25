@@ -40,7 +40,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/7.jpg)
 
-``` ip a```
+#### Perintah ```ip a``` untuk menampilkan  detail info bridge dengan nama docker0.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/8.jpg)
 
@@ -49,7 +49,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/9.jpg)
 
-``` docker ps```
+#### Perintah ```docker ps``` digunakan untuk melakukan pengecekan container .
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/10.jpg)
 
