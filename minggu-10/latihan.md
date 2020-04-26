@@ -152,6 +152,7 @@
 ```--replicas 2 \```
 
 ```ubuntu sleep infinity```
+#### Pada proses tersebut dijalankan pada node1 untuk membuat service baru dengan nama nyservice yang berjalan pada jaringan overnet, maka jaringannya akan menjadi terdapat 2 proses jaringan.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/34.jpg)
 
