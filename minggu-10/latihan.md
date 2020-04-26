@@ -225,10 +225,12 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/45.jpg)
 
 ``` ping -c5 myservice```
+#### Pada hasil ping tersebut menunjukkan bahwa container dapat melakukan ping service myservice dengan menggunakan namanya. Untuk alamat IP yang dikembalikan ketika dilakukan ping adalah 10.0.0.2. dimana IP tersebut adalah IP virtual yang ditetapkan untuk service myservice saya.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/54.jpeg)
 
 ``` docker service inspect myservice```
+#### Perintah tersebut akan menampilkan informasi seluruh sistem mengenai instalasi pada Docker. Informasi yang ditampilkan termasuk versi kernel, jumlah container dan image. Jumlah image yang ditampilkan adalah jumlah unique image. Uuntuk image yang sama ditandai dengan nama yang berbeda hanya dihitung satu kali. Docker info tersebut memuat informasi driver penyimpanan yang digunakan, informasi tambahan  seperti pool name, file data, file metadata, penyimpanan data yang digunakan, total memori, memori metadata yang digunakan, dan total memori metadata. Pada output hasil bagian akhirnya, virtual IP yang terdaftar adalah 10.0.0.2, ini menandakan bahwa virtual IP yang tercantum disana cocok dengan IP yang dikembalikan ketika dilakukan ping myservice.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/55.jpeg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/56.jpeg)
@@ -238,7 +240,7 @@
 
 ## Cleaning Up
 
-``` docker service rm myservice```
+#### ```docker service rm myservice``` akan menghapus service myservice docker swarm leave –force akan menghapus node1 dan node2 dari Swarm.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/60.jpeg)
 
