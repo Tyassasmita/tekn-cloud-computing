@@ -195,6 +195,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/42.jpg)
 
 ``` docker ps```
+#### Pada docker ps dijalankan untuk mendapatkan id container dari myservice yang akan digunakan untuk instalasi
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/43.jpg)
 
@@ -210,6 +211,8 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/33.jpg)
 
 ``` ping -c5 10.0.0.3```
+#### Pada ping -c5 myservice tersebut telah berhasil, menandakan bahwa host pada docker dapat melakukan ping pada container myservice dalam interface bridge yang telah dibuat.
+#### Pada ping 10.0.0.3. tersebut menandakan bahwa kedua proses dari jaringan myservice yang berada di jaringan overlay yang sama pada kedua node tersebut dapat menggunakan jaringan ini untuk berkomunikasi.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/44.jpg)
 
