@@ -137,6 +137,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/24.jpg)   
 
 ``` docker network inspect overnet```
+#### Perintah docker network inspect overnet tersebut berjalan pada node2, yang merupakan perintah yang digunakan untuk menampilkan detail informasi pada jaringan overnet yang telah dibuat.  Terdapat beberapa informasi seperti nama, id, waktu dibuat, scope, driver, support atau tidaknya terhadap Ipv6, IPAM yang digunakan untuk konfigurasi tempat IP address (IP Address Management), support atau tidaknya penyimpanan internal, support atau tidaknya  attachable, support atau tidaknya  ingress, configFrom,jaringan, dan beberapa part pendukung lainnya. Pada IP 10.0.0.1 menunjukkan bahwa IP tersebut merupakan IP  dari container yang berjalan pada node2.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/25.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/26.jpg)
