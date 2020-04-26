@@ -157,10 +157,13 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/34.jpg)
 
 ```docker service ls```
+#### pada perintah tersebut melakukan cek service yang telah dibuat, disana sudah terdapat myservice yang telah dibuat.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/35.jpg)
 
 ``` docker service ps myservice ```
+#### Pada docker service ps myservice tersebut, terdapat 2 service  yaitu myservice.1 dan myservice.2
+#### Itu menandakan bahwa pembuatan replika service dari my service telah berhasil dilakukan
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/36.jpg)
 
 #### Now that the second node is running a task on the “overnet” network it will be able to see the “overnet” network. Lets run docker network ls from the second terminal to verify this.
