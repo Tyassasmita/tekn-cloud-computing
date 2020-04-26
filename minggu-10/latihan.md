@@ -240,7 +240,7 @@
 
 ## Cleaning Up
 
-#### ```docker service rm myservice``` akan menghapus service myservice docker swarm leave –force akan menghapus node1 dan node2 dari Swarm.
+#### ```docker service rm myservice``` akan menghapus service myservice 
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/60.jpeg)
 
@@ -249,5 +249,6 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/61.jpeg)
 
 ```docker swarm leave --force```
+#### docker swarm leave –force akan menghapus node1 dan node2 dari Swarm.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-10/62.jpeg)
