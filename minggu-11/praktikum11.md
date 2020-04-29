@@ -129,6 +129,8 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/56.jpg)
 
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/72.jpg)
+
 ```docker container logs linkextractor```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/57.jpg)
@@ -210,7 +212,6 @@
 ```docker-compose exec redis redis-cli monitor```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/51.jpg)
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/72.jpg)
 
 ```sed -i 's/Link Extractor/Super Link Extractor/g' www/index.php```
 
