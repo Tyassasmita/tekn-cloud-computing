@@ -171,6 +171,8 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/40.jpg)
 
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/72.jpg)
+
 ```sed -i 's/Link Extractor/Super Link Extractor/g' www/index.php```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/41.jpg)
