@@ -14,6 +14,8 @@
 
 ```git checkout step0```
 
+#### Pada proses tersebut melakukan checkout file step0 yang berada di dalam repo linkextractor. Perintah checkout tersebut saat dilakukan maka semua file akan dikembalikan seperti keadaan pada nomer commit yang dilakukan.
+
 ```tree```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/2.jpg)
