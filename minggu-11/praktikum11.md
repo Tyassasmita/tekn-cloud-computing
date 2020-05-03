@@ -26,9 +26,13 @@
 
 ```./linkextractor.py http://example.com/```
 
+#### Menjalankan link extractor dengan http://example.com/, namun gagal karena permasalahan hak akses.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/4.jpg)
 
 ```ls -l linkextractor.py```
+
+### Perintah tersebut menghasilkan -rw-r--r--, yang menandakan bahwa skrip  linkextractor.py tidak bisa dijalankan dan harus diubah.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/5.jpg)
 
