@@ -191,7 +191,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/57.jpg)
 
-### ```docker container rm -f linkextractor``` akan menghapus container linkextractor pada step 3
+#### ```docker container rm -f linkextractor``` akan menghapus container linkextractor pada step 3
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/58.jpg)
 
@@ -199,7 +199,7 @@
 
 ```git checkout step4```
 
-#### ###  Pada proses tersebut melakukan checkout file step4 yang berada di dalam repo linkextractor. Perintah checkout tersebut saat dilakukan maka semua file akan dikembalikan seperti keadaan pada nomer commit yang dilakukan pada step4.
+#### Pada proses tersebut melakukan checkout file step4 yang berada di dalam repo linkextractor. Perintah checkout tersebut saat dilakukan maka semua file akan dikembalikan seperti keadaan pada nomer commit yang dilakukan pada step4.
 
 ```tree```
 
@@ -269,6 +269,8 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/48.jpg)
 
 ```docker-compose up -d --build```
+
+#### Setelah proses tersebut dijalankan, hasilnya menunjukkan bahwa Docker Compose secara otomatis membuat jaringan bernama linkextractor_default, lalu selanjutnya  Docker Compose melakukan pull image php: 7-apache dari DockerHub, lalu selanjutnya melakukan build image api:python menggunakan Dockerfile, dan akhirnya, Docker Compose menjalankan dua container sekaligus, yaitu  linkextractor_web_1 dan linkextractor_api_1 yang sesuai dengan dua layanan yang telah didefinisikan dalam file YAML di atas
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/49.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/50.jpg)
