@@ -157,6 +157,16 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/52.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/53.jpg)
 
+#### Penjelasan
+#### Step 1/8, dari image python:3, akan melakukan pull dari library python
+#### Step 2/8, akan menjalankan container  perantara dengan kode 8678496664bf
+#### Step 3/8, akan mengalokasikan apk direktory proses tersebut yang dilokasikan pada /app
+#### Step 4/8, akan menjalankan perintah untuk melakukan copy file requirements.txt
+#### Step 5/8, akan menjalankan perintah untuk instalasi requests dengan melakukan copy file requirements.txt. yaitu dengan mendownload dan install modul beautifulsoup4, flask framework, requests, jsonify, dan import fungsi dari file linkextractor
+#### Step 6/8, akan mencopy apa yang dibutuhkan pada proses build container, yaitu Dockerfile akan menjalankan copy file linkextractor.py
+#### Step 7/8, akan menjalankan chmod a+x linkextractor.py yang dimana perintah tersebut akan mengubah perizinan hak akses untuk semua pengguna pada file/Direktori
+#### Step 8/8, mengatur entrypoint ubtuj linkextractor
+
 ```docker container run -d -p 5000:5000 --name=linkextractor linkextractor:step3```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/54.jpg)
