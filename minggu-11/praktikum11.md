@@ -85,12 +85,16 @@
 
 ```docker container run -it --rm linkextractor:step1 https://training.play-with-docker.com/```
 
+#### akan menjalankan container dengan menggunakan link https://training.play-with-docker.com/. Pada output terdapat stage 1,2, dan 3 dilakukan secara perulangan dengan diikuti beberapa proses untuk convert link dari twitter, facebook, google plus, linkedin, dockercon, docker, dan github
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/14.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/15.jpg)
 
 ### Step 2: Link Extractor Module with Full URI and Anchor Text
 
 ```git checkout step2```
+
+#### Pada proses tersebut melakukan checkout file step1 yang berada di dalam repo linkextractor. Perintah checkout tersebut saat dilakukan maka semua file akan dikembalikan seperti keadaan pada nomer commit yang dilakukan pada step2.
 
 ```tree```
 
