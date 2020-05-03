@@ -214,6 +214,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/34.jpg)
 
 ```docker-compose up -d --build```
+#### Pada docker-compose.yml tersebut berisi dua servis, yaitu api dan web. Servis api akan menggunakan image linkextractor-api:step4-python yang belum dibuild, tetapi akan dibuild menggunakan Dockerfile yang berada di direktory ./api. Servis api tersebut akan berjalan di port 5000. Pada servis kedua yaitu servis web akan menggunakan image php:7-apache yang diambil langsung dari DockerHub. Maka servis web tersebut tidak lagi memerlukan Dockerfile. Servis akan ditampilkan pada HTTP port default (port 80). Pada docker-compose akan disediakan variabel environment bernama API_ENDPOINT dengan value http: // api: 5000 / api / untuk memberi tahu skrip PHP ke mana skrip tersebut harus terhubung ke akses API. api: 5000 digunakan karena pada docker-compose akan memiliki entri nama host dinamis di jaringan privat untuk layanan API yang cocok dengan nama layanannya. Terakhir, docker-compose akan mengikat mount folder ./www untuk membuat file index.php tersedia di dalam container servis web di / var / www / html, yang merupakan root web default untuk server web Apache.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/36.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/37.jpg)
@@ -250,6 +251,8 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/44.jpg)
 
 ```cat www/Dockerfile```
+
+#### Pada file index.php tersebut variabel $ api_endpoint diinisialisasi dengan nilai variabel emvironment yang disediakan dari file docker-compose.yml sebagai $ _ENV ["API_ENDPOINT"] jika tidak kembali ke nilai default http: // localhost: 5000 / api / . Request dibuat menggunakan fungsi file_get_contents yang menggunakan variabel $ api_endpoint dan URL yang disediakan user dari $ _GET ["url"]. Beberapa analisis dan transformasi dilakukan pada respons yang diterima kemudian digunakan dalam markup untuk mengisi halaman. Selain itu terdapat file html dan css untuk mengatur tampilan layout image.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/45.jpg)
 
