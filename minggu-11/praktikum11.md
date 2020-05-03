@@ -211,6 +211,8 @@
 
 ```cat www/index.php```
 
+#### Pada file index.php tersebut variabel $ api_endpoint diinisialisasi dengan nilai variabel emvironment yang disediakan dari file docker-compose.yml sebagai $ _ENV ["API_ENDPOINT"] jika tidak kembali ke nilai default http: // localhost: 5000 / api / . Request dibuat menggunakan fungsi file_get_contents yang menggunakan variabel $ api_endpoint dan URL yang disediakan user dari $ _GET ["url"]. Beberapa analisis dan transformasi dilakukan pada respons yang diterima kemudian digunakan dalam markup untuk mengisi halaman. Selain itu terdapat file html dan css untuk mengatur tampilan layout image.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/32.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/33.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/34.jpg)
@@ -225,9 +227,12 @@
 
 ```docker container ls```
 
+#### sudah terdapat 2 container sekaligus, yaitu  linkextractor_web_1 dan linkextractor_api_1 maka proses sebelumnya telah berhasil dilakukan.
+#### curl -i http://localhost:5000/api/http://example.com/
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/39.jpg)
 
-```curl -i http://localhost:5000/api/http://example.com/```
+#### perintah ```curl -i http://localhost:5000/api/http://example.com/``` akan membuat host menjadi terhubung dengan API.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/40.jpg)
 
@@ -235,13 +240,17 @@
 
 ```sed -i 's/Link Extractor/Super Link Extractor/g' www/index.php```
 
+#### perintah tersebut akan mengubah www/index.php untuk memindah semua proses yang dilakukan pada Link Extractor dengan Super Link Extractor. Setelah direload ulang halamannya, maka title, header, dan footer akan ada perubahan. Ini terjadi karena folder ./www diikat terpasang di dalam container, sehingga setiap perubahan yang dilakukan di luar akan mencerminkan di dalam container atau sebaliknya.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/41.jpg)
 
-```git reset --hard```
+#### ```git reset --hard``` akan melakukan reset kembali ke semula
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/42.jpg)
 
 ```docker-compose down```
+
+#### Perintah tersebut akan menghentikan container, tetapi juga menghapus container yang terhenti serta jaringan apa pun yang dibuat. Pada tammpilan akan menghentikan linkextractor_api_1 dan linkextractor_web_1 serta menghapus linkextractor_api_1, linkextractor_web_1, dan network linkextractor_default
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/43.jpg)
 
@@ -254,8 +263,6 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/44.jpg)
 
 ```cat www/Dockerfile```
-
-#### Pada file index.php tersebut variabel $ api_endpoint diinisialisasi dengan nilai variabel emvironment yang disediakan dari file docker-compose.yml sebagai $ _ENV ["API_ENDPOINT"] jika tidak kembali ke nilai default http: // localhost: 5000 / api / . Request dibuat menggunakan fungsi file_get_contents yang menggunakan variabel $ api_endpoint dan URL yang disediakan user dari $ _GET ["url"]. Beberapa analisis dan transformasi dilakukan pada respons yang diterima kemudian digunakan dalam markup untuk mengisi halaman. Selain itu terdapat file html dan css untuk mengatur tampilan layout image.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/45.jpg)
 
