@@ -120,6 +120,8 @@
 
 ```docker container run -it --rm linkextractor:step2 https://training.play-with-docker.com/```
 
+#### Pada proses menjalankan container tersebut, Pada output yang terdapat stage 1,2, dan 3 dengan diikuti beberapa proses untuk convert link dari twitter, facebook, google plus, linkedin, dockercon, docker, dan github sudah terdapat keterangan stepnya setelah berhasil melakukan import, yang antara lain Stage 1: The Basics, Stage 2: Digging Deeper, Stage 3: Moving to Production, Stage 1: The Basics, Stage 2: Digging Deeper, Stage 3: Moving to Staging. Lalu pada link yang diconvert terdapat keterangan bahwa semua tersebut adalah image.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/22.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/23.jpg)
 
