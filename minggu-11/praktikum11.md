@@ -134,7 +134,7 @@
 
 ```git checkout step3```
 
-###  Pada proses tersebut melakukan checkout file step3 yang berada di dalam repo linkextractor. Perintah checkout tersebut saat dilakukan maka semua file akan dikembalikan seperti keadaan pada nomer commit yang dilakukan pada step3.
+####  Pada proses tersebut melakukan checkout file step3 yang berada di dalam repo linkextractor. Perintah checkout tersebut saat dilakukan maka semua file akan dikembalikan seperti keadaan pada nomer commit yang dilakukan pada step3.
 
 ```tree```
 
@@ -199,6 +199,8 @@
 
 ```git checkout step4```
 
+#### ###  Pada proses tersebut melakukan checkout file step4 yang berada di dalam repo linkextractor. Perintah checkout tersebut saat dilakukan maka semua file akan dikembalikan seperti keadaan pada nomer commit yang dilakukan pada step4.
+
 ```tree```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/30.jpg)
@@ -214,6 +216,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/34.jpg)
 
 ```docker-compose up -d --build```
+
 #### Pada docker-compose.yml tersebut berisi dua servis, yaitu api dan web. Servis api akan menggunakan image linkextractor-api:step4-python yang belum dibuild, tetapi akan dibuild menggunakan Dockerfile yang berada di direktory ./api. Servis api tersebut akan berjalan di port 5000. Pada servis kedua yaitu servis web akan menggunakan image php:7-apache yang diambil langsung dari DockerHub. Maka servis web tersebut tidak lagi memerlukan Dockerfile. Servis akan ditampilkan pada HTTP port default (port 80). Pada docker-compose akan disediakan variabel environment bernama API_ENDPOINT dengan value http: // api: 5000 / api / untuk memberi tahu skrip PHP ke mana skrip tersebut harus terhubung ke akses API. api: 5000 digunakan karena pada docker-compose akan memiliki entri nama host dinamis di jaringan privat untuk layanan API yang cocok dengan nama layanannya. Terakhir, docker-compose akan mengikat mount folder ./www untuk membuat file index.php tersedia di dalam container servis web di / var / www / html, yang merupakan root web default untuk server web Apache.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/36.jpg)
