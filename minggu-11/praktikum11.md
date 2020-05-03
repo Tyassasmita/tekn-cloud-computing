@@ -63,11 +63,21 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/10.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/11.jpg)
 
-```docker image ls```
+#### Penjelasan 
+#### Step 1/8, dari image python:3, akan melakukan pull dari library python
+#### Step 2/8, akan menjalankan container  perantara dengan kode 8678496664bf
+#### Step 3/8, akan menjalankan perintah untuk instalasi beautifulsoup4
+#### Step 4/8, akan menjalankan perintah untuk instalasi requests
+#### Step 5/8, akan mengalokasikan apk direktory proses tersebut yang dilokasikan pada /app
+#### Step 6/8, akan mencopy apa yang dibutuhkan pada proses build container, yaitu Dockerfile akan menjalankan copy file linkextractor.py
+#### Step 7/8, akan menjalankan chmod a+x linkextractor.py
+#### Step 8/8, mengatur entrypoint ubtuj linkextractor
 
+```docker image ls```
+#### pada perintah tersebut melakukan cek repositori yang telah dibuat.
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/12.jpg)
 
-```docker container run -it --rm linkextractor:step1 http://example.com/```
+#### ```docker container run -it --rm linkextractor:step1 http://example.com/``` akan menjalankan container untuk pertama kalinya
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/13.jpg)
 
