@@ -2,6 +2,8 @@
 
 ```git clone https://github.com/ibnesayeed/linkextractor.git```
 
+#### Pada perintah tersebut melakukan clone Link Extractor dari github. Link Extractor sendiri merupakan aplikasi yang akan melakukan scraping link dari suatu halaman web.
+
 ```cd linkextractor```
 
 ```git checkout demo```
@@ -11,6 +13,7 @@
 ### Step 0: Basic Link Extractor Script
 
 ```git checkout step0```
+
 ```tree```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/2.jpg)
