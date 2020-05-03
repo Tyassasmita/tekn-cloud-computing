@@ -169,13 +169,17 @@
 
 ```docker container run -d -p 5000:5000 --name=linkextractor linkextractor:step3```
 
+#### akan menjalankan container baru dengan nama container linkextractor dari step3 dengan port 5000:5000 pada Daemon mode.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/54.jpg)
 
-```docker container ls```
+#### ```docker container ls``` sudah terdapat container dengan nama image linkextractor:step3
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/55.jpg)
 
 ```curl -i http://localhost:5000/api/http://example.com/```
+
+#### perintah curl -i http://localhost:5000/api/http://example.com/akan membuat host menjadi terhubung dengan container linkextractor. Hasilnya akan menampilkan struktur kode interface image linkextractor.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/56.jpg)
 
@@ -183,9 +187,11 @@
 
 ```docker container logs linkextractor```
 
+#### Docker container logs akan menjalankan perintah untuk melihat catatan aktivitas yang terjadi pada container yang berjalan. Antara lainmenjalankan flask app main, beralih ke user mysql, inisialisasi file database, lalu terdapat warning memberi tahu bahwa Jangan gunakan server pengembangan di lingkungan produksi. Selanjutnya terdapat aktivitas inisialisasi file database dan menjalankan server sementara, dan rerakhir terdapat warning bahwa tidak bisa memuat file iso3166.tab dmode debug dan berjalan pada  http://0.0.0.0:5000.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/57.jpg)
 
-```docker container rm -f linkextractor```
+### ```docker container rm -f linkextractor``` akan menghapus container linkextractor pada step 3
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/58.jpg)
 
