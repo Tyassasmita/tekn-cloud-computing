@@ -32,11 +32,12 @@
 
 ```ls -l linkextractor.py```
 
-### Perintah tersebut menghasilkan -rw-r--r--, yang menandakan bahwa skrip  linkextractor.py tidak bisa dijalankan dan harus diubah.
+#### Perintah tersebut menghasilkan -rw-r--r--, yang menandakan bahwa skrip  linkextractor.py tidak bisa dijalankan dan harus diubah.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/5.jpg)
 
 ```python linkextractor.py```
+#### hasil dari eksekusi perintah tersebut terdapat error karena tida terdapat modul beautifulsoup4 di bagian import pada file linkextractor.py
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/6.jpg)
 
@@ -44,11 +45,15 @@
 
 ```git checkout step1```
 
+#### Pada proses tersebut melakukan checkout file step1 yang berada di dalam repo linkextractor. Perintah checkout tersebut saat dilakukan maka semua file akan dikembalikan seperti keadaan pada nomer commit yang dilakukan pada step1.
+
 ```tree```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/7.jpg)
 
 ```cat Dockerfile```
+
+#### Pada Dockerfile tersebut berisi perintah yang akan mengimport dari python 3 dengan label Sawood Alam. Dockerfile tersebut akan menjalankan perintah instalasi dengan menggunakan pip yang akan melakukan install modul beautifulsoup4 dan requests dengan menggunakan pip. Untuk direktory proses tersebut dilokasikan pada /app. Selanjutnya Dockerfile akan menjalankan copy file linkextractor.py dan menjalankan chmod a+x linkextractor.py.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/8.jpg)
 
