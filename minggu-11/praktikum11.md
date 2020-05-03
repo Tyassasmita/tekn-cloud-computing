@@ -94,7 +94,7 @@
 
 ```git checkout step2```
 
-#### Pada proses tersebut melakukan checkout file step1 yang berada di dalam repo linkextractor. Perintah checkout tersebut saat dilakukan maka semua file akan dikembalikan seperti keadaan pada nomer commit yang dilakukan pada step2.
+#### Pada proses tersebut melakukan checkout file step2 yang berada di dalam repo linkextractor. Perintah checkout tersebut saat dilakukan maka semua file akan dikembalikan seperti keadaan pada nomer commit yang dilakukan pada step2.
 
 ```tree```
 
@@ -134,15 +134,21 @@
 
 ```git checkout step3```
 
+###  Pada proses tersebut melakukan checkout file step3 yang berada di dalam repo linkextractor. Perintah checkout tersebut saat dilakukan maka semua file akan dikembalikan seperti keadaan pada nomer commit yang dilakukan pada step3.
+
 ```tree```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/26.jpg)
 
 ```cat Dockerfile```
 
+#### Pada Dockerfile tersebut berisi perintah yang akan mengimport dari python 3 dengan label Sawood Alam. Dockerfile tersebut akan menjalankan perintah untuk menambahkan script server main.py yang menggunakan modul ekstrak link yang ditulis pada langkah terakhir. Lalu Dockerfile diperbarui untuk merujuk ke file main.py, Server dapat diakses sebagai API WEB di http: // <hostname> [: <prt>] / api / <url>, se;anjutnya dependensi dipindahkan ke file requirement.txt.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/27.jpg)
 
 ```cat main.py```
+
+#### Pada file main.py berisi script untuk keperluan server. Script tersebut memerlukan import modul flask framework, modul request, jsonify, dan import fungsi dari file linkextractor yaitu fungsi extract_links. Pada fungsi index akan mengembalikan nilai "Usage: http://<hostname>[:<prt>]/api/<url>". [ada fungsi api berisi beberapa perintah request seperti url dan mengembalikan links. Huntuk host appnya adalah 0.0.0.0
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/28.jpg)
 
