@@ -102,10 +102,14 @@
 
 ```cat linkextractor.py```
 
+#### Pada file tersebut logika ektrasi link akan dilakukan abstraksi menjadi fungsi extract_links yang akan menerima URL sebagai parameter dan akan mengembaalikan object list yang berisi anchor text dan hiperlink yang dinormalisasi. Selanjutnya fungsi tersebut dapat diimport ke skrip lain yang dijadikan dalam bentuk modul.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/17.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/18.jpg)
 
 ```docker image build -t linkextractor:step2 .```
+
+#### Pada proses build tersebut yang sama dengan proses sebelumnya,pada proses yang ini telah bisa melakukan import linkextractor dalam bentuk modul dan menjalankannya
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/19.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/20.jpg)
