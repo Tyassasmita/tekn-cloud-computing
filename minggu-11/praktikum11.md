@@ -279,18 +279,20 @@
 
 ```cat docker-compose.yml```
 
+#### Pada docker-compose.yml tersebut berisi servis servis web akan menggunakan image buatan sendiri yaitu linkextractor-web:step5-php. Maka servis web tersebut  memerlukan Dockerfile. Servis akan ditampilkan pada HTTP port default (port 80). Pada docker-compose akan disediakan variabel environment bernama API_ENDPOINT dengan value http: // api: 5000 / api / untuk memberi tahu skrip PHP ke mana skrip tersebut harus terhubung ke akses API. api: 5000 digunakan karena pada docker-compose akan memiliki entri nama host dinamis di jaringan privat untuk layanan API yang cocok dengan nama layanannya. docker-compose akan mengikat mount folder ./www untuk membuat file index.php tersedia di dalam container servis web di / var / www / html, yang merupakan root web default untuk server web Apache. Konfigurasi layanan api sebagian besar tetap sama seperti sebelumnya, kecuali tag image yang diperbarui dan variabel environment yang ditambahkan REDIS_URL yang menunjuk ke layanan Redis. Pada docker-compose.yml  ini tidak lagi dipasang folder ./www menggunakan konfigurasi volume Lalu layanan baru bernama redis ditambahkan yang akan menggunakan image resmi dari DockerHub dan sehingga tidak memerlukan konfigurasi khusus. Layanan ini dapat diakses oleh API Python menggunakan nama layanannya.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/48.jpg)
 
-```docker-compose up -d --build```
+#### ```docker-compose up -d --build``` akan membuild layanan yang telah dibuat
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/49.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/50.jpg)
 
-```docker-compose exec redis redis-cli monitor```
+#### ```docker-compose exec redis redis-cli monitor``` akan menjalankan redis yang digunakan untuk menghubungkan ke instance Redis karena akan menggunakan redis untuk melakukan caching
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/51.jpg)
 
-```sed -i 's/Link Extractor/Super Link Extractor/g' www/index.php```
+#### ```sed -i 's/Link Extractor/Super Link Extractor/g' www/index.php``` pada proses tersebut tidak dilakukan pemasangam folder / www di dalam container
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/59.jpg)
 
@@ -314,13 +316,19 @@
 
 ```cat api/linkextractor.rb```
 
+#### Pada file linkextractor.rb tersebut  yang merupakan file ruby digunakan sebagai sevice api denga menggunakan bahasa ruby, skrip dalam file tersebut  melakukan import modul "sinatra",require "open-uri","uri","nokogiri","json","redis".  file linkextractor.rb ini digunakan untuk membuat layanan API, maka perlu diberi cara untuk menghubungkan ke instance Redis karena akan menggunakan redis untuk melakukan caching. Informasi ini dapat tersedia pada saat dijalankan menggunakan environment variabel REDIS_URL. Entri ENV yang sesuai juga ditambahkan di Dockerfile dari layanan API dengan nilai default. Terdapat fungsi extract_links yang akan menangani proses ektraksi link dari suat halaman web.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/63.jpg)
 
 ```cat api/Dockerfile```
 
+#### Dockerfile tersebut menggunakan ruby 2.6 dengan label Sawood Alam. Dockerfile tersebut menggunakan environment variabel LANG C.UTF-8 dan environment variabel REDIS_URL="redis://localhost:6379" yang menggunakan port 6379 dan menggunakan workdir /app direktory lalu meakukan copy Gemfile ke direktory tersebut yang kemudian akan menjalankan perintah instalasi dengan menggunakan bundle install yang akan melakukan install modul Gemfile dan untuk direktory proses tersebut dilokasikan pada /app. Selanjutnya Dockerfile akan menjalankan copy file linkextractor.rb ke direktory tersebut dan menjalankan chmod a+x linkextractor.rb.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/64.jpg)
 
 ```cat docker-compose.yml```
+
+#### Pada docker-compose.yml versi 3 tersebut berisi servis web akan menggunakan image buatan sendiri yaitu linkextractor-web:step6-php. Maka servis web tersebut  memerlukan Dockerfile. Servis akan ditampilkan pada HTTP port default (port 80). Pada docker-compose akan disediakan variabel environment bernama API_ENDPOINT dengan value http: // api: 4567/ api / untuk memberi tahu skrip PHP ke mana skrip tersebut harus terhubung ke akses API. api: 5000 digunakan karena pada docker-compose akan memiliki entri nama host dinamis di jaringan privat untuk layanan API yang cocok dengan nama layanannya. docker-compose akan mengikat mount folder ./www untuk membuat file index.php tersedia di dalam container servis web di / var / www / html, yang merupakan root web default untuk server web Apache. Konfigurasi layanan api sebagian besar tetap sama seperti sebelumnya, kecuali tag image yang diperbarui dan variabel environment yang ditambahkan REDIS_URL yang menunjuk ke layanan Redis. Pada docker-compose.yml  ini tidak lagi dipasang folder ./www menggunakan konfigurasi volume Lalu layanan baru bernama redis ditambahkan yang akan menggunakan image resmi dari DockerHub dan sehingga tidak memerlukan konfigurasi khusus.  Untuk api service nya menggunakan image dengan nama linkextractor-api:step6-ruby dan port mapping nya diganti dari port 5000 ke  4567.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/65.jpg)
 
