@@ -258,6 +258,8 @@
 
 ```git checkout step5```
 
+#### Pada proses tersebut melakukan checkout file step5 yang berada di dalam repo linkextractor. Perintah checkout tersebut saat dilakukan maka semua file akan dikembalikan seperti keadaan pada nomer commit yang dilakukan pada step5.
+
 ```tree```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/44.jpg)
@@ -276,8 +278,6 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/48.jpg)
 
 ```docker-compose up -d --build```
-
-#### Setelah proses tersebut dijalankan, hasilnya menunjukkan bahwa Docker Compose secara otomatis membuat jaringan bernama linkextractor_default, lalu selanjutnya  Docker Compose melakukan pull image php: 7-apache dari DockerHub, lalu selanjutnya melakukan build image api:python menggunakan Dockerfile, dan akhirnya, Docker Compose menjalankan dua container sekaligus, yaitu  linkextractor_web_1 dan linkextractor_api_1 yang sesuai dengan dua layanan yang telah didefinisikan dalam file YAML di atas
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/49.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/50.jpg)
@@ -301,6 +301,8 @@
 ### Step 6: Swap Python API Service with Ruby
 
 ```git checkout step6```
+
+#### Pada proses tersebut melakukan checkout file step6 yang berada di dalam repo linkextractor. Perintah checkout tersebut saat dilakukan maka semua file akan dikembalikan seperti keadaan pada nomer commit yang dilakukan pada step6.
 
 ```tree```
 
