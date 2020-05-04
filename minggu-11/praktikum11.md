@@ -266,9 +266,13 @@
 
 ```cat www/Dockerfile```
 
+#### Dockerfile tersebut ditempatkan pada folder ./www untuk web apps PHP untuk membangun image contained sendiri dan menghindari pemasangan file langsung. Dockerfile tersebut menggunakan image php:7-apache sebagai basic dan menyalin semua file dari folder ./www ke folder / var / www / html / folder image. Proses ini hampir sama dengan proses yang sebelumnya, perbedaannya ementara di sini kita membuat bagian kode dari image sendiri. Dockerfile tersebut juga telah menambahkan environment variabel API_ENDPOINT dengan nilai default, yang akan digunakan untuk pemberitahuan informasi penting yang perlu ada agar layanan berfungsi dengan baik (dan harus disesuaikan pada waktu berjalan dengan nilai yang sesuai).
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/45.jpg)
 
 ```cat api/main.py```
+
+#### Pada file main.py yang merupakan komponen api tersebut melakukan import modul os, json, redis, flask (disini dari flask melakukan import Fflask dan request) lalu juga melakukan import linkextractor. Main.py ini digunakan untuk membuat layanan API, maka perlu diberi cara untuk menghubungkan ke instance Redis karena akan menggunakan redis untuk melakukan caching. Informasi ini dapat tersedia pada saat dijalankan menggunakan environment variabel REDIS_URL. Entri ENV yang sesuai juga ditambahkan di Dockerfile dari layanan API dengan nilai default. Contoh client redis dibuat menggunakan redis host name dan port Redis default 6379.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/46.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-11/47.jpg)
