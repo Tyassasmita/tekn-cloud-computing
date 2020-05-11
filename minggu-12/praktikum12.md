@@ -82,12 +82,13 @@
 ## Section 5: Drain a node and reschedule the containers
 
 ```docker node ls```
+#### docker node ls akan menampilkan bahwa node 1 merupakan node utama yang menjalankan container.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/25.jpg)
 
 #### Let’s see the containers that you have running on node2.
 
-```docker ps```
+#### Perintah ```docker ps``` terdapat satu sleep-app yang sedang berjalan, dimana sleep-app tersebut merupakan milik node 1
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/26.jpg)
 
@@ -97,7 +98,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/27.jpg)
 
-```docker node update --availability drain 690hkbdiu8fp5kt2v75pwo4xr ```
+#### Perintah ```docker node update --availability drain 690hkbdiu8fp5kt2v75pwo4xr ``` akan mengganti manager  docker pada node 2 dari active menjadi drain
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/28.jpg)
 
