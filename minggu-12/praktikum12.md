@@ -69,7 +69,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/20.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/21.jpg)
 
-#### Perintah ```docker service update --replicas 4 sleep-app``` akan melakukan skala angka container dalam service sleep-app ke angka 4. Replika adalah istilah yang digunakan untuk menggambarkan container identik yang menyediakan layanan yang sama.
+#### Perintah ```docker service update --replicas 4 sleep-app``` akan melakukan skala angka container dalam service sleep-app dari 7 skala dikurangi menjadi 4 skala. Replika adalah istilah yang digunakan untuk menggambarkan container identik yang menyediakan layanan yang sama.
 
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/22.jpg)
