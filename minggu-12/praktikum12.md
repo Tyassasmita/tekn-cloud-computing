@@ -2,11 +2,13 @@
 ## Section 2: Configure Swarm Mode
 
 ```docker run -dt ubuntu sleep infinity```
+
 #### akan menjalankan container ubuntu dalam mode daemon. sleep infinity akan menjaga container tetap hidup dalam mode daemon tanpa batas waktu.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/1.jpg)
 
 ```docker ps```
+
 #### Pada hasil perintah tersebut sudah ada container ubuntu dengan keterangan command sleep infinity
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/2.jpg)
@@ -16,6 +18,7 @@
 #### Run docker swarm init on node1.
 
 ```docker swarm init --advertise-addr $(hostname -i)```
+
 #### akan melakukan inisialisasi docker swarm. Penggunaan --advertise-addr digunakan jika alamat node lain mencapai node manager pertama bukanlah alamat yang sama dengan yang dibaca oleh node manajer Misalnya, dalam pengaturan cloud yang mencakup wilayah yang berbeda, host memiliki alamat internal untuk akses di dalam wilayah dan alamat eksternal yang digunakan untuk akses dari luar wilayah itu. Dalam hal ini, kita harus menentukan alamat eksternal dengan --advertise-addr sehingga node dapat menyebarkan informasi itu ke node lain yang kemudian terhubung ke sana.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/3.jpg)
@@ -52,6 +55,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/15.jpg)
 
 ``` docker service ls```
+
 #### Pada hasil perintah tersebut sudah ada service dengan nama  sleep-app yang berjalan di container ubuntu keterangan command sleep infinity
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/16.jpg)
@@ -82,6 +86,7 @@
 ## Section 5: Drain a node and reschedule the containers
 
 ```docker node ls```
+
 #### docker node ls akan menampilkan bahwa node 1 merupakan node utama yang menjalankan container.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/25.jpg)
@@ -104,6 +109,8 @@
 
 ```docker node ls```
 
+#### pada node 2 sleep-app yang berjalan, yang awalnya dari active avaibility menjadi drain avaibility.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/29.jpg)
 
 #### Switch back to node2 and see what is running there by running ```docker ps```
@@ -112,13 +119,15 @@
 
 ```docker service ps sleep-app```
 
+#### setelah dilakukan beberapa proses tadi, sleep-app yang berjalan pada node 2 menjadi Shutdown/mati
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/31.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/32.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/33.jpg)
 
 ## Cleaning Up
 
-```docker service rm sleep-app```
+#### Perintah ```docker service rm sleep-app``` akan menghapus container sleep-app
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/34.jpg)
 
@@ -127,5 +136,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/35.jpg)
 
 #### Lets run docker swarm leave --force on node1, node2 and node3.
+
+#### Perintah ```docker swarm leave --force``` akan menghapus node 1, 2, dan 3 secara berurutan,
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-12/36.jpg)
