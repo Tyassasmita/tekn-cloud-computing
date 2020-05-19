@@ -76,7 +76,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/15.jpg)
 
-```export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')```
+#### Perintah ```export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')``` merupakan proses untuk melakukan export query yang akan ditempatkan pada proxy yang kemudian pada proses echo Name of the Pod: $POD_NAME akan memanggil nama pod tersebut kembali untuk melakukan cek nama pod tersebut.
 
 ```echo Name of the Pod: $POD_NAME```
 
