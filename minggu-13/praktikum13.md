@@ -137,7 +137,7 @@
 
 ### Step 2: Using labels
 
-```kubectl describe deployment```
+#### Perintah ```kubectl describe deployment```untuk mencari tahu apa yang dibuat Kubernetes, kita bisa mendeskripsikan proses deployment. Deskripsi termasuk berapa banyak replika yang tersedia dan menampilkan masalah dan kesalahan yang mungkin terjadi. Pada langkah berikutnya kita akan mengekspos layanan yang sedang berjalan berupa nama namespace, priority, node (minikube yang berjalan pada IP 172.17.0.34), waktu mulai. Label, Anotasi, Status aktivitasnya, IP yang digunakan, ID container dan ID Image serta post untuk memanggilnya..
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/24.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/25.jpg)
