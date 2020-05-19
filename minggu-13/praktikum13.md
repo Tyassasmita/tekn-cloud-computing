@@ -112,7 +112,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/47.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/48.jpg)
 
-## Exposimg App
+## Exposing App
 
 ### Step 1 Create a new service
 
@@ -172,6 +172,8 @@
 ```kubectl exec -ti $POD_NAME curl localhost:8080```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/30.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/49.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/50.jpg)
 
 ## Scaling App
 
