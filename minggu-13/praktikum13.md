@@ -34,16 +34,16 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/6.jpg)
 
-```kubectl get deployments```
+#### Perintah ```kubectl get deployments``` untuk melihat daftar deployment image. ada 1 deployment yang menjalankan satu instance aplikasi. Mesin virtual dijalankan di dalam container Dockor di node tersebut.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/7.jpg)
 
 ### View App
 
 #### We will open a second terminal window to run the proxy.
-```echo -e "\n\n\n\e[92mStarting Proxy. After starting it will not output a response. Please click the first Terminal Tab\n"; ```
+#### Perintah ```echo -e "\n\n\n\e[92mStarting Proxy. After starting it will not output a response. Please click the first Terminal Tab\n"; ``` Karena Pods sedang berjalan di private network yang sedang terisolasi, maka pada proses tersebut perlu mem-proxy akses ke sana agar kita bisa men-debug dan berinteraksi dengannya. Untuk melakukannya, akan digunakan perintah proxy kubectl untuk menjalankan proxy di terminal kedua.
 
-```kubectl proxy```
+#### Perintah ```kubectl proxy```. Pada hasil keluaran sudah terdapat proxy kubectl yang akan digunakan untuk menjalankan proxy di terminal kedua
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/8.jpg)
 
