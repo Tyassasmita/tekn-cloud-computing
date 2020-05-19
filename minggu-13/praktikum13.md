@@ -82,7 +82,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/16.jpg)
 
-```curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/```
+#### Perintah ```curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/``` akan menjalankan container kubernetes pada port 8001vdiikuti dengan nama pod dan proxy bawaan
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/17.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/45.jpg)
