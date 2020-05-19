@@ -1,13 +1,13 @@
 ## Create a Cluster
-``` minikube version```
+#### Perintah ``` minikube version``` untuk melakukan cek apakah minikube sudah terinstall
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/1.jpg)
 
-```minikube start```
+#### Perintah ```minikube start``` akan memulai cluster, dengan menjalankan minikube start. Jika sudah done, maka kluster kubernets sekarang sudah berhasil dijalankan.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/2.jpg)
 
-``` kubectl version```
+#### Perintah ``` kubectl version```untuk melakukan cek apakah kubetcl sudah terdapat dalam command.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/3.jpg)
 
