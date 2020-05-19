@@ -127,11 +127,11 @@
 
 #### Perintah ```kubectl describe services/kubernetes-bootcamp``` akan mencari tahu port berapa yang dibuka oleh NodePort
 
-```export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}')```
+#### Perintah ```export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}')```. Dengan menjalankan proses export, kita sekarang dapat menggunakan kubectl untuk mengukur jumlah replika. Melakukan penskalaan deploy akan meminta Kubernetes untuk meluncurkan Pod tambahan. Pod ini kemudian akan secara otomatis dimuat seimbang menggunakan Layanan yang terbuka
 
-```echo NODE_PORT=$NODE_PORT```
+#### Perintah ```echo NODE_PORT=$NODE_PORT``` akan menampilkan port yang digunakan, yaitu 30237
 
-```curl $(minikube ip):$NODE_PORT```
+#### Dengan perintah ```curl $(minikube ip):$NODE_PORT```, sekarang kita dapat menguji bahwa aplikasi terbuka di luar cluster menggunakan curl.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/23.jpg)
 
