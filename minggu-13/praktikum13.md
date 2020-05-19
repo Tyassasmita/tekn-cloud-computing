@@ -155,9 +155,9 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/26.jpg)
 
-```kubectl describe pods $POD_NAME```
+#### Perintah ```kubectl describe pods $POD_NAME``` akan mencari tahu apa yang dibuat Kubernetes pada pod kubernetes-bootcamp, kita bisa mendeskripsikan proses deployment. Deskripsi termasuk berapa banyak replika yang tersedia dan menampilkan masalah dan kesalahan yang mungkin terjadi. 
 
-```kubectl get pods -l app=v1```
+#### Perintah ```kubectl get pods -l app=v1``` akan menggunakan kubectl get pods yang diikuti dengan I parameter, yang nantinya akan menjalankan app pada node part 1.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/27.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/28.jpg)
@@ -165,13 +165,13 @@
 
 ### Step 3 Deleting a service
 
-```kubectl delete service -l run=kubernetes-bootcamp```
+#### Perintah ```kubectl delete service -l run=kubernetes-bootcamp``` akan menghapus service kubernetes-bootcamp yang telah dibuild pada step yang sudah dilakukan tadi.
 
-``` kubectl get services```
+#### Perintah ``` kubectl get services```akan melakukan cek untuk memastikan bahwa kubernetes-bootcamp telah terhapus.
 
-```curl $(minikube ip):$NODE_PORT```
+#### Perintah ```curl $(minikube ip):$NODE_PORT``` untuk melakukan cek untuk memastikan bahwa route yang digunakan pada kubernetes-bootcamp telah tidak digunakan lagi.
 
-```kubectl exec -ti $POD_NAME curl localhost:8080```
+#### Perintah ```kubectl exec -ti $POD_NAME curl localhost:8080``` untuk membuktikan bahwa aplikasi tidak dapat dijangkau lagi dari luar cluster. Kita lihat di sini bahwa aplikasi sudah tidak ada. Ini karena Deployment mengelola aplikasi. Untuk mematikan aplikasi, kita  harus menghapus Deploymentnya juga.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/30.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/49.jpg)
