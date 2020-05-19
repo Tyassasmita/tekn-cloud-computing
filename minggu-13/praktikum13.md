@@ -107,7 +107,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/20.jpg)
 
-```curl localhost:8080```
+#### Perintah ```curl localhost:8080``` akan menjalankan container kubernetes pada port 8080
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/21.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/47.jpg)
