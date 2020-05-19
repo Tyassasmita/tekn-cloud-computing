@@ -47,7 +47,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/8.jpg)
 
-```curl http://localhost:8001/version```
+#### Perintah ```curl http://localhost:8001/version``` akan melakukan eksplore API menggunakan curl saat proxy server sedang berjalan.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/9.jpg)
 
