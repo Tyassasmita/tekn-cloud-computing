@@ -15,7 +15,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/4.jpg)
 
-```kubectl get nodes```
+#### Perintah ```kubectl get nodes``` untuk melihat node di cluster menggunakan kubectl get nodes, Perintah tersebut menunjukkan semua node yang dapat digunakan untuk meng-host aplikasi kita. Sekarang kita hanya memiliki satu node, dan kita dapat melihat bahwa statusnya siap (siap menerima aplikasi untuk ditempatkan).
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/5.jpg)
 
