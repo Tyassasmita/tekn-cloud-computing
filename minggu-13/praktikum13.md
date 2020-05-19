@@ -90,19 +90,20 @@
 
 ### Step 3 View the container logs
 
-```kubectl logs $POD_NAME```
+#### Perintah ```kubectl logs $POD_NAME``` akan menampilkan log container.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/18.jpg)
 
 ### Step 4 Executing command on the container
 
-```kubectl exec $POD_NAME env```
+#### Perintah```kubectl exec $POD_NAME env``` akan menjalankan command pada container sekaligus saat Pod sedang berjalan dengan menggunakan perintah exec
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/19.jpg)
 
 ```kubectl exec -ti $POD_NAME bash```
 
 ```cat server.js```
+#### Perintah tersebut akan membuka console pada container saat menjalankan app NodeJS.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/20.jpg)
 
