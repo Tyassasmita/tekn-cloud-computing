@@ -117,15 +117,15 @@
 
 ### Step 1 Create a new service
 
-```kubectl get services```
+#### Perintah ```kubectl get services``` Akan menampilkan servis dengan nama kubernetes yang dimana servis tersebut merupakan servis default minikube saat minikube memulai klusternya.
 
-```kubectl expose deployment/kubernetes-bootcamp --type="NodePort" --port 8080```
+#### Perintah ```kubectl expose deployment/kubernetes-bootcamp --type="NodePort" --port 8080``` akan menampilkan default deploy dengan nama container kubernetes-bootcamp, dengan tipe NodePort yang akan berjalan pada port 8080
 
 ```kubectl get services```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/22.jpg)
 
-```kubectl describe services/kubernetes-bootcamp```
+#### Perintah ```kubectl describe services/kubernetes-bootcamp``` akan mencari tahu port berapa yang dibuka oleh NodePort
 
 ```export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}')```
 
