@@ -72,7 +72,7 @@
 
 ### Step 2 Show the app in the terminal
 
-```echo -e "\n\n\n\e[92mStarting Proxy. After starting it will not output a response. Please click the first Terminal Tab\n"; kubectl proxy```
+#### Perintah ```echo -e "\n\n\n\e[92mStarting Proxy. After starting it will not output a response. Please click the first Terminal Tab\n"; kubectl proxy``` akan melakukan pemanggilan kembali pods yang sedang berjalan di private network yang terisolasi, maka pada proses tersebut perlu mem-proxy akses ke sana agar kita bisa men-debug dan berinteraksi dengannya. Untuk melakukannya, akan digunakan perintah proxy kubectl untuk menjalankan proxy di terminal kedua
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/15.jpg)
 
