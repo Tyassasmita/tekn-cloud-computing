@@ -53,7 +53,7 @@
 
 #### Perintah ```export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')```. Proses tersebut akan melakukan proses untuk mendapatkan nama Pod dan meminta pod itu langsung melalui proxy.  dan kemudian menyimpannya dalam variabel POD_NAME
 
-```echo Name of the Pod: $POD_NAME```
+#### Perintah ```echo Name of the Pod: $POD_NAME```Sudah terdapat nama POD nya, yaitu  kubernetes-bootcamp-69fbc6f4cf-qgk9f.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/10.jpg)
 
