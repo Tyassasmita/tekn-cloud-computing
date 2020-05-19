@@ -60,11 +60,11 @@
 ## Viewing Pods and Nodes
 ### Step 1 Check application configuration
 
-```kubectl get pods```
+#### Perintah ```kubectl get pods``` akan melakukan cek pod yang sedang berjalan.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/11.jpg)
 
-```kubectl describe pods```
+#### Perintah ```kubectl describe pods``` akan menampilkan deskripsi dari pod yang sedang berjalan berupa nama namespace, priority, node (minikube yang berjalan pada IP 172.17.0.34), waktu mulai. Label, Anotasi, Status aktivitasnya, IP yang digunakan yaitu 172.18.0.4, ID container dan ID Image serta post untuk memanggilnya.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/12.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/13.jpg)
