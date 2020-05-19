@@ -137,14 +137,14 @@
 
 ### Step 2: Using labels
 
-#### Perintah ```kubectl describe deployment```untuk mencari tahu apa yang dibuat Kubernetes, kita bisa mendeskripsikan proses deployment. Deskripsi termasuk berapa banyak replika yang tersedia dan menampilkan masalah dan kesalahan yang mungkin terjadi. Pada langkah berikutnya kita akan mengekspos layanan yang sedang berjalan berupa nama namespace, priority, node (minikube yang berjalan pada IP 172.17.0.34), waktu mulai. Label, Anotasi, Status aktivitasnya, IP yang digunakan, ID container dan ID Image serta post untuk memanggilnya..
+#### Perintah ```kubectl describe deployment```untuk mencari tahu apa yang dibuat Kubernetes, kita bisa mendeskripsikan proses deployment. Deskripsi termasuk berapa banyak replika yang tersedia dan menampilkan masalah dan kesalahan yang mungkin terjadi. Pada langkah berikutnya kita akan mengekspos layanan yang sedang berjalan berupa nama namespace, priority, node (minikube yang berjalan pada IP 172.17.0.34), waktu mulai. Label, Anotasi, Status aktivitasnya, IP yang digunakan, ID container dan ID Image serta post untuk memanggilnya.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/24.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/25.jpg)
 
-```kubectl get pods -l run=kubernetes-bootcamp```
+#### Perintah ```kubectl get pods -l run=kubernetes-bootcamp``` akan menggunakan kubectl get pods yang diikuti dengan I parameter, yang nantinya akan menjalankan image kubernetes-bootcamp.
 
-```kubectl get services -l run=kubernetes-bootcamp```
+#### Perintah ```kubectl get services -l run=kubernetes-bootcamp``` akan menjalankan servis yang diikuti dengan I parameter, yang nantinya akan menjalankan image kubernetes-bootcamp.
 
 ```export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')```
 
