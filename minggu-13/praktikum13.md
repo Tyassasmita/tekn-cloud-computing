@@ -77,8 +77,6 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/15.jpg)
 
 #### Perintah ```export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')``` merupakan proses untuk melakukan export query yang akan ditempatkan pada proxy yang kemudian pada proses echo Name of the Pod: $POD_NAME akan memanggil nama pod tersebut kembali untuk melakukan cek nama pod tersebut.
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/45.jpg)
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/46.jpg)
 
 ```echo Name of the Pod: $POD_NAME```
 
@@ -87,6 +85,8 @@
 ```curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/17.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/45.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/46.jpg)
 
 ### Step 3 View the container logs
 
@@ -109,6 +109,8 @@
 ```curl localhost:8080```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/21.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/47.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/48.jpg)
 
 ## Exposimg App
 
