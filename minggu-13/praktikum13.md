@@ -30,7 +30,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/5.jpg)
 
 ### Deploy App
-```kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1```
+#### Perintah ```kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1``` akan melakukan deploy aplikasi pertama kali dengan kubectl create command deployment.  Bootcamp adalah nama aplikasi yang akan dideploy, gcr.io/google-samples/kubernetes-bootcamp:v1 adalah lokasi/url repositori untuk image yang dihosting di luar hub Docker.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/6.jpg)
 
