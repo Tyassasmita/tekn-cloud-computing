@@ -149,8 +149,9 @@
 ```export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')```
 
 ```echo Name of the Pod: $POD_NAME```
+#### Proses tersebut akan melakukan export query yang akan ditempatkan pada proxy yang kemudian pada proses echo Name of the Pod: $POD_NAME akan memanggil nama pod tersebut kembali untuk melakukan cek nama pod tersebut.
 
-```kubectl label pod $POD_NAME app=v1```
+#### Perintah ```kubectl label pod $POD_NAME app=v1``` akan menempatkan label baru yang diikuti berdasarkan tipe objek, nama objek, dan label baru.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/26.jpg)
 
