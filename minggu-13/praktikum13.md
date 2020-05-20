@@ -254,9 +254,11 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/39.jpg)
 
-```kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2```
-
+#### Perintah ```kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2```. Proses tersebut akan melakukan update image pada aplikasi menjadi versi ke 2 dengan menggunakan omage yang bersumber dari jocatalin/kubernetes-bootcamp:v2.
+ 
 ```kubectl get pods```
+
+#### Setelah dilakukan perintah tersebut kembali, ternyata masih menampilkan keempat identitas replika yan statusnya masih running semua.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/40.jpg)
 
