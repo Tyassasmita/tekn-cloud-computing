@@ -301,6 +301,8 @@
 
 ```kubectl get pods```
 
+#### Setelah dilakukan perintah tersebut kembali, ternyata dihasilkan servis sebanyak 5  servis dan yang berjalan sebanyak 3 servis. Servis tersebut merupakan replika dari kubernetes-bootcamp.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/43.jpg)
 
 ```kubectl describe pods```
