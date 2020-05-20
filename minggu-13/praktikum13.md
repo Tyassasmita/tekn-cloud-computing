@@ -279,13 +279,14 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/41.jpg)
 
-```curl $(minikube ip):$NODE_PORT```
+#### Perintah ```curl $(minikube ip):$NODE_PORT``` akan melakukan cek untuk memastikan berapa IP dan Port yang digunakan.
 
-```kubectl rollout status deployments/kubernetes-bootcamp```
+#### Perintah ```kubectl rollout status deployments/kubernetes-bootcamp```,proses tersebut digunakan untuk konfirmasi update penggantian Pod yang dilakukan
+
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/42.jpg)
 
-```kubectl describe pods```
+#### Perintah ```kubectl describe pods```, Setelah dilakukan lagi proses tersebut, proses tersebut menampilkan 2 detail deskripsi ods yang berjalan secara bersamaan.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/39.jpg)
 
