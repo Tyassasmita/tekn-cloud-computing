@@ -313,7 +313,7 @@
 
 #### Karena image v10 tidak ada di dalam epositori, maka harus dilakukan roll back agar kita bisa mmenjalankan pada versi yang ditentukan. Perintah rollout mengembalikan deployment ke kondisi yang diketahui sebelumnya (image v2). Pembaruan diversi dimana kita  dapat kembali ke status Penerapan yang sebelumnya telah diketahui.
 
-```kubectl get pods```
+#### Perintah ```kubectl get pods``` , Setelah terdapat iamge v10, maka sekarang terdapat4 pods yang berjalan
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/44.jpg)
 
