@@ -319,6 +319,8 @@
 
 ```kubectl describe pods```
 
+#### Setelah dilakukan proses tersebut telah menampilkan bahwa [endeployan menggunakan versi v2 telah berhasil termasuk Rollbacknya. kita bisa mendeskripsikan proses deployment. Deskripsi termasuk berapa banyak replika yang tersedia dan menampilkan masalah dan kesalahan yang mungkin terjadi.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/39.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/51.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/52.jpg)
