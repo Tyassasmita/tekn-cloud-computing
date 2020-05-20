@@ -232,9 +232,11 @@
 
 ```kubectl scale deployments/kubernetes-bootcamp --replicas=2```
 
-```kubectl get deployments```
+#### Akan melakuam penskalaan servis kubernetes-bootcamp pada replika nomor 2. Proses ini nantinya akan menjalankan servis kubernetes-bootcamp yang terdapat pada replika nomor 2.
 
-```kubectl get pods -o wide```
+#### Perintah ```kubectl get deployments```, servis yang di deploy menjadi servis nomor 2  setelah dilakukan penskalaan pada replika 2.
+
+#### Perintah ```kubectl get pods -o wide``` akan menampilkan pods yang berjumlah 4 dari hasil penskalaan keempat replika tadi. Terdapat IP yang berbeda-beda, yaitu 172.18.0.7 untuk replika 1, 172.18.0.9 untuk replika 2, 172.18.0.2 untuk replika 3, 172.18.0.8 untuk replika 4.  Yang berjalan adalah replika 2 dan 3, sedangkan replika 1 dan 4 di terminate, karena akibat dari dilakukannya penskalaan pada replika 2.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/37.jpg)
 
@@ -242,9 +244,9 @@
 
 ### Step 1: Update the version of the app
 
-```kubectl get deployments```
+#### Perintah ```kubectl get deployments``` akan melakukan cek deployments, dimana masih terdapat 4 replika yang dideploy.
 
-```kubectl get pods```
+#### Perintah ```kubectl get pods``` akan menampilkan keempat identitas replika yan statusnya masih running semua. Ini menandakan bahwa keempat replika tersebut masih aktif.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/38.jpg)
 
