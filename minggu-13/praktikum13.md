@@ -218,9 +218,13 @@
 
 ```export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}')```
 
+#### Proses tersebut akan menjalankan proses export, dimana sekarang dapat menggunakan kubectl untuk mengukur jumlah replika (sebanyak 4 replika). Melakukan penskalaan deploy akan meminta Kubernetes untuk meluncurkan Pod tambahan. Pod ini kemudian akan secara otomatis dimuat seimbang menggunakan Layanan yang terbuka.
+
 ```echo NODE_PORT=$NODE_PORT```
 
-```curl $(minikube ip):$NODE_PORT```
+#### Proses tersebut akan menampilkan port yang digunakan oleh node, yaitu 32395.
+
+#### Perintahn```curl $(minikube ip):$NODE_PORT``` akan melakukan cek untuk memastikan bahwa route yang digunakan pada kubernetes-bootcamp telah tidak digunakan lagi.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/36.jpg)
 
