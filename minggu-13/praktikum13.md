@@ -264,7 +264,12 @@
 
 ### Step 2: Verify an update
 
-```kubectl describe services/kubernetes-bootcamp```
+#### Perintah ```kubectl describe services/kubernetes-bootcamp```. Proses tersebut menampilkan detail yanghampir sama pada step sebelumnya. Hanya saja pada proses kali ini menampilkan keseluruhan pods yang antara lain:
+#### kubernetes-bootcamp-7d6f8694b6-6p6zt   1/1     Running   0          82s
+#### kubernetes-bootcamp-7d6f8694b6-b4j2b   1/1     Running   0          76s
+#### kubernetes-bootcamp-7d6f8694b6-nv4bw   1/1     Running   0          76s
+#### kubernetes-bootcamp-7d6f8694b6-vqkqq   1/1     Running   0          83s
+#### dan selanjutnya juga menampilkan keempat Endpoints 172.18.0.10:8080,172.18.0.11:8080,172.18.0.12:8080, 172.18.0.13:8080
 
 ````export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}')```
 
