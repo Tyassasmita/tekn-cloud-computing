@@ -294,6 +294,8 @@
 
 ```kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=gcr.io/google-samples/kubernetes-bootcamp:v10```
 
+#### Pada hasil perintah tersebut sudah ada google-samples/kubernetes-bootcamp:v10Akan melakukan skala angka container dalam service sleep-app . Replika adalah istilah yang digunakan untuk menggambarkan container identik yang menyediakan layanan yang sama.
+
 ```kubectl get deployments```
 
 ```kubectl get pods```
