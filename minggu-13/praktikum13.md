@@ -254,7 +254,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/39.jpg)
 
-#### Perintah ```kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2```. Proses tersebut akan melakukan update image pada aplikasi menjadi versi ke 2 dengan menggunakan omage yang bersumber dari jocatalin/kubernetes-bootcamp:v2.
+#### Perintah ```kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2```. Proses tersebut akan melakukan update image pada aplikasi menjadi versi ke 2 dengan menggunakan image yang bersumber dari jocatalin/kubernetes-bootcamp:v2.
  
 ```kubectl get pods```
 
@@ -264,7 +264,7 @@
 
 ### Step 2: Verify an update
 
-#### Perintah ```kubectl describe services/kubernetes-bootcamp```. Proses tersebut menampilkan detail yanghampir sama pada step sebelumnya. Hanya saja pada proses kali ini menampilkan keseluruhan pods yang antara lain:
+#### Perintah ```kubectl describe services/kubernetes-bootcamp```. Proses tersebut menampilkan detail yang hampir sama pada step sebelumnya. Hanya saja pada proses kali ini menampilkan keseluruhan pods yang antara lain:
 #### kubernetes-bootcamp-7d6f8694b6-6p6zt   1/1     Running   0          82s
 #### kubernetes-bootcamp-7d6f8694b6-b4j2b   1/1     Running   0          76s
 #### kubernetes-bootcamp-7d6f8694b6-nv4bw   1/1     Running   0          76s
@@ -274,6 +274,8 @@
 ````export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}')```
 
 ```$ echo NODE_PORT=$NODE_PORT```
+
+#### Proses tersebut akan melakukan export query yang akan ditempatkan pada proxy yang kemudian pada proses echo Name of the Pod: $POD_NAME akan memanggil nama pod tersebut kembali untuk melakukan cek nama pod tersebut. Selanjutnya akan menggunakan kubectl get pods yang diikuti dengan I parameter, yang nantinya akan menjalankan image kubernetes-bootcamp
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/41.jpg)
 
@@ -310,3 +312,5 @@
 ```kubectl describe pods```
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/39.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/51.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/52.jpg)
