@@ -185,17 +185,27 @@
 
 ```kubectl get rs```
 
+#### Perintah tersebut akan melakukan pengecekan terhadap replika set deployment. Terdapat beberapa keterangan seperti : 
+#### DESIRED yang berarti menampilkan jumlah replika aplikasi yang diinginkan, yang akan ditetapkan saat membuat deployment. Hal tersebut adalah kondisi yang diinginkan untuk proses deployment.
+#### CURRENT yang berarti menampilkan berapa banyak replika yang sedang berjalan.
+
 ```kubectl scale deployments/kubernetes-bootcamp --replicas=4```
+
+#### Pada proses tersebut akan melakukan penskalaan deployment kubernetes-bootcamp menjadi sebanyak 4 replika.
 
 ```kubectl get deployments```
 
+#### Setelah dilakukan perintah tersebut kembali, maka pada servis yang di deploy menjadi 4 dan keempat servis tersebut merupakan hasl dari proses yang sebelumnya.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/31.jpg)
 
-```kubectl get pods -o wide```
+#### Perintah ```kubectl get pods -o wide``` akan menampilkan pods yang berjumlah 4 dari hasil penskalaan keempat replika tadi. Terdapat IP yang berbeda-beda, yaitu 172.18.0.7 untuk replika 1, 172.18.0.9 untuk replika 2, 172.18.0.2 untuk replika 3, 172.18.0.8 untuk replika 4.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/32.jpg)
 
 ```kubectl describe deployments/kubernetes-bootcamp```
+
+#### Proses tersebut dijalankan untuk mencari tahu detail servis  kubernetes-bootcamp, kita bisa mendeskripsikan proses deployment. Deskripsi termasuk berapa banyak replika yang tersedia dan menampilkan masalah dan kesalahan yang mungkin terjadi. Pada langkah berikutnya kita akan mengekspos layanan yang sedang berjalan berupa nama namespace, priority, node), waktu mulai. Label, Anotasi, Status aktivitasnya, IP yang digunakan, ID container dan ID Image serta post untuk memanggilnya.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/33.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/34.jpg)
