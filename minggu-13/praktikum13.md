@@ -301,7 +301,7 @@
 
 ```kubectl get pods```
 
-#### Setelah dilakukan perintah tersebut kembali, ternyata dihasilkan servis sebanyak 5  servis dan yang berjalan sebanyak 3 servis. Servis tersebut merupakan replika dari kubernetes-bootcamp.
+#### Setelah dilakukan perintah tersebut kembali, ternyata dihasilkan servis sebanyak 5  servis dan yang berjalan sebanyak 3 servis. Servis tersebut merupakan replika dari kubernetes-bootcamp.    
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/43.jpg)
 
@@ -310,6 +310,8 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/39.jpg)
 
 ```kubectl rollout undo deployments/kubernetes-bootcamp```
+
+#### Karena image v10 tidak ada di dalam epositori, maka harus dilakukan roll back agar kita bisa mmenjalankan pada versi yang ditentukan. Perintah rollout mengembalikan deployment ke kondisi yang diketahui sebelumnya (image v2). Pembaruan diversi dimana kita  dapat kembali ke status Penerapan yang sebelumnya telah diketahui.
 
 ```kubectl get pods```
 
