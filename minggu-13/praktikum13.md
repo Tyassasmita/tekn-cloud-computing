@@ -181,7 +181,7 @@
 
 ### Step 1: Scaling a deployment
 
-```kubectl get deployments```
+#### Perintah ```kubectl get deployments``` akan melakukan cek apakah masih ada servis yang dudeploy atau tidak. Ternyata masih terdapat servis kunernetes-bootcamp
 
 ```kubectl get rs```
 
