@@ -1,3 +1,3 @@
-MINGGU 13
+MINGGU 14
 ### PRAKTIKUM
-[PRAKTIKUM](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-13/praktikum13.md)
+[PRAKTIKUM](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/praktikum14.md)
