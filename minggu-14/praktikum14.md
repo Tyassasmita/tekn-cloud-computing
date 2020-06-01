@@ -373,12 +373,15 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_92.jpg)
 
 ```kubectl get replicasets -w```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_93.jpg)
 
 ```kubectl get deployments -w```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_94.jpg)
 
 ```kubectl set image deploy worker worker=$USERNAME/worker:$TAG```
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_96.jpg)
 
 ### Rolling out an error
