@@ -4,13 +4,27 @@
 
 ```kubeadm init --apiserver-advertise-address $(hostname -i)```
 
+#### Proses melakukan inisiasi alamat cluster. Alamat IP cluster yang terdapat da;am hostname merupakan alamat IP cluster yang akan diadvertise oleh Server API. Jika tidak disetel, antarmuka jaringan default akan digunakan, seperti pada hasil proses ini, alamat IP yang digunakan adalah alamat default, yaitu 127.17.0.73.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/1.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/2.jpg)
 
 ``` kubeadm join 172.17.0.73:6443 --token abpr7a.6crccv8u6h55taan \--discovery-token-ca-cert-hash sha256:3c2d18b83207ffba89206eec9a5bc8e21d238b2ba0d07884f05297b1a7256906```
 
+#### proses tersebut dilakukan agar user dapat melakukan join oada kubeadm. Setiapu user melakukan join menggunakan token dan hash yang didapatkan dari proses kubeadm init yang dilakukan sebelumnya. Proses yang dilalui antara lain Melewati pemeriksaan pre flight, mencoba menyambung ke Server API yang telah disetting, meminta info dari cluster https://172.26.0.2:6443, meminta info dari "https://172.26.0.2:6443" lagi untuk memvalidasi TLS terhadap kunci public yang disisipkan, menandai info kluster dan kontennya valid dan sertifikat TLS memvalidasi terhadap root yang disisipkan, akan menggunakan API Server "172.26.0.2:6443", lalu yang terakhir terdapat keterangan berhasil membangun koneksi dengan API Server "172.26.0.2:6443"
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/3.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/4.jpg)
+
+```sudo cp /etc/kubernetes/admin.conf $HOME/```
+
+```sudo chown $(id -u):$(id -g) $HOME/admin.conf```
+
+```export KUBECONFIG=$HOME/admin.conf```
+
+```cat /opt/weave-kube```
+
+#### sPada prosess tersebut,client melakukan konfigurasi. Untuk melakukan konfigurasi, maka kubeadm harus melakukan inisiasi cluseter. Perintah tersebut mencopy konfigurasi ke direktori home pengguna dan menetapkan variabel environment untuk digunakan dengan CLI.
 
 ``` kubectl apply -f /opt/weave-kube```
 
@@ -21,6 +35,8 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/6.jpg)
 
 ``` kubectl apply -n kube-system -f \    "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 |tr -d '\n')" ```
+
+#### proses tersebut akan melakukan inisialisasi jaringan cluster yang akan digunakan. Container jaringan yang digunakan adalah weave. Weave sendiri digunakan untuk mengatasi masalah kluster Kubernetes saat user menyiapkan dan mengkonfigurasinya. Cara kerjanya weave  akan deploy Sock Shop, aplikasi layanan microser, ke dalamnya, dan dengan Weave Scope dan weave  akan menjelajahi layanan microser saat dijalankan di Kubernetes.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/7.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_29.jpg)
