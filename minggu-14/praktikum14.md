@@ -54,6 +54,9 @@
 #### Perintah ```kubectl apply -f dashboard.yaml``` merupakan proses untuk melakukan deploy dashboard yaml pada cluster. Dashboard Kubernetes dapat digunakan untuk mendeploy aplikasi yang tercontainer ke Kubernetes cluster. Kita dapat memecahkan masalah aplikasi yang tercontainer dan sumber daya cluster dapat diatur. Kita dapat menggunakan dashboard Kubernetes untuk mendapatkan gambaran umum yang jelas tentang aplikasi yang berjalan di cluster.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_33.jpg)
+
+#### Perintah ```kubectl get pods -n kube-system```merupakan proses yang dijalankan untuk mencari tahu detail servis  kube-system, kita bisa mendeskripsikan proses deployment. Deskripsi termasuk berapa banyak replika yang tersedia dan menampilkan masalah dan kesalahan yang mungkin terjadi. Pada langkah berikutnya kita akan mengekspos layanan yang sedang berjalan berupa nama namespace, priority, node), waktu mulai.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_34.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_35.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_36.jpg)
