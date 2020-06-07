@@ -24,13 +24,13 @@
 
 ```cat /opt/weave-kube```
 
-#### sPada prosess tersebut,client melakukan konfigurasi. Untuk melakukan konfigurasi, maka kubeadm harus melakukan inisiasi cluseter. Perintah tersebut mencopy konfigurasi ke direktori home pengguna dan menetapkan variabel environment untuk digunakan dengan CLI.
+#### Pada prosess tersebut,client melakukan konfigurasi. Untuk melakukan konfigurasi, maka kubeadm harus melakukan inisiasi cluseter. Perintah tersebut mencopy konfigurasi ke direktori home pengguna dan menetapkan variabel environment untuk digunakan dengan CLI.
 
-``` kubectl apply -f /opt/weave-kube```
+#### Perintah ``` kubectl apply -f /opt/weave-kube```, proses tersebut akan melakukan pengunduhan weave cube
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/5.jpg)
 
-``` kubectl get nodes ```
+#### Perintah ``` kubectl get nodes ```pada hasil proses tersebut, menandakan sudah terdapat 2 node pada cluster yang telah dibuat
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/6.jpg)
 
