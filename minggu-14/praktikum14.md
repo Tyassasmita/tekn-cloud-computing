@@ -50,6 +50,9 @@
 #### Perintah ```docker ps | grep docker-http-server```pada proses tersebut terlihat bahwa container yang dideploy sudah berjalan pada node.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_32.jpg)
+
+#### Perintah ```kubectl apply -f dashboard.yaml``` merupakan proses untuk melakukan deploy dashboard yaml pada cluster. Dashboard Kubernetes dapat digunakan untuk mendeploy aplikasi yang tercontainer ke Kubernetes cluster. Kita dapat memecahkan masalah aplikasi yang tercontainer dan sumber daya cluster dapat diatur. Kita dapat menggunakan dashboard Kubernetes untuk mendapatkan gambaran umum yang jelas tentang aplikasi yang berjalan di cluster.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_33.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_34.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_35.jpg)
