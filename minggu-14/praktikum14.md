@@ -58,7 +58,13 @@
 #### Perintah ```kubectl get pods -n kube-system```merupakan proses yang dijalankan untuk mencari tahu detail servis  kube-system, kita bisa mendeskripsikan proses deployment. Deskripsi termasuk berapa banyak replika yang tersedia dan menampilkan masalah dan kesalahan yang mungkin terjadi. Pada langkah berikutnya kita akan mengekspos layanan yang sedang berjalan berupa nama namespace, priority, node), waktu mulai.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_34.jpg)
+
+#### Perintah ```cat <<EOF | kubectl create -f -``` merupakan proses yang akan menampilkan status deployment yang dilakukan. Dashboardnya sendoro dideploy di dalam kube-system namespace. Pada proses tersebut diperlukan ServiceAccount untuk masuk. ClusterRoleBinding digunakan untuk menetapkan ServiceAccount baru (admin-pengguna) peran cluster-admin pada cluster. Ini berarti mereka dapat mengontrol semua aspek Kubernetes. Dengan ClusterRoleBinding dan RBAC, tingkat izin yang berbeda dapat ditentukan berdasarkan persyaratan keamanan.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_35.jpg)
+
+#### Perintah ```kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print $1}')``` merupakan proses yang akan menampilkan token untuk login. Ketika dashboard digunakan, itu menggunakan eksternalIP untuk mengikat layanan ke port 8443. Ini membuat dashboard tersedia untuk di luar cluster dan dapat dilihat di hasil dibawah.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_36.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_37.jpg)
 
