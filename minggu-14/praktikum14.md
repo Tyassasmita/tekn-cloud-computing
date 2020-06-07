@@ -34,9 +34,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/6.jpg)
 
-``` kubectl apply -n kube-system -f \    "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 |tr -d '\n')" ```
-
-#### proses tersebut akan melakukan inisialisasi jaringan cluster yang akan digunakan. Container jaringan yang digunakan adalah weave. Weave sendiri digunakan untuk mengatasi masalah kluster Kubernetes saat user menyiapkan dan mengkonfigurasinya. Cara kerjanya weave  akan deploy Sock Shop, aplikasi layanan microser, ke dalamnya, dan dengan Weave Scope dan weave  akan menjelajahi layanan microser saat dijalankan di Kubernetes.
+#### Perintah ``` kubectl apply -n kube-system -f \    "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 |tr -d '\n')" ``` merupakan proses tersebut akan melakukan inisialisasi jaringan cluster yang akan digunakan. Container jaringan yang digunakan adalah weave. Weave sendiri digunakan untuk mengatasi masalah kluster Kubernetes saat user menyiapkan dan mengkonfigurasinya. Cara kerjanya weave  akan deploy Sock Shop, aplikasi layanan microser, ke dalamnya, dan dengan Weave Scope dan weave  akan menjelajahi layanan microser saat dijalankan di Kubernetes.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/7.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_29.jpg)
