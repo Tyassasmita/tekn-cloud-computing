@@ -38,8 +38,17 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/7.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_29.jpg)
+
+### Perintah ```kubectl create deployment http --image=katacoda/docker-http-server:latest``` merupakan proses menggunakan Kubectl untuk menggunakan pod. Perintah tersebut akan membuat Pod berdasarkan pada Docker Image katacoda / docker-http-server.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_30.jpg)
+
+#### Perintah ```kubectl get pods``` merupakan proses yang dilakukan untuk melihat pembuatan Pod, sudah terdapat pods yang akan digunakan untuk cluster.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_31.jpg)
+
+#### Perintah ```docker ps | grep docker-http-server```pada proses tersebut terlihat bahwa container yang dideploy sudah berjalan pada node.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_32.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_33.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_34.jpg)
