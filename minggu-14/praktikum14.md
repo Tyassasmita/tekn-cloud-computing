@@ -72,7 +72,7 @@
 
 ``` git clone https://github.com/dockersamples/dockercoins```
 
-### Pada perintah tersebut melakukan clone Link dockercoins dari github. Link dockercoins sendiri merupakan aplikasi yang akan melakukan scraping link dari suatu halaman web.
+#### Pada perintah tersebut melakukan clone Link dockercoins dari github. Link dockercoins sendiri merupakan aplikasi yang akan melakukan scraping link dari suatu halaman web.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/8.jpg)
 
