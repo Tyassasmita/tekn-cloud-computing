@@ -84,7 +84,13 @@
 
 ``` docker-compose up```
 
-#### Setelah proses tersebut dijalankan, hasilnya menunjukkan bahwa Docker Compose secara otomatis membuat jaringan bernama dockercoins_default, lalu selanjutnya  Docker Compose melakukan pull image php: 7-apache dari DockerHub, lalu selanjutnya melakukan build image redis menggunakan Dockerfile, dan akhirnya, Docker Compose menjalankan container Dockercoin yang merupakan container untuk minning seperti trading, bitcoins
+#### Setelah proses tersebut dijalankan, hasilnya menunjukkan bahwa Docker Compose secara otomatis membuat jaringan bernama dockercoins_default, lalu selanjutnya  Docker Compose melakukan pull image php: 7-apache dari DockerHub, lalu selanjutnya melakukan build image redis menggunakan Dockerfile, dan akhirnya, Docker Compose menjalankan container Dockercoin yang merupakan container untuk minning seperti trading, bitcoins.
+#### Pada tampilan tersebut merupakan hasil dari Dockercoins. Dockercoins  sendiri terbuat dari 5 layanan:
+#### rng = layanan web yang menghasilkan byte acak
+#### hasher = hash komputasi layanan web dari data POSTed
+#### worker = proses latar belakang memanggil rng dan hasher
+#### webui = antarmuka web untuk melihat progress
+#### redis = penyimpanan data (melakukan penghitungan yang diperbarui oleh worker)
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/9.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/14.jpg)
