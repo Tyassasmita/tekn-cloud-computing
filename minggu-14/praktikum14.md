@@ -72,13 +72,19 @@
 
 ``` git clone https://github.com/dockersamples/dockercoins```
 
+### Pada perintah tersebut melakukan clone Link dockercoins dari github. Link dockercoins sendiri merupakan aplikasi yang akan melakukan scraping link dari suatu halaman web.
+
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/8.jpg)
 
 ### Running the application
 
 ``` cd ~/dockercoins ```
 
+#### cd ~/dockercoins masuk ke direktory dockercoins
+
 ``` docker-compose up```
+
+#### Setelah proses tersebut dijalankan, hasilnya menunjukkan bahwa Docker Compose secara otomatis membuat jaringan bernama dockercoins_default, lalu selanjutnya  Docker Compose melakukan pull image php: 7-apache dari DockerHub, lalu selanjutnya melakukan build image redis menggunakan Dockerfile, dan akhirnya, Docker Compose menjalankan container Dockercoin yang merupakan container untuk minning seperti trading, bitcoins
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/9.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/14.jpg)
