@@ -102,15 +102,13 @@
 ## First contact with kubectl
 ### kubectl get
 
-```kubectl get node```
-
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/6.jpg)
-
 ```kubectl get no```
 
 ```kubectl get node```
 
 ```kubectl get nodes```
+
+#### Perintah tersebut digunakan untuk melihat daftar node yang terdapat pada cluster yang kita buat.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/11.jpg)
 
