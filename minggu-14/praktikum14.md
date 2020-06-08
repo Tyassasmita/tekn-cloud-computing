@@ -114,25 +114,25 @@
 
 ### Obtaining machine-readable output
 
-```kubectl get nodes -o wide```
+#### Perintah ```kubectl get nodes -o wide``` digunakan untuk melihat daftar node yang terdapat pada cluster yang kita buat.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/12.jpg)
 
-```kubectl get no -o yaml```
+#### Perintah ```kubectl get no -o yaml``` digunakn untuk melihat informasi yaml yang terdapat pada cluster yang kita buat. Untuk informasi yang dimuat antara lain apiVersion, Items, kind, metadata, annotations/anotasi yag menggunakan cri-socket meaty, creationTimestamp, labels, dan masih banyak lagi.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/13.jpg)
 
 ### (Ab)using kubectl and jq
 
-```kubectl get nodes -o json |```
+#### Perintah ```kubectl get nodes -o json |```
 
-```      jq ".items[] | {name:.metadata.name} + .status.capacity"```
+#### ```      jq ".items[] | {name:.metadata.name} + .status.capacity"``` merupakan proses untuk menampilkan kapasitas semua node yangdibungkussebagai aliran objek JSON.  Node yang ditampilkan adalah master dan node1. Informasi yang ditampilkan antara lainL name, cpu, ephemeral-sorage, hugepages-1Gi, hugepages-2Mi, memory, pods.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/17.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/18.jpg)
 ### What’s available?
 
-```kubectl describe nodes master```
+#### Perintah ```kubectl describe nodes master```untuk melakukan deskripsi coomand dengan verbose output. Untuk mencari tahu apa yang dibuat Kubernetes, kita bisa mendeskripsikan proses deployment. Deskripsi termasuk berapa banyak replika yang tersedia dan menampilkan masalah dan kesalahan yang mungkin terjadi. Pada langkah berikutnya kita akan mengekspos layanan yang sedang berjalan berupa nama namespace, priority, node (minikube yang berjalan pada IP 172.17.0.34), waktu mulai. Label, Anotasi, Status aktivitasnya, IP yang digunakan, ID container dan ID Image serta post untuk memanggilnya.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_42.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_43.jpg)
