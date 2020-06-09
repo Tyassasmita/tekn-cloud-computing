@@ -160,6 +160,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_45.jpg)
 
 ### Namespaces
+#### Namespaces adalah cara untuk membagi sumber daya cluster antara beberapa pengguna (melalui kuota sumber daya). Dalam versi Kubernetes yang akan datang, objek di namespace yang sama akan memiliki kebijakan kontrol akses yang sama secara default. Tidak perlu menggunakan banyak ruang nama hanya untuk memisahkan sumber daya yang sedikit berbeda, seperti versi berbeda dari perangkat lunak yang sama dan menggunakan label untuk membedakan sumber daya dalam namespace yang sama.
 
 ```kubectl get namespaces```
 
@@ -172,13 +173,13 @@
 
 ### Accessing namespaces
 
-```kubectl -n kube-system get pods```
+#### Perintah ```kubectl -n kube-system get pods``` akan memberikan informasi mengenai list pods yang sedang berjalan, -n akan memberikan keterangan nama pods beserta dengan statusnya.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/23.jpg)
 
 ### Starting a simple pod with kubectl run
 
-```kubectl run pingpong --image alpine ping 8.8.8.8```
+#### Perintah ```kubectl run pingpong --image alpine ping 8.8.8.8``` akan melakukan ping ke 8.8.8.8, yaitu Google DNS. Ping tersebut dilakukan dari image alpine. Hasilnya deployment yang sebelumnya akan terdeprecated dan akan dihapus, yan selanjutnya akan diganti dengan deployment yang baru.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/24.jpg)
 
