@@ -149,14 +149,13 @@
 ### ClusterIP services
 
 ```curl -k https://10.96.0.1```
-#### Sekarang kita dapat menguji bahwa aplikasi terbuka di luar cluster menggunakan curl.
-#### -k digunakan untuk melewati verifikasi sertifikat. Selain itu curl digunakan untuk mengganti 10.96.0.1 dengan CLUSTER-IP.
+#### Sekarang kita dapat menguji bahwa aplikasi terbuka di luar cluster menggunakan curl. -k digunakan untuk melewati verifikasi sertifikat. Selain itu curl digunakan untuk mengganti 10.96.0.1 dengan CLUSTER-IP.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/20.jpg)
 
 ### Listing running containers
 
-```kubectl get pods```
+### Perintah ```kubectl get pods``` pods belum ada, karena belum diberikan pada cluster tersebut
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_45.jpg)
 
