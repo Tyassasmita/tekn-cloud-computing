@@ -207,13 +207,13 @@
 
 ### Scaling our application
 
-```kubectl scale deploy/pingpong --replicas 8```
+#### Perintah ```kubectl scale deploy/pingpong --replicas 8``` akan melakukan scaling dari depoloyment pingpong dengan 8 replika. 
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/27.jpg)
 
 ### Resilience
 
-```kubectl get pods -w```
+#### Perintah ```kubectl get pods -w```, Setelah dilakukan perintah tersebut kembali, maka pada servis yang di deploy menjadi 8 dan keempat servis tersebut merupakan hasl dari proses yang sebelumnya.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/28.jpg)
 
