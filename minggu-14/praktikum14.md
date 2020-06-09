@@ -186,18 +186,22 @@
 ### Behind the scenes of kubectl run
 
 ```kubectl get all```
+#### akan menampilkan informasi deployment. Proses ini akan menghasilkan informasi seperti
+#### deploy / pingpong akan menampilkan deployment yang baru saja kita buat
+#### rs / pingpong-xxxx akan menampilkan set replika yang dibuat oleh deployment
+#### po / pingpong-yyyy akan menampilkan pod yang dibuat oleh set replika
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/25.jpg)
 
 ### Viewing container output
 
-```kubectl logs deploy/pingpong```
+#### Perintah ```kubectl logs deploy/pingpong```akan melakukan cek status log darip deployment pingpong
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/26.jpg)
 
 ### Streaming logs in real time
 
-```kubectl logs deploy/pingpong --tail 1 --follow```
+#### Perintah ```kubectl logs deploy/pingpong --tail 1 --follow``` akan melakukan pemanggilan kembali pods yang sedang berjalan di private network yang pingpong, maka pada proses tersebut perlu mem-proxy akses ke sana agar kita bisa men-debug dan berinteraksi dengannya. Untuk melakukannya, akan digunakan perintah proxy kubectl untuk menjalankan proxy di terminal kedua
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_46.jpg)
 
