@@ -247,14 +247,14 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_55.jpg)
 
-``` curl http://$IP:9200/```
+#### Perintah ``` curl http://$IP:9200/``` Akan mengirimkan rekuest ke port 9200. Hasilnya didapatkan IP 10.107.164.154 dengan nama Monica Rappaccini, dengan cluster name elasticsearch, terdapat cluster uuid. Dan nomor versi serta leterangan dari build version tersebut.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_56.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_57.jpg)
 
 ### Clean up
 
-```kubectl delete deploy/elastic```
+#### Perintah ```kubectl delete deploy/elastic``` Akan menghapus container elastic dari deployan.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_58.jpg)
 
