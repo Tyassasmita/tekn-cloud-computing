@@ -219,19 +219,19 @@
 
 ### Viewing logs of multiple pods
 
-```kubectl logs -l run=pingpong --tail 1```
+#### Perintah ```kubectl logs -l run=pingpong --tail 1``` akan menampilkan deskripsi dari pingpong --tail 1yang sedang berjalan berupa nama namespace, priority, node (minikube yang berjalan pada IP 8.8.8.8), seq, ttl, time.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/29.jpg)
 
 ### Clean-up
 
-```kubectl delete deploy/pingpong```
+#### Perintah ```kubectl delete deploy/pingpong``` akan menghapus container pingpong dari deployan.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/30.jpg)
 
 ### Running containers with open ports
 
-```kubectl run elastic --image=elasticsearch:2 --replicas=4```
+#### Perintah ```kubectl run elastic --image=elasticsearch:2 --replicas=4``` proses tersebut akan menjalankan  container elasticsearch. Elasticsearch dapat memakan memori yang besar dan berat karena mengurutkan dan mengumpulken data, jadi ketika dijalankan pada Kubernetes, maka yang diperlukan hanya komputer memiliki cukup memori untuk menjalankan Kubernetes, alat manajemen data, dan Elasticsearch itu sendiri.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/31.jpg)
 
