@@ -237,13 +237,13 @@
 
 ### Exposing our deployment
 
-```kubectl expose deploy/elastic --port 9200```
+#### Perintah ```kubectl expose deploy/elastic --port 9200``` proses tersebut akan membuat objek service yang mengekspos deployment dari elasticsearch pada port 9200
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/32.jpg)
 
 ### Testing our service
 
-```IP=$(kubectl get svc elastic -o go-template --template '{{ .spec.clusterIP }}')```
+#### Perintah ```IP=$(kubectl get svc elastic -o go-template --template '{{ .spec.clusterIP }}')``` Proses tersebut dilakukan untuk mendapatkan alamat IP yang akan dialokasikan untuk proses deploy elasticsearch.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_55.jpg)
 
