@@ -341,7 +341,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/44.jpg)
 
-```kubectl scale deploy/worker --replicas=10```
+#### Perintah ```kubectl scale deploy/worker --replicas=10``` akan melakukan scaling dari depoloyment worker dengan 10 replika. Setelah dilakukan perintah tersebut kembali, maka pada servis yang di deploy menjadi 10 replika dan semua servis tersebut merupakan hasil dari proses kubectl scale.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/45.jpg)
 
