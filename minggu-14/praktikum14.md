@@ -291,7 +291,9 @@
 #### Perintah ```kubectl run redis --image=redis``` merupakan proses  untuk menjalankan image redis dari Dockerhub(disini dari flask melakukan import flask dan request) lalu juga melakukan import linkextractor. Proses ini akan  membuat layanan untuk menghubungkan ke instance Redis karena akan menggunakan redis untuk melakukan caching. Informasi ini dapat tersedia pada saat dijalankan menggunakan environment variabel REDIS_URL. Entri ENV yang sesuai juga ditambahkan di Dockerfile dari layanan API dengan nilai default. Contoh client redis dibuat menggunakan redis host name dan port Redis default 6379.
 
 ```for SERVICE in hasher rng webui worker; do```
+
 ```  kubectl run $SERVICE --image=$USERNAME/$SERVICE -l app=$SERVICE```
+
 ```done```
 #### Pada proses tersebut akan memberikan komponen pada deploy redis dengan memberi worker, dan menjalankan perintah programming untuk menjalankan image berdasarkan username dockerhub yang telah diekspor.
 
