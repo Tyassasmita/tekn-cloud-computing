@@ -275,6 +275,12 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/35.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/36.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/37.jpg)
+#### Proses tersebut akan melakukan build  image dockercoins dengan menjalankan file dockercoins.yml
+#### Step 1/5, dari image python:alpine , akan melakukan pull dari library python
+#### Step 2/5, akan melakukan instalasi yang dibutuhkan pada proses build container pada requirements.txt, yaitu flask dan redis dengan menggunakan pip, dengan melakukan download flask framework dan redis dan beberapa package pendukungnya. Setelah didwonload, maka dilakukan build MarkupSafe dan dilakukan proses install
+#### Step 3/5, akan menjalankan enfironment flask framework pada app.py
+#### Step 4/5, pada environment flask menjalankan host 0.0.0.0
+#### Step 5/5, akan mencopy apa yang dibutuhkan pada proses build container pada requirements.txt, yaitu flask dan redis
 
 ```docker-compose -f dockercoins.yml push```
 
