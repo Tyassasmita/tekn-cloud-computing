@@ -321,12 +321,13 @@
 ### Is this working yet?
 
 #### ```kubectl logs deploy/worker --follow``` tunggu revocer hingga 10 menit
+#### Pada proses tersebut ketika dijalankan akan terjadi error dan worker secara otomatis melakukan looping tak terbatas, lalu selanjutnya worker akan melakukan recovery hingga waktu 10 menit.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/42.jpg)
 
 ### Exposing services for external access
 
-```kubectl create service nodeport webui --tcp=80 --node-port=30001```
+#### Perintah ```kubectl create service nodeport webui --tcp=80 --node-port=30001```, proses tersebut dilakukan ketika kita akan mengakses web UI yang kita deploy. Pada proses tersebut akan mengekspose nodeport dengan port 30001. Nah port tersebutlah yang akan digunakan untuk sebagai service dari web Ui tersebut.
 
 #### Perintah ``kubectl get svc``` digunakan untuk menampilkan servis dengan nama kubernetes yang dimana servis tersebut merupakan servis default minikube saat minikube memulai klusternya.
 
