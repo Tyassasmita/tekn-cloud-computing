@@ -260,13 +260,13 @@
 
 ### Setup 
 
-```export USERNAME=tyassasmita```
+#### Perintah ```export USERNAME=tyassasmita``` untuk melakukan export username akun dockerhub. Ini akan digunakan untuk penyimpanan hasil deploy ke dockerhub.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/33.jpg)
 
 ### Building and pushing our images
 
-```cd ~/dockercoins/stacks```
+#### Perintah ```cd ~/dockercoins/stacks``` untuk masuk ke subdirektory stacks pada direktory dockercoins yang di clone. Didalam stacks tersebut nantinya akan menjalankan file dockercoins.yml
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/34.jpg)
 
