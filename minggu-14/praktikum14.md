@@ -319,15 +319,15 @@
 
 ```kubectl create service nodeport webui --tcp=80 --node-port=30001```
 
-```kubectl get svc```
+#### Perintah ``kubectl get svc``` digunakan untuk menampilkan servis dengan nama kubernetes yang dimana servis tersebut merupakan servis default minikube saat minikube memulai klusternya.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/43.jpg)
 
 ### Scaling a deployment
 
-```kubectl get pods```
+#### Perintah ```kubectl get pods``` akan melakukan cek pod yang sedang berjalan.
 
-```kubectl get deployments```
+#### Perintah ```kubectl get deployments``` akan melakukan cek apakah masih ada servis yang dudeploy atau tidak. Ternyata masih terdapat servis kunernetes-bootcamp.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/44.jpg)
 
@@ -443,7 +443,7 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_97.jpg)
 
-```kubectl rollout status deploy worker```
+#### Perintah ```kubectl rollout status deploy worker``` digunakan untuk mengecek apakah Deployment telah selesai.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_98.jpg)
 
