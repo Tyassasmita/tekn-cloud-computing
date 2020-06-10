@@ -283,6 +283,7 @@
 #### Step 5/5, akan mencopy apa yang dibutuhkan pada proses build container pada requirements.txt, yaitu flask dan redis
 
 ```docker-compose -f dockercoins.yml push```
+#### Hasil dari build diatas kemudian akan dipush ke akun Dockerhub yang telah diexport tadi. Hal ini dilakukan supaya hasilnya dapat terdaftar pada Dockerhub.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/38.jpg)
 
