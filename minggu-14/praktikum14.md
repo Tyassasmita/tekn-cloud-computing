@@ -335,9 +335,9 @@
 
 ### Scaling a deployment
 
-#### Perintah ```kubectl get pods``` akan melakukan cek pod yang sedang berjalan.
+#### Perintah ```kubectl get pods``` akan melakukan cek pod yang sedang berjalan, pada hasilnya terdapat beberapa pods dari deployment termasuk yang sebelumnya dijalankan, yaitu webui.
 
-#### Perintah ```kubectl get deployments``` akan melakukan cek apakah masih ada servis yang dudeploy atau tidak. Ternyata masih terdapat servis kunernetes-bootcamp.
+#### Perintah ```kubectl get deployments``` akan melakukan cek apakah masih ada servis yang dideploy atau tidak. Deployment yang akan digunakan pada proses kali ini adalah deployment worker.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/44.jpg)
 
