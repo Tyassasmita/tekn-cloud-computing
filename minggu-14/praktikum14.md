@@ -301,20 +301,20 @@
 
 ### Is this working?
 
-```kubectl logs deploy/rng```
+#### Perintah ```kubectl logs deploy/rng``` akan melakukan cek logs app rng, dimana rng tersebut berjalan pada alamat 0.0.0.0:80
 
-```kubectl logs deploy/worker```
+#### Perintah ```kubectl logs deploy/worker``` akan melakukan cek logs node worker.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/40.jpg)
 
 ## Exposing services
 ### Exposing services internally
 
-```kubectl expose deployment redis --port 6379```
+#### Perintah ```kubectl expose deployment redis --port 6379```, Deployment dari redis tersebut agar host Docker dapat mengakses port container pada network 6379 ini harus di expose portnya atau di open lewat firewall.
 
-```kubectl expose deployment rng --port 80```
+#### Perintah ```kubectl expose deployment rng --port 80```, Deployment dari rng tersebut agar host Docker dapat mengakses port container pada network 80 ini harus di expose portnya atau di open lewat firewall. 
 
-```kubectl expose deployment hasher --port 80```
+#### Perintah ```kubectl expose deployment hasher --port 80```, Deployment dari hasher tersebut agar host Docker dapat mengakses port container pada network 80 ini harus di expose portnya atau di open lewat firewall.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/41.jpg)
 
