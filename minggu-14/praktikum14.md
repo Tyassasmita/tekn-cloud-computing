@@ -355,18 +355,6 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/46.jpg)
 
-### Understanding the problem
-
-```error validating data:```
-
-```[ValidationError(DaemonSet.spec):```
-
-```unknown field "replicas" in io.k8s.api.extensions.v1beta1.DaemonSetSpec,```
-
-```...```
-
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/47.jpg)
-
 ### Use the --force, Luke
 
 ```kubectl apply -f rng.yml --validate=false```
