@@ -438,14 +438,17 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_94.jpg)
 
 ```kubectl set image deploy worker worker=$USERNAME/worker:$TAG```
+#### Proses tersebut digunakan untuk memperbarui worker username yang telah dideploy.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_96.jpg)
 
 ### Rolling out an error
 
 ```export TAG=v0.3```
+#### proses tersebut akan melakukan ekspor tag baru, yaitu v0.3 pada worker untuk melakukan update versi baru pada worker.
 
 ```kubectl set image deploy worker worker=$REGISTRY/worker:$TAG```
+#### Proses tersebut digunakan untuk memperbarui worker image register yang telah dideploy.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_97.jpg)
 
