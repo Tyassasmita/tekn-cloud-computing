@@ -348,22 +348,26 @@
 ### Creating a daemon set
 
 ```kubectl apply -f foo.yaml```
+#### proses tersebut error dan tidak dapat dilakukan, karena pada Kubernetes 1.9, CLI tidak dapat membuat set daemon. Lebih tepatnya ia tidak memiliki sub perintah untuk membuat set daemon
 
 ```kubectl get deploy/rng -o yaml --export >rng.yml```
+#### Proses tersebut akan melakukan dump rng resource pada YAML. Proses ini nantinya sebagai permulaan dari proses pembuatan YAML file untuk daemon set. –export akan mengapus informasi  cluster-specific yang antara lain: namespace, statis dam waktu pembuatam, resource version dan uid
 
 ```kubectl apply -f rng.yml```
+#### proses tersebut akan membuat resource baru rng.yml. pada keterangan menunjukan bahwa kubetcl apply harus digunakan pada resource yang dibuat oleh antara kubetcl create –save-config atau kubetcl apply
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/46.jpg)
 
 ### Use the --force, Luke
 
 ```kubectl apply -f rng.yml --validate=false```
+#### proses tersebut akan membuat resource baru rng.yml dengan menambahkan –force yang berarti dengan menambahkan –force tersebut, maka perintah akan memberi tahu Kubernetes untuk mengabaikan kesalahan dan tetap menjalankan proses.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/48.jpg)
 
 ### Checking what we’ve done
 
-```kubectl get all```
+#### Perintah ```kubectl get all``` akan menampilkan semua resource deployment. Pada hasil terlihat bahwa deploy/rng dan ds/rng telah berhasi diberikan dan menandakan bahwa kita tetap punya deployment rng yang lama dan juga punya deployment rng yang baru. Jika kita melihat podnya, kita memiliki: satu pod untuk deploymentdan satu pod per node untuk keperluan daemonset.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/49.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/50.jpg)
@@ -371,17 +375,20 @@
 ### Deep dive into selectors
 
 ```kubectl describe deploy rng```
+#### proses tersebut akan menampilkan detail informasi mengenai rng deployment. Detail informasi termasuk berapa banyak replika yang tersedia dan menampilkan masalah dan kesalahan yang mungkin terjadi. Pada langkah berikutnya kita akan mengekspos layanan yang sedang berjalan berupa nama namespace, priority, node, waktu mulai. Label, Anotasi, Status aktivitasnya, IP yang digunakan, ID container dan ID Image serta post untuk memanggilnya, bahkan keterangan nama akun dockerhub yang mendeploy rng tersebut pun dimunculkan.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/51.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/52.jpg)
 
 ```kubectl describe rs rng-yyyy```
+#### proses tersebut akan menampilkan detail informasi mengenai replika dari rng. Namun karena tidak terdapat replika, maka proses ini tidak dapat berjalan.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/53.jpg)
 
 ### Adding our label
 
 ```kubectl edit daemonset rng```
+#### Pada proses ini akan dilakukan update pada daemonset rng menggunakan perintah kubetcl edit. Perintah editnya pun sama seperti text editor pada umumnya, yaitu dengan menekan shift+i untuk insert/edit, escape untuk keluar dari mode edit. Akan diberikan komponen tambahan berupa isactive: "yes". isactive: "yes" akan menandakan bahwa rng tersebut aktif dan akan siap dijalankan.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_80.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_81.jpg)
@@ -389,9 +396,9 @@
 
 ### Checking what we’ve done
 
-```kubectl logs -l run=rng```
+#### Perintah ```kubectl logs -l run=rng```, akan melakukan cek logs app rng yang sedang berjalan, untuk mengkonfirmasi bahwa hanya kedua rng yang aktif
 
-```kubectl get pods```
+#### Perintah ```kubectl get pods``` akan melakukan cek pod yang sedang berjalan, pada hasilnya terdapat beberapa pods dari deployment termasuk yang sebelumnya dijalankan dan rng lama maupun yang baru.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_83.jpg)
 
@@ -399,6 +406,7 @@
 
 
 ```export TAG=v0.2```
+#### proses tersebut akan melakukan ekspor tag baru, yaitu v0.2 pada worker untuk melakukan update versi baru pada worker.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_84.jpg)
 
