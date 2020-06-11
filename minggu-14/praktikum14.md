@@ -419,6 +419,7 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_89.jpg)
 
 ```docker-compose -f dockercoins.yml push```
+#### Hasil dari build diatas kemudian akan dipush ke akun Dockerhub yang telah diexport tadi. Hal ini dilakukan supaya hasilnya dapat terdaftar pada Dockerhub.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_90.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_91.jpg)
@@ -426,7 +427,7 @@
 ### Rolling out the new worker service
 
 ```kubectl get pods -w```
-#### Setelah dilakukan perintah tersebut kembali, maka pada servis yang di deploy menjadi 12 dan kelima servis tersebut merupakan hasl dari proses yang sebelumnya.
+#### akan melakukan cek pod yang sedang berjalan pada worker, pada hasilnya terdapat beberapa pods dari deployment termasuk yang sebelumnya dijalankan dan rng lama maupun yang baru.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_92.jpg)
 
