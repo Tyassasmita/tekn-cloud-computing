@@ -412,6 +412,13 @@
 
 ```docker-compose -f dockercoins.yml build```
 #### Proses tersebut akan melakukan build  image dockercoins dengan menjalankan file dockercoins.yml
+
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_85.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_86.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_87.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_88.jpg)
+![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_89.jpg)
+
 #### Step 1/5, dari image python:alpine , akan melakukan pull dari library python
 #### Step 2/5, akan melakukan instalasi yang dibutuhkan pada proses build container dengan menggunakan pip, dengan melakukan download flask framework dan redis dan beberapa package pendukungnya. Setelah didwonload, maka dilakukan build MarkupSafe dan dilakukan proses install
 #### Step 3/5, akan melakukan instalasi yang dibutuhkan pada proses build container dengan menggunakan pip, dengan melakukan download request dan kemudian menginstallnya
@@ -434,12 +441,6 @@
 #### Step 5/7, akan melakukan copy file webui.js
 #### Step 6/7, akan menjalankan file webui.rb 
 #### Step 7/7, akan melakukan ekspose pada port 80, supaya container berjalan pada port 80
-
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_85.jpg)
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_86.jpg)
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_87.jpg)
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_88.jpg)
-![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_89.jpg)
 
 ```docker-compose -f dockercoins.yml push```
 #### Hasil dari build diatas kemudian akan dipush ke akun Dockerhub yang telah diexport tadi. Hal ini dilakukan supaya hasilnya dapat terdaftar pada Dockerhub.
