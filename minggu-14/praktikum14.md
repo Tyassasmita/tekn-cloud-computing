@@ -212,7 +212,7 @@
 
 ### Resilience
 
-#### Perintah ```kubectl get pods -w```, Setelah dilakukan perintah tersebut kembali, maka pada servis yang di deploy menjadi 8 dan keempat servis tersebut merupakan hasl dari proses yang sebelumnya.
+#### Perintah ```kubectl get pods -w```, Setelah dilakukan perintah tersebut kembali, maka pada servis yang di deploy menjadi 8 dan keempat servis tersebut merupakan hasil dari proses yang sebelumnya.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/28.jpg)
 
@@ -426,14 +426,15 @@
 ### Rolling out the new worker service
 
 ```kubectl get pods -w```
+#### Setelah dilakukan perintah tersebut kembali, maka pada servis yang di deploy menjadi 12 dan kelima servis tersebut merupakan hasl dari proses yang sebelumnya.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_92.jpg)
 
-```kubectl get replicasets -w```
+#### Perintah ```kubectl get replicasets -w``` digunakan untuk menghilangkan deploy replikasi sehingga mejadi 5 servis utama.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_93.jpg)
 
-```kubectl get deployments -w```
+#### Perintah ```kubectl get deployments -w```untuk mendapatkan semua deployment yang telah dibuat.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_94.jpg)
 
