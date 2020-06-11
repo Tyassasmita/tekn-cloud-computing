@@ -411,6 +411,29 @@
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_84.jpg)
 
 ```docker-compose -f dockercoins.yml build```
+#### Proses tersebut akan melakukan build  image dockercoins dengan menjalankan file dockercoins.yml
+#### Step 1/5, dari image python:alpine , akan melakukan pull dari library python
+#### Step 2/5, akan melakukan instalasi yang dibutuhkan pada proses build container dengan menggunakan pip, dengan melakukan download flask framework dan redis dan beberapa package pendukungnya. Setelah didwonload, maka dilakukan build MarkupSafe dan dilakukan proses install
+#### Step 3/5, akan melakukan instalasi yang dibutuhkan pada proses build container dengan menggunakan pip, dengan melakukan download request dan kemudian menginstallnya
+#### Step 4/5, akan melakukan copy file worker.py
+#### Step 5/5, akan menjalankan file worker.py
+#### 8 step, menggunakan ruby
+#### Step 1/8, dari image ruby:alpine , akan melakukan pull dari library ruby
+#### Step 2/8, akan menjalanken update app dengan update build-base curl
+#### Step 3/8, akan melakukan instalasi yang dibutuhkan pada proses build container yaitu dependency sinatra melalui command gem
+#### Step 4/8, akan melakukan instalasi yang dibutuhkan pada proses build container yaitu dependency sinatra melalui command thin
+#### Step 5/8, menambahkan hasher
+#### Step 6/8, akan menjalankan file hasher.rb 
+#### Step 7/8, akan melakukan ekspose pada port 80, supaya container berjalan pada port 80
+#### Step 8/8, memberikan keterangan bahwa build telah berhasil dilakukan
+#### 7 step, menggunakan js
+#### Step 1/7, akan mengambil image dari node:4-slim
+#### Step 2/7, akan melakukan instalasi yang dibutuhkan pada proses build container yaitu framework express dengan instalasi menggunakan perintah npm
+#### Step 3/7, akan melakukan instalasi yang dibutuhkan pada proses build container yaitu framework redis dengan instalasi menggunakan perimtah npm
+#### Step 4/7, akan melakukan copy pada direktory files
+#### Step 5/7, akan melakukan copy file webui.js
+#### Step 6/7, akan menjalankan file webui.rb 
+#### Step 7/7, akan melakukan ekspose pada port 80, supaya container berjalan pada port 80
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_85.jpg)
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_86.jpg)
@@ -431,16 +454,16 @@
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_92.jpg)
 
-#### Perintah ```kubectl get replicasets -w``` digunakan untuk menghilangkan deploy replikasi sehingga mejadi 5 servis utama.
+#### Perintah ```kubectl get replicasets -w``` digunakan untuk menghilangkan deploy replikasi sehingga mejadi 5 servis utama dan akan melakukan cek replicasets yang sedang berjalan pada worker, pada hasilnya terdapat beberapa replicasets dari deployment yaitu hasher, redis, rng,webui, dan worker dengan masing-masing kode nya.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_93.jpg)
 
-#### Perintah ```kubectl get deployments -w```untuk mendapatkan semua deployment yang telah dibuat.
+#### Perintah ```kubectl get deployments -w```untuk mendapatkan semua deployment yang telah dibuat dan akan melakukan cek deployments yang sedang berjalan pada worker, pada hasilnya terdapat beberapa deployments dari deployment yaitu hasher, redis, rng,webui, dan worker.
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_94.jpg)
 
 ```kubectl set image deploy worker worker=$USERNAME/worker:$TAG```
-#### Proses tersebut digunakan untuk memperbarui worker username yang telah dideploy.
+#### Proses tersebut digunakan untuk memperbarui worker username yang telah dideploy. proses tersebut akan melakukan update worker dengan melakukan set image worker yang menggunakan username dockerhub diikuti tag dari worker itu sendiri
 
 ![](https://github.com/Tyassasmita/tekn-cloud-computing/blob/master/minggu-14/Screenshot_96.jpg)
 
